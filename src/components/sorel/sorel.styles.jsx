@@ -1,57 +1,62 @@
 import styled from 'styled-components';
 
 
-export const SubHeroContainer = styled.div`
+export const SorelContainer = styled.div`
  width: 100%;
  background-color: #F2F2F2;
 
- .subhero-container {
+ .sorel-container {
      position: relative;
      display: flex;
      justify-content: space-around;
  }
 
- .subhero-text {
+ .sorel-text {
      position: absolute;
-     color: white;
+     color: black;
      bottom: 0;
-     top: 450px;
-     left: 230px;
+     top: 420px;
+     left: 270px;
  }
 
- .men-arrival {
-     font-size: 20px;
+ .sorel-arrival {
+     font-size: 23px;
+
+ }
+
+ .newbalance-arrival {
+     font-size: 23px;
+
  }
 
   .nav-links {
-      color: white;
+      color: black;
       text-decoration: none;
       font-weight: 600;
-      margin-left: 3em;
   }
 
- .secondsubhero-text {
+ .newbalance-text {
      position: absolute;
      bottom: 0;
-     color: black;
+     color: white;
      bottom: 0;
-     top: 450px;
+     top: 420px;
      right: 230px;
  }
 
  .nav-link {
-      color: black;
+      color: white;
       text-decoration: none;
       font-weight: 600;
-      margin-left: 4em;
+      margin-left: 2em;
   }
 
- .first-photo {
+ .sorel-photo {
      margin-top: 1.5em;
      width: 46%;
  }
 
- .second-photo {
+ .newbalance-photo {
      margin-top: 1.5em;
      width: 46%;
 

@@ -2,6 +2,7 @@ import React from 'react';
 import { SubHeroContainer } from './sub-hero.styles';
 import NikeSub from  '../../assets/nike-subhero.jpg';
 import AirZoom from  '../../assets/air-zoom.jpg';
+import { Link } from 'react-router-dom';
 
 const SubHero = () => {
     return(
@@ -14,6 +15,9 @@ const SubHero = () => {
                         <h4 className='men-arrival'>
                             MEN'S NEW ARRIVAL
                         </h4>
+                    <Link className='nav-links'>
+                          SHOP NOW
+                     </Link>
                     </div>
                 </div>
                 <div className='second-photo'>
@@ -23,6 +27,9 @@ const SubHero = () => {
                         <h4 className='men-arrival'>
                             WOMEN NEW ARRIVAL
                         </h4>
+                        <Link className='nav-link'>
+                          SHOP NOW
+                     </Link>
                     </div>
                 </div>
             </div>

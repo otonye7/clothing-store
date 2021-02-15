@@ -22,6 +22,7 @@ export const HeroContainer = styled.div`
     .hero-text {
         position: absolute;
         color: white;
+        top: 0;
     }
 
     img {
