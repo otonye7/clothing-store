@@ -31,6 +31,7 @@ const Homepage = () => {
               <Featured />
               <Sales />
               <About/>
+              <br />
               <Footer />
             </div>
             </HomepageContainer>

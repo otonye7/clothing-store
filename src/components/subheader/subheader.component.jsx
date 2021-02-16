@@ -1,16 +1,22 @@
 import React from 'react';
 import { SubHeaderContainer } from './subheader.styles';
+import {toggleNavHidden} from '../../redux/header/header.action';
 import { Link } from 'react-router-dom';
+import {connect} from 'react-redux';
+import NewArrival from '../new-arrival-dropdown/new-arrival-dropdown.component';
 
-const SubHeader = () => {
+const SubHeader = ({hidden, toggleNavHidden}) => {
     return(
         <SubHeaderContainer>
             <div className='overall-container'>
              <div className='nav-containers'>
-                 <div className ='new-arrival'>
+                 <div className ='new-arrival' onClick={toggleNavHidden}>
                      <Link className='nav-links'>
                           NEW ARRIVAL
                      </Link>
+                  {
+                      hidden ? null : <NewArrival />
+                  }
                  </div>
 
                  <div className ='new-arrival'>
@@ -67,4 +73,13 @@ const SubHeader = () => {
     )
 }
 
-export default SubHeader;
+const mapDispatchToProps = dispatch => ({
+    toggleNavHidden : () =>  dispatch(toggleNavHidden())
+})
+
+const mapStateToProps =  ({header : {hidden}}) => ({
+    hidden
+})
+
+
+export default connect(mapStateToProps, mapDispatchToProps)(SubHeader);
