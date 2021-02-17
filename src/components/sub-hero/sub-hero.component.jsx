@@ -15,7 +15,7 @@ const SubHero = () => {
                         <h4 className='men-arrival'>
                             MEN'S NEW ARRIVAL
                         </h4>
-                    <Link className='nav-links'>
+                    <Link to='/men-new-arrival' className='nav-links'>
                           SHOP NOW
                      </Link>
                     </div>
