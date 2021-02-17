@@ -1,7 +1,7 @@
 import React from 'react';
 import { NewArrivalContainer } from './new-arrival-dropdown.styles';
 
-const SubHero = () => {
+const NewArrival = () => {
     return(
         <NewArrivalContainer>
             <div className='arrival-container'>
@@ -11,4 +11,4 @@ const SubHero = () => {
     )
 }
 
-export default SubHero;
+export default NewArrival;
