@@ -5,7 +5,7 @@ const NewArrival = () => {
     return(
         <NewArrivalContainer>
             <div className='arrival-container'>
-
+                bb
             </div>
         </NewArrivalContainer>
     )

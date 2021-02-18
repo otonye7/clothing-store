@@ -21,7 +21,7 @@ const SubHeader = ({hidden, menhidden, womenhidden, kidhidden, lifestylehidden, 
                           NEW ARRIVAL
                      </Link>
                   {
-                      hidden ? null : <NewArrival />
+                      hidden || menhidden === false  ? null : <NewArrival />
                   }
                  </div>
 
@@ -30,7 +30,7 @@ const SubHeader = ({hidden, menhidden, womenhidden, kidhidden, lifestylehidden, 
                           MEN
                      </Link>
                      {
-                         menhidden ? null : <Men />
+                        menhidden || womenhidden === false ? null : <Men />
                      }
                  </div>
 

@@ -8,4 +8,8 @@ export const MenContainer = styled.div`
  .headers {
     background-color: white;
  }
+
+ .colors {
+    width: 12%;
+ }
 `;

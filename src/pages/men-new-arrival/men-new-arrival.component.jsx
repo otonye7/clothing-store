@@ -22,7 +22,12 @@ const MenPage = () => {
               <br />
               <br />
               <Refine />
-              <Color />
+              <div className='containers'>
+                <div className='colors'>
+                   <Color />
+                </div>
+              </div>
+              
             </div>
             </MenContainer>
            

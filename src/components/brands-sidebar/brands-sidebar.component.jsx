@@ -1,16 +1,15 @@
 import React from 'react';
-import { ColorContainer } from './color.styles';
-import Brands from '../../components/brands-sidebar/brands-sidebar.component.jsx';
+import { BrandsContainer } from './brands-sidebar.styles';
 
 
 
-const Color = () => {
+const Brands = () => {
     return(
-        <ColorContainer>
+        <BrandsContainer>
               <div className='color-container'>
                   <div className='color'>
                       <h3 className='color-text'>
-                         Color
+                         Brands
                       </h3>
                   </div>
             </div>
@@ -20,63 +19,63 @@ const Color = () => {
             <form className='form-label'>
 
                 <label className='color-label'>
-                    <input type='radio' value='BIEGE'/>
-                     BIEGE
+                    <input type='radio' value='ADIDAS'/>
+                     ADIDAS
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='BLACK'/>
-                     Black
+                    <input type='radio' value='CHAMPIONS'/>
+                     CHAMPIONS
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='BLUE'/>
-                     BLUE
+                    <input type='radio' value='COLUMBIA'/>
+                     COLUMBIA
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='BROWN'/>
-                     BROWN
+                    <input type='radio' value='CONVERSE'/>
+                     CONVERSE
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='BURGUNDY'/>
-                     BURGUNDY
+                    <input type='radio' value='HATS'/>
+                     HATS
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='CREAM'/>
-                     CREAM
+                    <input type='radio' value='JORDAN'/>
+                     JORDAN
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='GOLD'/>
-                     GOLD
+                    <input type='radio' value='LACOSTE'/>
+                     LACOSTE
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='GRAY'/>
-                     GRAY
+                    <input type='radio' value='NEW BALANCE'/>
+                     NEW BALANCE
                 </label>
 
                 <label className='color-label'>
                     <input type='radio' value='GREEN'/>
-                     GREEN
+                     NIKE
                 </label>
 
                 <label className='color-label'>
                     <input type='radio' value='MULTICOLOR'/>
-                     MULTICOLOR
+                     PUMA
                 </label>
 
                 <label className='color-label'>
                     <input type='radio' value='NAVY'/>
-                     NAVY
+                         CROWN
                 </label>
 
                 <label className='color-label'>
                     <input type='radio' value='GRAY'/>
-                     GRAY
+                     SOREL
                 </label>
 
                 <label className='color-label'>
@@ -85,33 +84,19 @@ const Color = () => {
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='PURPLE'/>
-                     PURPLE
+                    <input type='radio' value='THE NORTH FACE'/>
+                     THE NORTH FACE
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='RED'/>
-                     RED
-                </label>
-
-                <label className='color-label'>
-                    <input type='radio' value='WHITE'/>
-                     WHITE
-                </label>
-
-                <label className='color-label'>
-                    <input type='radio' value='YELLOW'/>
-                     YELLOW
+                    <input type='radio' value='TIMBERLAND'/>
+                     TIMBERLAND
                 </label>
 
             </form>
 
-            <div className='brand'>
-                <Brands />
-            </div>
-
-        </ColorContainer>
+        </BrandsContainer>
     )
 }
 
-export default Color;
+export default Brands;
