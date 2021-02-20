@@ -196,8 +196,8 @@ class MenCategories extends React.Component  {
               <div className='categories-items'>
                   <div className='preview'>
                       {
-                          this.state.sections.map(({id, title}) =>  (
-                              <MenuItems key={id} title={title}/>
+                          this.state.sections.map(({id, title, price, imageUrl}) =>  (
+                              <MenuItems key={id} title={title} price={price} imageUrl={imageUrl}/>
                           ))
                       }
                   </div>

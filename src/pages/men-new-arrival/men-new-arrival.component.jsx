@@ -7,6 +7,7 @@ import MenText from '../../components/men-new-arrival-text/men-new-arrival-text.
 import Refine from '../../components/refine/refine.component';
 import Color from '../../components/color/color.component';
 import MenCategories from '../../components/men-arrival-categories/men-arrival-categories.component';
+import Footer from '../../components/footer/footer.component';
 
 const MenPage = () => {
 
@@ -27,17 +28,14 @@ const MenPage = () => {
               </div> 
               <div className='container'>
                 <div className='colors'>
-                  
                    <Color />
                 </div>
                 <div className='items'>
                   <MenCategories />
                 </div>
               </div>
-                
-              
-              
             </div>
+            <Footer />
             </MenContainer>
            
 	);

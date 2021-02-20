@@ -16,6 +16,7 @@ export const MenContainer = styled.div`
 
  .container {
     display: flex;
+    justify-content: space-around;
  }
 
  .items {

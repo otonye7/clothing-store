@@ -18,6 +18,11 @@ color: white;
     }
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .samo-foods {
   display: flex;
   justify-content: center;
