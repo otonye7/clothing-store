@@ -4,9 +4,11 @@ import styled from 'styled-components';
 export const RefineContainer = styled.div`
  width: 100%;
  background-color: #F2F2F2;
+ margin-left: 0em;
+
 
  .refine-container {
-     width: 15%;
+     width: 100%;
      display: flex;
      justify-content: space-around;
  }
@@ -22,7 +24,7 @@ export const RefineContainer = styled.div`
  }
 
  .line {
-     width: 12%;
+     width: 81%;
      border-bottom: 1px solid black;
      margin-left: 1.4em;
  }

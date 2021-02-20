@@ -6,6 +6,7 @@ import MenLink from '../../components/men-link-hero/men-link-hero.component';
 import MenText from '../../components/men-new-arrival-text/men-new-arrival-text.component';
 import Refine from '../../components/refine/refine.component';
 import Color from '../../components/color/color.component';
+import MenCategories from '../../components/men-arrival-categories/men-arrival-categories.component';
 
 const MenPage = () => {
 
@@ -21,12 +22,20 @@ const MenPage = () => {
               <MenText />
               <br />
               <br />
-              <Refine />
-              <div className='containers'>
+              <div className='refine'>
+                <Refine />
+              </div> 
+              <div className='container'>
                 <div className='colors'>
+                  
                    <Color />
                 </div>
+                <div className='items'>
+                  <MenCategories />
+                </div>
               </div>
+                
+              
               
             </div>
             </MenContainer>

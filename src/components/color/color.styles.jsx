@@ -3,16 +3,17 @@ import styled from 'styled-components';
 
 export const ColorContainer = styled.div`
  width: 100%;
- background-color: #F2F2F2;
+ margin-left: 1.5em;
+
   
  .color-container {
    
  }
 
  .line {
-     width: 100%;
+     width: 78%;
      border-bottom: 1px solid black;
-     margin-left: 1.4em;
+    
  }
 
  .form-label {

@@ -1,9 +1,6 @@
 import React from 'react';
 import { ColorContainer } from './color.styles';
 import Brands from '../../components/brands-sidebar/brands-sidebar.component.jsx';
-import Shoe from '../../components/shoe/shoe.component';
-import MenTop from '../../components/men-top/men-top.component';
-import MenBottom from '../../components/men-bottom/men-bottom.component';
 
 
 
@@ -12,9 +9,9 @@ const Color = () => {
         <ColorContainer>
               <div className='color-container'>
                   <div className='color'>
-                      <h3 className='color-text'>
+                      <h4 className='color-text'>
                          Color
-                      </h3>
+                      </h4>
                   </div>
             </div>
 
@@ -111,18 +108,6 @@ const Color = () => {
 
             <div className='brand'>
                 <Brands />
-            </div>
-
-            <div className='shoe'>
-                <Shoe />
-            </div>
-
-            <div className='men-top'>
-                <MenTop />
-            </div>
-
-            <div className='men-bottom'>
-                <MenBottom />
             </div>
 
         </ColorContainer>

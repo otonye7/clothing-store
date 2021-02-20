@@ -1,27 +1,27 @@
 import React from 'react';
-import { MenuItemContainer } from './men-new-arrival.styles';
+import { MenuItemContainer } from './menu-items.styles';
 
 
-const MenuItem = () => {
+const MenuItems = ({title, imageUrl, price}) => {
 
-	return ( 
-         <MenuItemContainer>
-             <div className='menu-items'>
-               <div className='background-image' style= {{
-                   backgroundImage: `url(${''})`
-               }}>
+return ( 
+    <MenuItemContainer>
+    <div className='menu-items' >
+      <div className='background-image' style = {{
+        backgroundImage: `url(${imageUrl})`
+    }} >
 
-               </div>
-            </div>
+    </div>  
+    </div>
 
-            <div className='contents'>
-                <span className='title'></span>
-                <span className='price'></span>
-            </div>
-            </MenuItemContainer>
+    <div className='content'>
+            <span className='title'>{title}</span>
+            <span className='price'>{price}</span>
+        </div>
+   </MenuItemContainer>
            
-	);
+	)
 }; 
 
 
-export default MenuItem;
+export default MenuItems;

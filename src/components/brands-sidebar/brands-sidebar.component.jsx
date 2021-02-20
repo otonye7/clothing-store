@@ -8,9 +8,9 @@ const Brands = () => {
         <BrandsContainer>
               <div className='color-container'>
                   <div className='color'>
-                      <h3 className='color-text'>
+                      <h4 className='color-text'>
                          Brands
-                      </h3>
+                      </h4>
                   </div>
             </div>
 

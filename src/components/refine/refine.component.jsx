@@ -10,9 +10,9 @@ const Refine = () => {
          <RefineContainer>
              <div className='refine-container'>
                  <div className='refine-text'>
-                     <h3 className='refine'>
+                     <h4 className='refine'>
                          Refine
-                     </h3>
+                     </h4>
                  </div>
 
                  <div className='refine-link'>
