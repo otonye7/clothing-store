@@ -35,7 +35,9 @@ const MenPage = () => {
                 </div>
               </div>
             </div>
-            <Footer />
+            <div className='footer'>
+              <Footer />
+            </div>
             </MenContainer>
            
 	);
