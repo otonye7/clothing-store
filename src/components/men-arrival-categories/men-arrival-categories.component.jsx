@@ -238,7 +238,7 @@ handleInput = (e) => {
               <div className='categories-items'>
                   <div className='preview'>
                       {
-                          sections.map(({id, title, price, imageUrl, color}) =>  (
+                          filteredSection.map(({id, title, price, imageUrl, color}) =>  (
                               <MenuItems key={id} title={title} price={price} imageUrl={imageUrl} color={color}/>
                           ))
                       }
