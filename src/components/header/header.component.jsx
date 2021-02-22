@@ -8,7 +8,7 @@ const Header = () => {
         <HeaderContainer>
             <div className='overall-container'>
              <div className='logo'>
-                 <h3 className='logo-name'>S^MO SPORTS</h3>
+                 <h2 className='logo-name'>S^MO SPORTS</h2>
              </div>
 
              <div className='cart-containers'>

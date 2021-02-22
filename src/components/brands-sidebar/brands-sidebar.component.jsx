@@ -3,7 +3,8 @@ import { BrandsContainer } from './brands-sidebar.styles';
 
 
 
-const Brands = () => {
+const Brands = (props) => {
+    console.log(props)
     return(
         <BrandsContainer>
               <div className='color-container'>

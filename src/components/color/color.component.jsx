@@ -1,6 +1,5 @@
 import React from 'react';
 import { ColorContainer } from './color.styles';
-import Brands from '../../components/brands-sidebar/brands-sidebar.component.jsx';
 
 
 
@@ -21,95 +20,91 @@ const Color = ({handleInput, filteredSection}) => {
             <form className='form-label' filteredSection={filteredSection} onChange={handleInput}>
 
                 <label className='color-label' >
-                    <input type='radio' value='BIEGE'/>
+                    <input type='radio' checked={filteredSection === 'BIEGE'} value='BIEGE'/>
                      BIEGE
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='BLACK'/>
+                    <input type='radio' checked={filteredSection === 'BLACK'} value='BLACK'/>
                      Black
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='BLUE'/>
+                    <input type='radio' checked={filteredSection === 'BLUE'} value='BLUE'/>
                      BLUE
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='BROWN'/>
+                    <input type='radio' checked={filteredSection === 'BROWN'} value='BROWN'/>
                      BROWN
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='BURGUNDY'/>
+                    <input type='radio' checked={filteredSection === 'BURGUNDRY'} value='BURGUNDY'/>
                      BURGUNDY
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='CREAM'/>
+                    <input type='radio' checked={filteredSection === 'CREAM'} value='CREAM'/>
                      CREAM
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='GOLD'/>
+                    <input type='radio' checked={filteredSection === 'GOLD'} value='GOLD'/>
                      GOLD
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='GRAY'/>
+                    <input type='radio' checked={filteredSection === 'GRAY'}  value='GRAY'/>
                      GRAY
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='GREEN'/>
+                    <input type='radio' checked={filteredSection === 'GREEN'} value='GREEN'/>
                      GREEN
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='MULTICOLOR'/>
+                    <input type='radio' checked={filteredSection === 'MULTICOLOR'} value='MULTICOLOR'/>
                      MULTICOLOR
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='NAVY'/>
+                    <input type='radio' checked={filteredSection === 'NAVY'} value='NAVY'/>
                      NAVY
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='GRAY'/>
+                    <input type='radio' checked={filteredSection === 'GRAY'} value='GRAY'/>
                      GRAY
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='ORANGE'/>
+                    <input type='radio' checked={filteredSection === 'ORANGE'} value='ORANGE'/>
                      ORANGE
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='PURPLE'/>
+                    <input type='radio' checked={filteredSection === 'PURPLE'} value='PURPLE'/>
                      PURPLE
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='RED'/>
+                    <input type='radio' checked={filteredSection === 'RED'} value='RED'/>
                      RED
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='WHITE'/>
+                    <input type='radio' checked={filteredSection === 'WHITE'} value='WHITE'/>
                      WHITE
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='YELLOW'/>
+                    <input type='radio' checked={filteredSection === 'YELLOW'} value='YELLOW'/>
                      YELLOW
                 </label>
 
             </form>
-
-            <div className='brand'>
-                <Brands />
-            </div>
 
         </ColorContainer>
     )

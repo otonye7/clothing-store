@@ -17,34 +17,34 @@ const SubHeader = ({hidden, menhidden, womenhidden, kidhidden, lifestylehidden, 
              <div className='nav-containers'>
                  
                  <div className ='new-arrival' onClick={toggleArrivalHidden}>
-                     <Link className='nav-links'>
+                     <Link value = 'NEW ARRIVAL'  className='nav-links'>
                           NEW ARRIVAL
                      </Link>
-                  {
-                      hidden || menhidden === false  ? null : <NewArrival />
-                  }
+                     {
+                         
+                     }
                  </div>
 
                  <div className ='new-arrival' onClick={toggleMenHidden}>
-                     <Link className='nav-links'>
+                     <Link  value = 'MEN' className='nav-links'>
                           MEN
                      </Link>
                      {
-                        menhidden || womenhidden === false ? null : <Men />
+                        menhidden  === 'MEN' ? <Men /> : menhidden
                      }
                  </div>
 
                  <div className ='new-arrival' onClick={toggleWomenHidden}>
-                     <Link className='nav-links'>
+                     <Link value = 'WOMEN' className='nav-links'>
                           WOMEN
                      </Link>
                      {
-                         womenhidden ? null : <Women />
+                         womenhidden  === 'WOMEN' ? <Women /> : womenhidden
                      }
                  </div>
 
                  <div className ='new-arrival' onClick={toggleKidHidden} >
-                     <Link className='nav-links'>
+                     <Link value = 'KIDS' className='nav-links'>
                           KIDS
                      </Link>
                      {

@@ -6,7 +6,7 @@ export const HeaderContainer = styled.div`
 
   .logo {
       width: 20%;
-      padding-left: 2em;
+      padding-left: 1.4em;
   }
 
   .overall-container {
