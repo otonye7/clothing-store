@@ -4,10 +4,7 @@ import Brands from '../../components/brands-sidebar/brands-sidebar.component.jsx
 
 
 
-const Color = () => {
-    const clickHandler = (e) => {
-        console.log(e.target)
-    };
+const Color = ({handleInput, filteredSection}) => {
 
     return(
         <ColorContainer>
@@ -21,7 +18,7 @@ const Color = () => {
 
             <div className='line'></div>
 
-            <form className='form-label' onClick={clickHandler}>
+            <form className='form-label' filteredSection={filteredSection} onChange={handleInput}>
 
                 <label className='color-label' >
                     <input type='radio' value='BIEGE'/>

@@ -2,7 +2,7 @@ import React from 'react';
 import { MenuItemContainer } from './menu-items.styles';
 
 
-const MenuItems = ({title, imageUrl, price}) => {
+const MenuItems = ({title, imageUrl, price, color}) => {
 
 return ( 
     <MenuItemContainer>

@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 
 export const MenuItemContainer = styled.div`
-margin-left: 1.8em;
+margin-left: 3em;
   .menu-items {
-      width: 80%;
+      width: 85%;
       display: flex;
       flex-direction: column;
       height: 250px;

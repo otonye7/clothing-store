@@ -10,18 +10,12 @@ export const MenContainer = styled.div`
     background-color: white;
  }
 
- .refine {
-    width: 15%;
- }
 
  .container {
     display: flex;
     justify-content: space-around;
  }
 
- .items {
-    width: 85%;
- }
 
  .colors {
     width: 15%;
