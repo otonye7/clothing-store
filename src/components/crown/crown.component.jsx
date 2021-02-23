@@ -16,7 +16,7 @@ const Crown = () => {
                         <h4 className='crown-arrival'>
                             Romantic Crown
                         </h4>
-                    <Link className='nav-links'>
+                    <Link to='/romantic-crown' className='nav-links'>
                           SHOP NOW
                      </Link>
                     </div>
@@ -29,7 +29,7 @@ const Crown = () => {
                         <h4 className='columbia-arrival'>
                             Columbia
                         </h4>
-                        <Link className='nav-link'>
+                        <Link to='/columbia' className='nav-link'>
                           SHOP NOW
                      </Link>
                     </div>

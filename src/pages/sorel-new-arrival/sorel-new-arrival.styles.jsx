@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 
-export const MenContainer = styled.div`
+export const SorelContainer = styled.div`
  width: 100%;
  background-color: #F2F2F2;
  .headers {

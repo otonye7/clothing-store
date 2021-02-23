@@ -1,16 +1,16 @@
 import React from 'react';
 import Header from '../../components/header/header.component';
-import { MenContainer } from './men-new-arrival.styles';
+import { ColumbiaContainer } from './columbia.styles';
 import SubHeader from '../../components/subheader/subheader.component';
 import MenLink from '../../components/men-link-hero/men-link-hero.component';
-import MenText from '../../components/men-new-arrival-text/men-new-arrival-text.component';
-import MenCategories from '../../components/men-arrival-categories/men-arrival-categories.component';
+import ColumbiaText from '../../components/columbia-text/columbia-text.component';
+import ColumbiaCategories from '../../components/columbia-categories/columbia-categories.component';
 import Footer from '../../components/footer/footer.component';
 
-const MenPage = () => {
+const ColumbiaPage = () => {
 
 	return ( 
-         <MenContainer>
+         <ColumbiaContainer>
            <div className='overall-container'>
              <div className='headers'>
                <Header />
@@ -18,20 +18,20 @@ const MenPage = () => {
              </div>
               <br />
               <MenLink />
-              <MenText />
+              <ColumbiaText />
               <br />
               <br />
               <div className='sub-container'>
-                <MenCategories />
+                <ColumbiaCategories />
               </div>
             </div>
             <div className='footer'>
-              <Footer />
+               <Footer />
             </div>
-            </MenContainer>
+            </ColumbiaContainer>
            
 	);
 }; 
 
 
-export default MenPage;
+export default ColumbiaPage;

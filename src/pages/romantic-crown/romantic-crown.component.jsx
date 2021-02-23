@@ -1,16 +1,16 @@
 import React from 'react';
 import Header from '../../components/header/header.component';
-import { MenContainer } from './men-new-arrival.styles';
+import { RomanticCrownContainer } from './romantic-crown.styles';
 import SubHeader from '../../components/subheader/subheader.component';
 import MenLink from '../../components/men-link-hero/men-link-hero.component';
-import MenText from '../../components/men-new-arrival-text/men-new-arrival-text.component';
-import MenCategories from '../../components/men-arrival-categories/men-arrival-categories.component';
+import RomanticCrownText from '../../components/romantic-crown-text/romantic-crown-text.component';
+import RomanticCrownCategories from '../../components/romantic-crown-categories/romantic-crown-categories.component';
 import Footer from '../../components/footer/footer.component';
 
-const MenPage = () => {
+const RomanticCrownPage = () => {
 
 	return ( 
-         <MenContainer>
+         <RomanticCrownContainer>
            <div className='overall-container'>
              <div className='headers'>
                <Header />
@@ -18,20 +18,20 @@ const MenPage = () => {
              </div>
               <br />
               <MenLink />
-              <MenText />
+              <RomanticCrownText />
               <br />
               <br />
               <div className='sub-container'>
-                <MenCategories />
+                 <RomanticCrownCategories />
               </div>
             </div>
             <div className='footer'>
-              <Footer />
+               <Footer />
             </div>
-            </MenContainer>
+            </RomanticCrownContainer>
            
 	);
 }; 
 
 
-export default MenPage;
+export default RomanticCrownPage;

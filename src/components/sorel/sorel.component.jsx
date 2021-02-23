@@ -16,7 +16,7 @@ const Sorel = () => {
                         <h4 className='sorel-arrival'>
                             SOREL
                         </h4>
-                    <Link className='nav-links'>
+                    <Link to='/sorel-new-arrival' className='nav-links'>
                           SHOP NOW
                      </Link>
                     </div>
@@ -29,7 +29,7 @@ const Sorel = () => {
                         <h4 className='newbalance-arrival'>
                             NEW BALANCE
                         </h4>
-                        <Link className='nav-link'>
+                        <Link to='new-balance-arrival' className='nav-link'>
                           SHOP NOW
                      </Link>
                     </div>

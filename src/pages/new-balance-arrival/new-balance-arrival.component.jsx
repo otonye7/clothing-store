@@ -1,16 +1,16 @@
 import React from 'react';
 import Header from '../../components/header/header.component';
-import { MenContainer } from './men-new-arrival.styles';
+import { NewBalanceContainer } from './new-balance-arrival.styles';
 import SubHeader from '../../components/subheader/subheader.component';
 import MenLink from '../../components/men-link-hero/men-link-hero.component';
-import MenText from '../../components/men-new-arrival-text/men-new-arrival-text.component';
-import MenCategories from '../../components/men-arrival-categories/men-arrival-categories.component';
+import NewBalanceText from '../../components/new-balance-arrival-text/new-balance-arrival-text.component';
+import NewBalanceCategories from '../../components/new-balance-arrival-categories/new-balance-arrival-categories.component';
 import Footer from '../../components/footer/footer.component';
 
-const MenPage = () => {
+const NewBalancePage = () => {
 
 	return ( 
-         <MenContainer>
+         <NewBalanceContainer>
            <div className='overall-container'>
              <div className='headers'>
                <Header />
@@ -18,20 +18,20 @@ const MenPage = () => {
              </div>
               <br />
               <MenLink />
-              <MenText />
+              <NewBalanceText />
               <br />
               <br />
               <div className='sub-container'>
-                <MenCategories />
+                <NewBalanceCategories />
               </div>
             </div>
             <div className='footer'>
               <Footer />
             </div>
-            </MenContainer>
+            </NewBalanceContainer>
            
 	);
 }; 
 
 
-export default MenPage;
+export default NewBalancePage;
