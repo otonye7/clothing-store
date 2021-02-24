@@ -19,6 +19,12 @@ export const HeaderContainer = styled.div`
       padding-right: 2em;
   }
 
+  .person {
+      cursor: pointer;
+      padding-right: 1.4em;
+      color: black;
+  }
+
   .shopping-icon {
       width: 24px;
     }
