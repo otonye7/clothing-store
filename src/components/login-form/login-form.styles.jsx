@@ -12,4 +12,8 @@ export const LogInContainer = styled.div`
      width: 30vw;
  }
 
+ .buttons {
+     display: flex;
+ }
+
 `;
