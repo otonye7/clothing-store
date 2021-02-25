@@ -1,17 +1,12 @@
 import React from 'react';
 import {CustomButtonContainer} from './custom-button.styles';
-import PropTypes from 'prop-types';
 
-const CustomButton = () => (
+const CustomButton = ({children, ...otherProps}) => (
     <CustomButtonContainer>
-        <button>
-            
+        <button className='custom-button' {...otherProps}>
+            {children}
         </button>
     </CustomButtonContainer>
 )
-
-CustomButton.propTypes = {
-	children: PropTypes.string
-};
 
 export default CustomButton;

@@ -1,18 +1,48 @@
 import React from 'react';
 import { LogInContainer } from './login-form.styles';
+import FormInput from '../form-input/form-input,component';
+import CustomButton from '../custom-button/custom-button.component';
 
 
+class LogIn extends React.Component {
+    constructor(props) {
+        super(props) 
 
-const LogIn = () => {
-    return(
-        <LogInContainer>
-           <div className='login'>
-               <h2 className='login-text'>
-                   Login
-               </h2>
-           </div>
-        </LogInContainer>
-    )
+        this.state = {
+            email: '',
+            password: ''
+        }
+    }
+
+    handleSubmit = e => {
+        e.preventDefault();
+
+        this.setState({email: '', password: ''})
+    }
+
+    handleChange = e => {
+        const {value, name} = e.target;
+        this.setState({ [name]: value})
+    }
+
+    render() {
+        return(
+            <LogInContainer>
+            <div className='sign-in'>
+                <h2>Login</h2>
+
+                <form onSubmit={this.handleSubmit}>
+                    <FormInput name='email' type='email' value={this.state.email} handleChange={this.handleChange} label='Email' required/>
+                    <label></label>
+                    <FormInput name='password' type='password' value={this.state.password} handleChange={this.handleChange} label='Password' required/>
+                    <label></label>
+
+                    <CustomButton type='submit' value='Submit Form'>SIGN IN</CustomButton>
+                </form>
+            </div>
+            </LogInContainer>
+        )
+    }
 }
 
 export default LogIn;

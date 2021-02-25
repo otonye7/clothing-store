@@ -3,7 +3,7 @@ import { getButtonColor } from '../../app.utils';
 
 export const CustomButtonContainer = styled.div`
     button {
-        min-width: 10px;
+        min-width: 130px;
         width: auto;
         border-radius: 5px;
         height: 28px;
@@ -11,7 +11,7 @@ export const CustomButtonContainer = styled.div`
         line-height: 28px;
         padding: 0 18px 0 18px;
         font-size: 12px;
-        background-color: ${getButtonColor};
+        background-color: black;
         color: white;
         border: none;
         outline: none;
