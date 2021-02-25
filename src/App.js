@@ -8,10 +8,28 @@ import RomanticCrownPage from './pages/romantic-crown/romantic-crown.component';
 import ColumbiaPage from './pages/columbia/columbia.component';
 import SignIn from './pages/sign-in/sign-in.component';
 import { Switch, Route } from 'react-router-dom';
+import {auth} from './firebase/firebase.utils.js';
 
 
-function App() {
-  return (
+class App extends React.Component {
+  constructor() {
+    super();
+
+    this.state = {
+      currentUser: null
+    }
+  }
+
+  componentDidMount() {
+    auth.onAuthStateChanged(user => {
+      this.setState({currentUser: user});
+
+      console.log(user);
+    })
+  }
+
+  render() {
+    return (
     <div className="App">
         <Switch>
 					<Route  path={'/'} exact={true}  component={Homepage} />
@@ -25,6 +43,8 @@ function App() {
 			</Switch>
     </div>
   );
+  }
+  
 }
 
 export default App;
