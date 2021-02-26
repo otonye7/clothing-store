@@ -9,4 +9,8 @@ export const SignInContainer = styled.div`
     background-color: #F2F2F2;
  }
 
+ .footer {
+    margin-top: 2em;
+ }
+
 `;

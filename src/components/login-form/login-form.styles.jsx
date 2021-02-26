@@ -14,6 +14,7 @@ export const LogInContainer = styled.div`
 
  .buttons {
      display: flex;
+     justify-content: space-between;
  }
 
 `;
