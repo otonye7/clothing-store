@@ -7,6 +7,8 @@ import NewBalancePage from './pages/new-balance-arrival/new-balance-arrival.comp
 import RomanticCrownPage from './pages/romantic-crown/romantic-crown.component';
 import ColumbiaPage from './pages/columbia/columbia.component';
 import SignIn from './pages/sign-in/sign-in.component';
+import Header from './components/header/header.component';
+import SubHeader from './components/subheader/subheader.component';
 import { Switch, Route } from 'react-router-dom';
 import {auth} from './firebase/firebase.utils.js';
 
@@ -37,6 +39,8 @@ class App extends React.Component {
   render() {
     return (
     <div className="App">
+      <Header currentUser={this.state.currentUser}/>
+      <SubHeader />
         <Switch>
 					<Route  path={'/'} exact={true}  component={Homepage} />
           <Route path={'/men-new-arrival'} component={MenPage} />

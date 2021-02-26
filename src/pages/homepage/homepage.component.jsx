@@ -1,7 +1,6 @@
 import React from 'react';
-import Header from '../../components/header/header.component';
+// import Header from '../../components/header/header.component';
 import { HomepageContainer } from './homepage.styles';
-import SubHeader from '../../components/subheader/subheader.component';
 import Hero from '../../components/hero/hero.component';
 import SubHero from '../../components/sub-hero/sub-hero.component';
 import Sponsors from '../../components/sponsors/sponsors.component';
@@ -18,8 +17,7 @@ const Homepage = () => {
 	return ( 
          <HomepageContainer>
            <div>
-              <Header />
-              <SubHeader />
+              {/* <Header /> */}
               <br />
               <Hero />
               <SubHero />

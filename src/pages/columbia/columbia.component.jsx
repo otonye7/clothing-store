@@ -1,7 +1,5 @@
 import React from 'react';
-import Header from '../../components/header/header.component';
 import { ColumbiaContainer } from './columbia.styles';
-import SubHeader from '../../components/subheader/subheader.component';
 import MenLink from '../../components/men-link-hero/men-link-hero.component';
 import ColumbiaText from '../../components/columbia-text/columbia-text.component';
 import ColumbiaCategories from '../../components/columbia-categories/columbia-categories.component';
@@ -12,10 +10,6 @@ const ColumbiaPage = () => {
 	return ( 
          <ColumbiaContainer>
            <div className='overall-container'>
-             <div className='headers'>
-               <Header />
-               <SubHeader />
-             </div>
               <br />
               <MenLink />
               <ColumbiaText />

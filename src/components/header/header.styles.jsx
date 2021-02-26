@@ -8,7 +8,18 @@ export const HeaderContainer = styled.div`
       width: 20%;
       padding-left: 1.4em;
   }
+   
 
+   .cart-containers {
+       width: 10%;
+       display: flex;
+       justify-content: space-between;
+   }
+
+   .sign-out {
+       margin-top: 1em;
+       cursor: pointer;
+   }
   .overall-container {
       display: flex;
       justify-content: space-between;
@@ -19,10 +30,11 @@ export const HeaderContainer = styled.div`
       padding-right: 2em;
   }
 
+
   .person {
       cursor: pointer;
-      padding-right: 1.4em;
       color: black;
+      margin-top: 0.5em;
   }
 
   .shopping-icon {
