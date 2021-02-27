@@ -19,7 +19,7 @@ $main-color: black;
   .form-input {
     background: none;
     background-color: #F2F2F2;;
-    color: grey;
+    color: black;
     font-size: 18px;
     padding: 10px 10px 10px 5px;
     display: block;
