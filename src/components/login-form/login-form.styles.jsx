@@ -15,6 +15,12 @@ export const LogInContainer = styled.div`
  .buttons {
      display: flex;
      justify-content: space-between;
+     padding-bottom: 1em;
+ }
+
+ .sign-up {
+     text-decoration: none;
+     color: black;
  }
 
 `;

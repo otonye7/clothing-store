@@ -1,5 +1,6 @@
 import React from 'react';
 import { LogInContainer } from './login-form.styles';
+import { Link } from 'react-router-dom';
 import FormInput from '../form-input/form-input,component';
 import CustomButton from '../custom-button/custom-button.component';
 import {signInWithGoogle} from '../../firebase/firebase.utils.js';
@@ -42,6 +43,9 @@ class LogIn extends React.Component {
                     <CustomButton onClick={signInWithGoogle} value='Submit Form'>SIGN IN WITH GOOGLE</CustomButton>
                     </div>
                 </form>
+                <Link className='sign-up'>
+                     Don't have an account? Sign Up
+                </Link>
             </div>
             </LogInContainer>
         )
