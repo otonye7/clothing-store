@@ -175,6 +175,7 @@ class MenCategories extends React.Component  {
                 imageUrl: 'https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/i1-6304633f-a4bc-491e-b6f4-1f3d7bfc74d0/air-max-270-react-mens-shoe-zPRv3k.jpg',
                 id: 18,
                 color: 'BLACK',
+                brands: 'NIKE',
                 description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
                 price: 160
             },
@@ -246,29 +247,41 @@ handleInput = (e) => {
     this.setState({searchColor: e.target.value})
 }
 
+handleInputBrands = (e) => {
+    console.log(e.target.value);
+    this.setState({searchBrand: e.target.value})
+}
+
 
   render() {
     const {sections} = this.state;
 
     let filteredSection = sections.filter((section) => {
         return section.color.includes(this.state.searchColor)
-    })
+    });
+    
 
+    let filteredBrands= sections.filter((section) => {
+        return section.brands.includes(this.state.searchBrand)
+    })
       
       return (
           <MenCategoriesContainer>
               <div className='colors-items'>
                   <Refine />
                   <Color  handleInput = {this.handleInput} filteredSection={filteredSection}/>
-                  <Brands  sections={sections}/>
+                  <Brands handleInputBrands = {this.handleInputBrands} filteredBrands={filteredBrands} />
               </div>
               
               <div className='categories-items'>
+                  
                   <div className='preview'>
-                      {
+
+                      {   
                           filteredSection.map(({id, title, price, imageUrl, color}) =>  (
                               <MenuItems key={id} title={title} price={price} imageUrl={imageUrl} color={color}/>
-                          ))
+                          )) 
+
                       }
                   </div>
               </div>

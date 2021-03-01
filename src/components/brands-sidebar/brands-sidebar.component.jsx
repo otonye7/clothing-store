@@ -3,8 +3,8 @@ import { BrandsContainer } from './brands-sidebar.styles';
 
 
 
-const Brands = (props) => {
-    console.log(props)
+const Brands = ({ handleInputBrands, filteredBrands}) => {
+
     return(
         <BrandsContainer>
               <div className='color-container'>
@@ -17,80 +17,80 @@ const Brands = (props) => {
 
             <div className='line'></div>
 
-            <form className='form-label'>
+            <form className='form-label' filteredBrands={filteredBrands} onChange={handleInputBrands}>
 
                 <label className='color-label'>
-                    <input type='radio' value='ADIDAS'/>
+                    <input type='radio' checked={filteredBrands === 'ADIDAS'} value='ADIDAS'/>
                      ADIDAS
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='CHAMPIONS'/>
+                    <input type='radio' checked={filteredBrands === 'CHAMPIONS'} value='CHAMPIONS'/>
                      CHAMPIONS
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='COLUMBIA'/>
+                    <input type='radio' checked={filteredBrands === 'COLUMBIA'} value='COLUMBIA'/>
                      COLUMBIA
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='CONVERSE'/>
+                    <input type='radio' checked={filteredBrands === 'CONVERSE'} value='CONVERSE'/>
                      CONVERSE
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='HATS'/>
+                    <input type='radio' checked={filteredBrands === 'HATS'} value='HATS'/>
                      HATS
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='JORDAN'/>
+                    <input type='radio' checked={filteredBrands === 'JORDAN'} value='JORDAN'/>
                      JORDAN
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='LACOSTE'/>
+                    <input type='radio' checked={filteredBrands === 'LACOSTE'} value='LACOSTE'/>
                      LACOSTE
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='NEW BALANCE'/>
+                    <input type='radio' checked={filteredBrands === 'NEW BALANCE'} value='NEW BALANCE'/>
                      NEW BALANCE
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='GREEN'/>
+                    <input type='radio' checked={filteredBrands === 'NIKE'} value='NIKE'/>
                      NIKE
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='MULTICOLOR'/>
+                    <input type='radio' checked={filteredBrands === 'PUMA'} value='PUMA'/>
                      PUMA
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='NAVY'/>
+                    <input type='radio' checked={filteredBrands === 'CROWN'} value='CROWN'/>
                          CROWN
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='GRAY'/>
+                    <input type='radio' checked={filteredBrands === 'SOREL'} value='SOREL'/>
                      SOREL
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='ORANGE'/>
+                    <input type='radio' checked={filteredBrands === 'ORANGE'} value='ORANGE'/>
                      ORANGE
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='THE NORTH FACE'/>
+                    <input type='radio' checked={filteredBrands === 'THE NORTH FACE'} value='THE NORTH FACE'/>
                      THE NORTH FACE
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' value='TIMBERLAND'/>
+                    <input type='radio' checked={filteredBrands === 'TIMBERLAND'} value='TIMBERLAND'/>
                      TIMBERLAND
                 </label>
 
