@@ -8,7 +8,7 @@ import Footer from '../../components/footer/footer.component';
 import GazellePage from '../men-adidas-originals-gazelle-shoes-burgundy/men-adidas-originals-gazelle-shoes-burgundy.component';
 
 const MenPage = ({match}) => {
-  console.log(match)
+  
 	return ( 
          <MenContainer>
            <div className='overall-container'>
