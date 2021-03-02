@@ -2,6 +2,7 @@ import {combineReducers} from 'redux';
 import {persistReducer} from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 import headerReducer from './header/header.reducer';
+import menReducer from './men-arrival/men-arrival.reducer';
 
 const persistConfig  = {
     key: 'root',
@@ -10,7 +11,8 @@ const persistConfig  = {
 }
 
 const rootReducer = combineReducers({
-    header: headerReducer
+    header: headerReducer,
+    men: menReducer
 });
 
 export default persistReducer(persistConfig, rootReducer)

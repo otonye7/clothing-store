@@ -17,6 +17,7 @@ export const MenCategoriesContainer = styled.div `
   }
 
   .preview {
+      cursor: pointer;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-gap: 10px;

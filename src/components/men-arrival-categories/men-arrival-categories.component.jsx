@@ -264,9 +264,11 @@ handleInputBrands = (e) => {
     let filteredBrands= sections.filter((section) => {
         return section.brands.includes(this.state.searchBrand)
     })
+
+   
       
       return (
-          <MenCategoriesContainer>
+          <MenCategoriesContainer >
               <div className='colors-items'>
                   <Refine />
                   <Color  handleInput = {this.handleInput} filteredSection={filteredSection}/>
@@ -279,7 +281,7 @@ handleInputBrands = (e) => {
 
                       {   
                           filteredSection.map(({id, title, price, imageUrl, color}) =>  (
-                              <MenuItems key={id} title={title} price={price} imageUrl={imageUrl} color={color}/>
+                            <MenuItems key={id} title={title} price={price} imageUrl={imageUrl} color={color}/>
                           )) 
 
                       }
