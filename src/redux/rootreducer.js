@@ -12,7 +12,7 @@ const persistConfig  = {
 
 const rootReducer = combineReducers({
     header: headerReducer,
-    men: menReducer
+    mens: menReducer
 });
 
 export default persistReducer(persistConfig, rootReducer)

@@ -2,7 +2,7 @@ import React from 'react';
 import {  MenCategoriesContainer } from './men-arrival-categories.styles';
 import {connect} from 'react-redux';
 import {createStructuredSelector} from 'reselect';
-import {menSection} from '../../redux/men-arrival/men-arrival.selector';
+import {menSections} from '../../redux/men-arrival/men-arrival.selector';
 import MenuItems from '../menu-items/menu-items.component';
 import Refine from '../../components/refine/refine.component';
 import Color from '../../components/color/color.component';
@@ -38,7 +38,7 @@ const MenCategories = ({sections}) => {
     
 	
  const mapStateToProps = createStructuredSelector({
-     sections: menSection
+     sections: menSections
  })
 
 

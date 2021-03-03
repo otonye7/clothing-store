@@ -1,8 +1,12 @@
 import {createSelector} from 'reselect';
 
-const selectMen = state => state.men;
+const selectMen = state => state.mens;
 
-export const menSection = createSelector(
+export const menSections = createSelector(
     [selectMen],
-    men => men.sections
+    mens => mens.sections
+)
+export const menSectionsFilter = createSelector(
+    [selectMen],
+    mens => mens.sections.find((men) => men.id <= 1)
 )
