@@ -116,7 +116,7 @@ const INITIAL_STATE = {
         id: 12,
         color: 'BLACK',
         brands: 'TIMBERLAND',
-        linkUrl: '/mens-timberland=boot-logo-hoodie-black',
+        linkUrl: '/mens-timberland-boot-logo-hoodie-black',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
         price: 68
     },
