@@ -5,12 +5,13 @@ import {createStructuredSelector} from 'reselect';
 import {menSectionsFilter} from '../../redux/men-arrival/men-arrival.selector';
 import MenuItems from '../../components/menu-items/menu-items.component';
 
-const GazellePage = ({match, sections}) => {
-    console.log(sections)
+const GazellePage = ({match, history, sections}) => {
+ 
+    const {imageUrl, title} = sections
       return ( 
            <GazelleContainer>
               <div className='container'>
-                  
+                 <h2 className='title'>{title}</h2>
               </div>
             </GazelleContainer>
              

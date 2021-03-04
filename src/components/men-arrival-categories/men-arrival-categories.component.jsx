@@ -25,8 +25,8 @@ const MenCategories = ({sections}) => {
                   <div className='preview'>
 
                       {   
-                          sections.map(({id, title, price, imageUrl, color}) =>  (
-                            <MenuItems key={id} title={title} price={price} imageUrl={imageUrl} color={color}/>
+                          sections.map(({id,  ...otherSectionProps}) =>  (
+                            <MenuItems key={id}  {...otherSectionProps}/>
                           )) 
 
                       }

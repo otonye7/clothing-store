@@ -8,5 +8,5 @@ export const menSections = createSelector(
 )
 export const menSectionsFilter = createSelector(
     [selectMen],
-    mens => mens.sections.find((men) => men.id <= 1)
+    mens => mens.sections.find((men) => men.linkUrl  === 'men-new-arrival/mens-adidas-Originals-Gazelle-Shoes-Burgundy')
 )

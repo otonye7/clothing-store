@@ -41,7 +41,7 @@ const INITIAL_STATE = {
         price: 55
     },
     {
-        title: 'Mens-Jordan-Delta-Breathe-Multicolor',
+        title: 'Mens Jordan Delta Breathe Multicolor',
         imageUrl: 'https://www.sepsale.com/uploads/Nike_Air_Jordan_Shoes/Other_Air_Jordan_Shoes/Air_Jordan_Delta_Breathe_Multi_Color_Mens_Shoes_CW0783-900_P1.jpg',
         id: 5,
         color: 'MULTICOLOR',
@@ -252,3 +252,5 @@ const menReducer = (state = INITIAL_STATE, action) => {
 };
 
 export default menReducer;
+
+
