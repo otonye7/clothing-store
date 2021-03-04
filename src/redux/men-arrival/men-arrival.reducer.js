@@ -6,7 +6,7 @@ const INITIAL_STATE = {
         id: 1,
         color: 'BIEGE',
         brands: 'ADIDAS',
-        linkUrl: 'men-new-arrival/mens-adidas-Originals-Gazelle-Shoes-Burgundy',
+        linkUrl: '/mens-adidas-Originals-Gazelle-Shoes-Burgundy',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
         price: 80
     },
@@ -16,7 +16,7 @@ const INITIAL_STATE = {
         id: 2,
         color: 'BLACK',
         brands: 'HATS',
-        linkUrl: 'men-new-arrival/mens-adidas-Originals-Tri-Color-Strapback-Hat-Black',
+        linkUrl: '/mens-adidas-Originals-Tri-Color-Strapback-Hat-Black',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
         price: 26
     },
@@ -26,7 +26,7 @@ const INITIAL_STATE = {
         id: 3,
         color: 'GRAY',
         brands: 'ADIDAS',
-        linkUrl: 'men-new-arrival/mens-adidas-Essentials-Trefoil-Hoodie-Grey-Five',
+        linkUrl: '/mens-adidas-Essentials-Trefoil-Hoodie-Grey-Five',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
         price: 55
     },
@@ -36,7 +36,7 @@ const INITIAL_STATE = {
         id: 4,
         color: 'WHITE',
         brands: 'ADIDAS',
-        linkUrl: 'men-new-arrival/mens-adidas-Essentials-Trefoil-Hoodie-White',
+        linkUrl: '/mens-adidas-Essentials-Trefoil-Hoodie-White',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
         price: 55
     },
@@ -46,7 +46,7 @@ const INITIAL_STATE = {
         id: 5,
         color: 'MULTICOLOR',
         brands: 'JORDAN',
-        linkUrl: 'men-new-arrival/mens-jordan-delta-breathe-multicolor',
+        linkUrl: '/mens-jordan-delta-breathe-multicolor',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
         price: 130
     },
@@ -56,7 +56,7 @@ const INITIAL_STATE = {
         id: 6,
         color: 'GOLD',
         brands: 'THE NORTH FACE',
-        linkUrl: 'men-new-arrival/mens-the-north-face-1996-retro-nuptse-jacket-summit-gold',
+        linkUrl: '/mens-the-north-face-1996-retro-nuptse-jacket-summit-gold',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
         price: 279
     },
@@ -66,7 +66,7 @@ const INITIAL_STATE = {
         id: 7,
         color: 'BLACK',
         brands: 'PUMA',
-        linkUrl: 'men-new-arrival/mens-puma-rs-2.0-winterized-black',
+        linkUrl: '/mens-puma-rs-2.0-winterized-black',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
         price: 80
     },
@@ -76,7 +76,7 @@ const INITIAL_STATE = {
         id: 8,
         color: 'GREEN',
         brands: 'BUGABOO',
-        linkUrl: 'men-new-arrival/mens-columbia-bugaboo-1986-interchange-jacket-green',
+        linkUrl: '/mens-columbia-bugaboo-1986-interchange-jacket-green',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
         price: 199
     },
@@ -86,7 +86,7 @@ const INITIAL_STATE = {
         id: 9,
         color: 'WHEAT',
         brands: 'TIMBERLAND',
-        linkUrl: 'men-new-arrival/mens-timberland-tree-logo-hoodie-wheat',
+        linkUrl: '/mens-timberland-tree-logo-hoodie-wheat',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
         price: 60
     },
@@ -96,7 +96,7 @@ const INITIAL_STATE = {
         id: 10,
         color: 'BLACK',
         brands: 'TIMBERLAND',
-        linkUrl: 'men-new-arrival/mens-timberland-tree-logo-hoodie-black',
+        linkUrl: '/mens-timberland-tree-logo-hoodie-black',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
         price: 68
     },
@@ -106,7 +106,7 @@ const INITIAL_STATE = {
         id: 11,
         color: 'TIMBER',
         brands: 'THE NORTH FACE',
-        linkUrl: 'men-new-arrival/mens-the-north-face-1996-retro-nuptse-jacket-timber-tan',
+        linkUrl: '/mens-the-north-face-1996-retro-nuptse-jacket-timber-tan',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
         price: 279
     },
@@ -116,7 +116,7 @@ const INITIAL_STATE = {
         id: 12,
         color: 'BLACK',
         brands: 'TIMBERLAND',
-        linkUrl: 'men-new-arrival/mens-timberland=boot-logo-hoodie-black',
+        linkUrl: '/mens-timberland=boot-logo-hoodie-black',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
         price: 68
     },
@@ -126,7 +126,7 @@ const INITIAL_STATE = {
         id: 13,
         color: 'BLACK',
         brands: 'NEW BALANCE',
-        linkUrl: 'men-new-arrival/mens-newbalance-shando-shoes-black',
+        linkUrl: '/mens-newbalance-shando-shoes-black',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
         price: 89
     },
@@ -136,7 +136,7 @@ const INITIAL_STATE = {
         id: 14,
         color: 'GREY',
         brands: 'LACOSTE',
-        linkUrl: 'men-new-arrival/mens-lacoste-x-national-geographic-organic-sweatshirt-grey',
+        linkUrl: '/mens-lacoste-x-national-geographic-organic-sweatshirt-grey',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
         price: 165
     },
@@ -146,7 +146,7 @@ const INITIAL_STATE = {
         id: 15,
         color: 'NAVY',
         brands: 'LACOSTE',
-        linkUrl: 'men-new-arrival/mens-lacoste-x-national-geographic-organic-sweatshirt-navy',
+        linkUrl: '/mens-lacoste-x-national-geographic-organic-sweatshirt-navy',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
         price: 165
     },
@@ -156,7 +156,7 @@ const INITIAL_STATE = {
         id: 16,
         color: 'WHITE',
         brands: 'CONVERSE',
-        linkUrl: 'men-new-arrival/mens-converse-pro-leather-sneakers-white-ice',
+        linkUrl: '/mens-converse-pro-leather-sneakers-white-ice',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
         price: 75
     },
@@ -166,7 +166,7 @@ const INITIAL_STATE = {
         id: 17,
         color: 'WHITE',
         brands: 'CONVERSE',
-        linkUrl: 'men-new-arrival/mens-converse-chuck-taylor-all-star-cx-sneakers-white-ice',
+        linkUrl: '/mens-converse-chuck-taylor-all-star-cx-sneakers-white-ice',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
         price: 70
     },
@@ -176,7 +176,7 @@ const INITIAL_STATE = {
         id: 18,
         color: 'BLACK',
         brands: 'NIKE',
-        linkUrl: 'men-new-arrival/mens-nike-air-max-270-react-shoes',
+        linkUrl: '/mens-nike-air-max-270-react-shoes',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
         price: 160
     },
@@ -186,7 +186,7 @@ const INITIAL_STATE = {
         id: 19,
         color: 'BLUE',
         brands: 'CHAMPION',
-        linkUrl: 'men-new-arrival/mens-champion-life-hoodie-chenille-big-c-carefree-teal',
+        linkUrl: '/mens-champion-life-hoodie-chenille-big-c-carefree-teal',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
         price: 70
     },
@@ -196,7 +196,7 @@ const INITIAL_STATE = {
         id: 20,
         color: 'BROWN',
         brands: 'CHAMPION',
-        linkUrl: 'men-new-arrival/mens-champion-life-reverse-weave-hoodie-caviar-brown',
+        linkUrl: '/mens-champion-life-reverse-weave-hoodie-caviar-brown',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
         price: 60
     },
@@ -206,7 +206,7 @@ const INITIAL_STATE = {
         id: 21,
         color: 'RED',
         brands: 'ADIDAS',
-        linkUrl: 'men-new-arrival/mens-adidas-originals-r-y-v-hoodie-legacy-red',
+        linkUrl: '/mens-adidas-originals-r-y-v-hoodie-legacy-red',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
         price: 70
     },
@@ -216,7 +216,7 @@ const INITIAL_STATE = {
         id: 22,
         color: 'PURPLE',
         brands: 'ADIDAS',
-        linkUrl: 'men-new-arrival/mens-adidas-originals-adicolor-polar=fleece-sweatshirt-purple',
+        linkUrl: '/mens-adidas-originals-adicolor-polar=fleece-sweatshirt-purple',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
         price: 75
     },
@@ -226,7 +226,7 @@ const INITIAL_STATE = {
         id: 23,
         color: 'BLUE',
         brands: 'ADIDAS',
-        linkUrl: 'men-new-arrival/mens-adidas-originals-outline-trefoil-logo-hoodie-royal-blue',
+        linkUrl: '/mens-adidas-originals-outline-trefoil-logo-hoodie-royal-blue',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
         price: 65
     },
@@ -236,7 +236,7 @@ const INITIAL_STATE = {
         id: 24,
         color: 'BLUE',
         brands: 'ADIDAS',
-        linkUrl: 'men-new-arrival/mens-adidas-originals-goofy-crew-sweatshirt-black',
+        linkUrl: '/mens-adidas-originals-goofy-crew-sweatshirt-black',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
         price: 90
     }
