@@ -17,6 +17,13 @@ import TimberlandTreePage from '../timberland-tree/timberland-tree.component';
 import TimberlandBlackPage from '../timberland-tree-black/timberland-tree-black.component';
 import TimberTanPage from '../timber-tan/timber-tan.component';
 import TimberlandBlacPage from '../timberland-hoodie-black/timberland-hoodie-black.component';
+import NewBalanceShandoPage from '../new-balance-shando/new-balance-shando.component';
+import LacosteGeographicalPage from '../lacoste-geographical/lacoste-geographical.component';
+import LacosteNavyPage from '../lacoste-navy/lacoste-navy.component';
+import ConverseProPage from '../converse-pro/converse-pro.component';
+import ConverseTaylorPage from '../converse-taylor/converse-taylor.component';
+import NikeMaxPage from '../nike-max/nike-max.component';
+import ChampionLifePage from '../champion-life/champion-life.component';
 
 const MenPage = ({match}) => {
  
@@ -43,6 +50,13 @@ const MenPage = ({match}) => {
                   <Route path={`${match.path}/:mens-timberland-tree-logo-hoodie-black`} component={TimberlandBlackPage} />
                   <Route path={`${match.path}/:mens-the-north-face-1996-retro-nuptse-jacket-timber-tan`} component={TimberTanPage} />
                   <Route path={`${match.path}/:mens-timberland-boot-logo-hoodie-black`} component={TimberlandBlacPage} />
+                  <Route path={`${match.path}/:mens-newbalance-shando-shoes-black`} component={NewBalanceShandoPage} />
+                  <Route path={`${match.path}/:mens-lacoste-x-national-geographic-organic-sweatshirt-grey`} component={LacosteGeographicalPage} />
+                  <Route path={`${match.path}/:mens-lacoste-x-national-geographic-organic-sweatshirt-navy`} component={LacosteNavyPage} />
+                  <Route path={`${match.path}/:mens-converse-pro-leather-sneakers-white-ice`} component={ConverseProPage} />
+                  <Route path={`${match.path}/:mens-converse-chuck-taylor-all-star-cx-sneakers-white-ice`} component={ConverseTaylorPage} />
+                  <Route path={`${match.path}/:mens-nike-air-max-270-react-shoes`} component={NikeMaxPage} />
+                  <Route path={`${match.path}/:mens-champion-life-hoodie-chenille-big-c-carefree-teal`} component={ChampionLifePage} />
               </div>
             </div>
             <div className='footer'>
