@@ -12,7 +12,6 @@ import Brands from '../../components/brands-sidebar/brands-sidebar.component.jsx
 
 
 const WomenCategories = ({sections}) => {
-    console.log(sections)
 
       return (
           <WomenCategoriesContainer>
