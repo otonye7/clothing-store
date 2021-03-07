@@ -1,19 +1,19 @@
 import React from 'react';
-import { TreyfoilContainer } from './puma-rs.styles';
+import { TreyfoilContainer } from './rc-sweatshirt-cream.styles';
 import {connect} from 'react-redux';
 import {createStructuredSelector} from 'reselect';
-import {menSections} from '../../redux/men-arrival/men-arrival.selector';
+import {romanticCrownSections} from '../../redux/romantic-crown-arrival/romantic-crown-arrival.selector';
 import CollectionItems from '../../components/collection-items/collection-items.component';
 
 
 
-const PumaRsPage = ({sections}) => {
+const RcSweatShirtCreamPage = ({sections}) => {
 
       return ( 
            <TreyfoilContainer>
               <div className='left-side'>
                   {
-                    sections.filter((item, id) => id === 6).map(({id, imageUrl}) => (
+                    sections.filter((item, id) => id === 1).map(({id, imageUrl}) => (
                       <CollectionItems key={id} imageUrl={imageUrl}/>
                     ))
                   }
@@ -46,9 +46,9 @@ const PumaRsPage = ({sections}) => {
   };
   
   const mapStateToProps = createStructuredSelector({
-    sections: menSections
+    sections: romanticCrownSections
   })
   
  
   
-  export default connect(mapStateToProps)(PumaRsPage);
+  export default connect(mapStateToProps)(RcSweatShirtCreamPage);
