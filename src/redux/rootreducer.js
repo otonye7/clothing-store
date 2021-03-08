@@ -7,6 +7,7 @@ import womenReducer from './women-arrival/women-arrival.reducer';
 import sorelReducer from './sorel-arrival/sorel-arrival.reducer';
 import newBalanceReducer from  './new-balance-arrival/new-balance-arrival.reducer';
 import romanticCrownReducer from './romantic-crown-arrival/romantic-crown-arrival.reducer';
+import columbiaReducer from './columbia-arrival/collumbia-arrival.reducer';
 
 const persistConfig  = {
     key: 'root',
@@ -20,7 +21,8 @@ const rootReducer = combineReducers({
     womens: womenReducer,
     sorel: sorelReducer,
     newBalance: newBalanceReducer,
-    romanticCrown: romanticCrownReducer
+    romanticCrown: romanticCrownReducer,
+    columbia: columbiaReducer
 });
 
 export default persistReducer(persistConfig, rootReducer)
