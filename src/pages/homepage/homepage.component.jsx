@@ -16,7 +16,7 @@ const Homepage = () => {
 
 	return ( 
          <HomepageContainer>
-           <div>
+           <div className='others'>
               {/* <Header /> */}
               <br />
               <Hero />
@@ -31,9 +31,11 @@ const Homepage = () => {
               <Featured />
               <Sales />
               <About/>
-              <br />
-              <Footer />
+              <br /> 
             </div>
+            <div className='footer'>
+                <Footer />
+              </div>
             </HomepageContainer>
            
 	);

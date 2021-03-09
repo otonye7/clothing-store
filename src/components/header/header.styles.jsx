@@ -7,6 +7,11 @@ export const HeaderContainer = styled.div`
   .logo {
       width: 20%;
       padding-left: 1.4em;
+      color: #212b36;
+  }
+
+  .logo-name {
+      color: #212b36;
   }
    
 
