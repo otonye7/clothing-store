@@ -25,3 +25,4 @@ export const toggleBrandHidden = () => ({
     type: HeaderActionTypes.TOGGLE_BRAND_HIDDEN
 });
 
+

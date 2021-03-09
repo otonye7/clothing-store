@@ -12,11 +12,12 @@ export const CrownContainer = styled.div`
  }
 
  .crown-text {
+     width: 46%;
+     text-align: center;
+     margin-bottom: 2em;
      position: absolute;
      color: white;
      bottom: 0;
-     top: 450px;
-     left: 270px;
  }
 
  .crown-arrival {
@@ -37,12 +38,12 @@ export const CrownContainer = styled.div`
   }
 
  .columbia-text {
+     width: 46%;
+     text-align: center;
+     margin-bottom: 2em;
      position: absolute;
      bottom: 0;
      color: white;
-     bottom: 0;
-     top: 420px;
-     right: 230px;
  }
 
  .nav-link {
@@ -65,7 +66,7 @@ export const CrownContainer = styled.div`
 
  img {
     width: 100%;
-    height: 90%;
+    height: 100%;
 }
 
 `;

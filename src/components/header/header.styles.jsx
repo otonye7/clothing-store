@@ -39,5 +39,6 @@ export const HeaderContainer = styled.div`
 
   .shopping-icon {
       width: 24px;
+      cursor: pointer;
     }
 `;

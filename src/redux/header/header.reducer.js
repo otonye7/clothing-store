@@ -16,7 +16,7 @@ const headerReducer = (state = INITIAL_STATE, action) => {
         case HeaderActionTypes.TOGGLE_ARRIVAL_HIDDEN:
             return {
                 ...state,
-                hidden: !state.hidden
+                hidden: !state.hidden 
             }
         case HeaderActionTypes.TOGGLE_MEN_HIDDEN:
             return {

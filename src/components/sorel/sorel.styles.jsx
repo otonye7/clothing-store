@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 export const SorelContainer = styled.div`
  width: 100%;
+ height: 100%;
  background-color: #F2F2F2;
 
  .sorel-container {
@@ -12,11 +13,12 @@ export const SorelContainer = styled.div`
  }
 
  .sorel-text {
+     width: 46%;
+     text-align: center;
+     margin-bottom: 2em;
      position: absolute;
      color: black;
      bottom: 0;
-     top: 420px;
-     left: 270px;
  }
 
  .sorel-arrival {
@@ -36,19 +38,19 @@ export const SorelContainer = styled.div`
   }
 
  .newbalance-text {
+     width: 46%;
+     text-align: center;
+     margin-bottom: 2em;
      position: absolute;
      bottom: 0;
      color: white;
      bottom: 0;
-     top: 420px;
-     right: 230px;
  }
 
  .nav-link {
       color: white;
       text-decoration: none;
       font-weight: 600;
-      margin-left: 2em;
   }
 
  .sorel-photo {
@@ -64,7 +66,7 @@ export const SorelContainer = styled.div`
 
  img {
     width: 100%;
-    height: 90%;
+    height: 100%;
 }
 
 `;

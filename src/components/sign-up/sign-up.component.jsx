@@ -1,6 +1,5 @@
 import React from 'react';
 import { SignUpContainer } from './sign-up.styles';
-import { Link } from 'react-router-dom';
 import FormInput from '../form-input/form-input,component';
 import CustomButton from '../custom-button/custom-button.component';
 import {auth, createUserProfileDocument} from '../../firebase/firebase.utils';

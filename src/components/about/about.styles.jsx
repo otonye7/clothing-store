@@ -3,16 +3,22 @@ import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
  width: 100%;
- background-color: #F2F2F2;
+
+
+ 
 
  .overall {
-     background-color: white;
+     width: 98%;
      margin: 0 auto;
-     
+     background-color: white;
+     /* padding-left: 1em; */
  }
+
+ 
 
  .about-text {
      text-align: center;
+     padding-top: 1em;
  }
 
 

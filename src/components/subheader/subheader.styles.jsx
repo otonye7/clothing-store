@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import subheaderComponent from './subheader.component';
+
 
 
 export const SubHeaderContainer = styled.div`
@@ -23,18 +23,10 @@ export const SubHeaderContainer = styled.div`
 
   .boat {
       background-color: white;
-      position: relative;
+      position: absolute;
       list-style: none;
       line-height: 60px;
-      display: inline-block;  
-  }
-
-  .unordered {
-      width: 25%;
-      position: absolute;
-      top: 5.2em;
-      display: none;
-      z-index: 1;
+      display: none;  
   }
 
  
@@ -43,6 +35,10 @@ export const SubHeaderContainer = styled.div`
     cursor: pointer;
 
    .unordered {
+       display: block;
+   }
+
+   .boat {
        display: block;
    }
 

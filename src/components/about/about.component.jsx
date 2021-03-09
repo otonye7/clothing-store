@@ -11,9 +11,8 @@ const About = () => {
                   <h2 className='about-text'>
                       About US
                   </h2>
-               </div>
 
-               <div className='span-container'>
+                  <div className='span-container'>
                   <span className='about-span'>
                        S^Mo SPORTS WAS FOUNDED IN 1995 IN Nigeria,
                        Lagos WITH THE MISSION TO PROVIDE PREMIUM
@@ -23,6 +22,9 @@ const About = () => {
                        AND KIDS.
                   </span>
               </div>
+               </div>
+
+              
               </div>
         </AboutContainer>
     )

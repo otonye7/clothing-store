@@ -21,9 +21,11 @@ const Homepage = () => {
               <br />
               <Hero />
               <SubHero />
+               <br />
               <Sponsors />
               <Sorel />
               <Crown />
+              <br />
               <Collectibles />
               <br />
               <Featured />

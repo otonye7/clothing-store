@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 export const SubHeroContainer = styled.div`
  width: 100%;
+ height: 100%;
  background-color: #F2F2F2;
 
  .subhero-container {
@@ -12,38 +13,39 @@ export const SubHeroContainer = styled.div`
  }
 
  .subhero-text {
+     width: 46%;
      position: absolute;
      color: white;
      bottom: 0;
-     top: 450px;
-     left: 230px;
+    text-align: center;
+    margin-bottom: 2em;
  }
 
  .men-arrival {
      font-size: 20px;
+     text-align: center;
  }
 
   .nav-links {
       color: white;
       text-decoration: none;
       font-weight: 600;
-      margin-left: 3em;
+      text-align: center;
   }
 
  .secondsubhero-text {
+     width: 46%;
      position: absolute;
      bottom: 0;
      color: black;
-     bottom: 0;
-     top: 450px;
-     right: 230px;
+     text-align: center;
+     margin-bottom: 2em;
  }
 
  .nav-link {
       color: black;
       text-decoration: none;
       font-weight: 600;
-      margin-left: 4em;
   }
 
  .first-photo {
@@ -59,7 +61,7 @@ export const SubHeroContainer = styled.div`
 
  img {
     width: 100%;
-    height: 90%;
+    height: 100%;
 }
 
 `;

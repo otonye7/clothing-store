@@ -11,32 +11,26 @@ import LifeStyle from '../lifestyle/lifestyle.component';
 import Brand from '../brands/brands.component';
 
 const SubHeader = ({hidden, menhidden, womenhidden, kidhidden, lifestylehidden,  brandshidden, toggleArrivalHidden, toggleMenHidden, toggleWomenHidden, toggleKidHidden, toggleLifestyleHidden, toggleBrandHidden}) => {
+    console.log(lifestylehidden);
+    console.log(kidhidden)
     return(
         <SubHeaderContainer>
             <div className='overall-container'>
              <div className='nav-containers'>
                  
-                 <div className ='new-arrival' onClick={toggleArrivalHidden}>
+                 <div className ='new-arrival' onMouseOver={toggleArrivalHidden} >
                      <Link className='nav-links'>
                           NEW ARRIVAL
-                        <ul className='unordered'>
-                            <Link className='boat' >Boat</Link>
-                            <Link className='boat'>Sink</Link>
-                        </ul>
                      </Link>
                  </div>
 
-                 <div className ='new-arrival' onClick={toggleMenHidden}>
+                 <div className ='new-arrival' onMouseOver={toggleMenHidden}>
                      <Link className='nav-links'>
                           MEN
                      </Link>
-                 <ul className='unordered'>
-                            <Link className='boat' >React</Link>
-                            <Link className='boat'>Shit</Link>
-                    </ul> 
                  </div>
 
-                 <div className ='new-arrival' onClick={toggleWomenHidden}>
+                 <div className ='new-arrival' onMouseOver={toggleWomenHidden}>
                      <Link value = 'WOMEN' className='nav-links'>
                           WOMEN
                      </Link>
@@ -45,7 +39,7 @@ const SubHeader = ({hidden, menhidden, womenhidden, kidhidden, lifestylehidden, 
                      }
                  </div>
 
-                 <div className ='new-arrival' onClick={toggleKidHidden} >
+                 <div className ='new-arrival' onMouseOver={toggleKidHidden} >
                      <Link value = 'KIDS' className='nav-links'>
                           KIDS
                      </Link>
@@ -54,7 +48,7 @@ const SubHeader = ({hidden, menhidden, womenhidden, kidhidden, lifestylehidden, 
                      }
                  </div>
 
-                 <div className ='new-arrival' onClick={toggleLifestyleHidden}>
+                 <div className ='new-arrival' onMouseOver={toggleLifestyleHidden}>
                      <Link className='nav-links'>
                           LIFESTYLES
                      </Link>
@@ -73,9 +67,7 @@ const SubHeader = ({hidden, menhidden, womenhidden, kidhidden, lifestylehidden, 
                      <Link className='nav-links'>
                           BRANDS
                      </Link>
-                     {
-                         brandshidden ? null : <Brand />
-                     }
+                    
                  </div>
 
                  <div className ='new-arrival'>
