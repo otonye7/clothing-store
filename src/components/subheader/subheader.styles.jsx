@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 import Bugaboo from '../../assets/bugaboo.jpg';
+import Jordan from '../../assets/gcol.jpg';
+import Women from '../../assets/wc.jpg';
+import Kids from '../../assets/newbalancee.jpg';
+import Brands from '../../assets/oc.jpg';
 
 
 export const SubHeaderContainer = styled.div`
@@ -18,8 +22,7 @@ export const SubHeaderContainer = styled.div`
   
   .sub-links {
       height: 60%;
-      width:30%;
-      border: 2px solid red;
+      width:40%;
       background-color: white;
       position: absolute;
       display: none;  
@@ -27,21 +30,75 @@ export const SubHeaderContainer = styled.div`
   }
 
   .links-container {
-    width: 40%;
-    margin-right: 2em;
-    border: 2px solid red;
+    width: 30%;
+  }
+
+  .nav-link {
+     font-size: 14px;
+     font-weight: 500;
+     margin-left: -2.5em;
+  }
+
+  .shop {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+  }
+
+  .shop-links {
+    color: black;
+    text-align: center;
+    text-decoration: none;
   }
   
 
   .image-container {
-    border: 2px solid red;
-    width: 60%;
+    width: 55%;
+    height: 70%;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
   }
 
   .image {
-    width: 95%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     background-image: url(${Bugaboo});
+    background-position: center;
+    background-size: cover;
+
+   }
+
+   .second-image {
+    width: 100%;
+    height: 100%;
+    background-image: url(${Jordan});
+    background-position: center;
+    background-size: cover;
+
+   }
+
+   .third-image {
+    width: 100%;
+    height: 100%;
+    background-image: url(${Women});
+    background-position: center;
+    background-size: cover;
+
+   }
+
+   .fourth-image {
+    width: 100%;
+    height: 100%;
+    background-image: url(${Kids});
+    background-position: center;
+    background-size: cover;
+
+   }
+
+   .fifth-image {
+    width: 100%;
+    height: 100%;
+    background-image: url(${Brands});
     background-position: center;
     background-size: cover;
 
@@ -59,7 +116,7 @@ export const SubHeaderContainer = styled.div`
 
    .sub-links {
        display: flex;
-       justify-content: space-around;
+       justify-content: space-evenly;
    }
 
   }
