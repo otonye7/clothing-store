@@ -11,11 +11,30 @@ const SubHeader = () => {
                      <Link className='nav-links'>
                           NEW ARRIVAL
                      </Link>
-                     <ul className='sub-links'>
-                         <Link>men</Link>
-                        <Link>women</Link>
+
+                <div className='sub-links'>
+
+                 <div className='links-container'>
+                     <ul>
+                        <div  className='nav-link'>MEN'S ARRIVALS</div>
+                    </ul>
+                    <ul>
+                        <div className='nav-link'>WOMEN'S ARRIVALS</div>
+                    </ul>
+                    <ul>
+                        <div  className='nav-link'>SHOES</div>
+                    </ul>
+                    <ul>
+                        <div className='nav-link'>APPAREL</div>
                     </ul>
                  </div>
+                 
+                <div className='image-container'>
+                     <div className='image'></div>
+                </div>
+
+                </div>
+                </div>
 
                  <div className ='new-arrival' >
                      <Link className='nav-links'>
@@ -42,8 +61,10 @@ const SubHeader = () => {
                           KIDS
                      </Link>
                      <ul className='sub-links'>
-                           <Link>men</Link>
-                           <Link>women</Link>
+                           <div>MEN'S NEW ARRIVAL</div>
+                           <div>WOMEN'S NEW ARIVAL</div>
+                           <div>SHOE'S</div>
+                           <div></div>
                     </ul>
                  </div>
 
