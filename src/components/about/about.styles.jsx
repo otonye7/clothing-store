@@ -3,12 +3,13 @@ import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
  width: 100%;
-
+ height: 40vh;
 
  
 
  .overall {
      width: 98%;
+     height: 40vh;
      margin: 0 auto;
      background-color: white;
      /* padding-left: 1em; */
@@ -18,7 +19,8 @@ export const AboutContainer = styled.div`
 
  .about-text {
      text-align: center;
-     padding-top: 1em;
+     padding-top: 2em;
+     font-weight: 500;
  }
 
 

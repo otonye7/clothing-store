@@ -32,6 +32,7 @@ const Homepage = () => {
               <Sales />
               <About/>
               <br /> 
+              <br />
             </div>
             <div className='footer'>
                 <Footer />

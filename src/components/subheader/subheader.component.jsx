@@ -10,35 +10,51 @@ const SubHeader = () => {
                  <div className ='new-arrival'>
                      <Link className='nav-links'>
                           NEW ARRIVAL
-                          <ul className='sub-links'>
-                              <Link>men</Link>
-                              <Link>women</Link>
-                          </ul>
                      </Link>
+                     <ul className='sub-links'>
+                         <Link>men</Link>
+                        <Link>women</Link>
+                    </ul>
                  </div>
 
                  <div className ='new-arrival' >
                      <Link className='nav-links'>
                           MEN
                      </Link>
+                     <ul className='sub-links'>
+                           <Link>men</Link>
+                           <Link>women</Link>
+                    </ul>
                  </div>
 
                  <div className ='new-arrival'>
                      <Link value = 'WOMEN' className='nav-links'>
                           WOMEN
                      </Link>
+                     <ul className='sub-links'>
+                           <Link>men</Link>
+                           <Link>women</Link>
+                    </ul>
                  </div>
 
                  <div className ='new-arrival' >
                      <Link value = 'KIDS' className='nav-links'>
                           KIDS
                      </Link>
+                     <ul className='sub-links'>
+                           <Link>men</Link>
+                           <Link>women</Link>
+                    </ul>
                  </div>
 
                  <div className ='new-arrival' >
                      <Link className='nav-links'>
                           LIFESTYLES
                      </Link>
+                     <ul className='sub-links'>
+                           <Link>men</Link>
+                           <Link>women</Link>
+                    </ul>
                  </div>
 
                  <div className ='new-arrival'>
@@ -51,6 +67,10 @@ const SubHeader = () => {
                      <Link className='nav-links'>
                           BRANDS
                      </Link>
+                     <ul className='sub-links'>
+                           <Link>men</Link>
+                           <Link>women</Link>
+                    </ul>
                     
                  </div>
 

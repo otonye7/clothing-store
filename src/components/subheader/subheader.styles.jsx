@@ -3,9 +3,10 @@ import styled from 'styled-components';
 
 
 export const SubHeaderContainer = styled.div`
-  width: 100%;
-  margin: 0 auto;
+  width: 80%;
   display: flex;
+  justify-content: space-between;
+  padding-left: 1em;
 
 
 
@@ -15,9 +16,12 @@ export const SubHeaderContainer = styled.div`
   }
 
   .sub-links {
+      height: 40%;
+      width:30%;
       background-color: white;
       position: absolute;
       display: none;  
+      z-index: 2;
   }
 
  
