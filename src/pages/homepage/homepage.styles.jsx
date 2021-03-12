@@ -6,14 +6,4 @@ export const HomepageContainer = styled.div`
  background-color: #F2F2F2;
  margin-top: 2em;
 
- 
-
- .others {
-    
- }
-
- .footer {
-    
- }
-
 `;
