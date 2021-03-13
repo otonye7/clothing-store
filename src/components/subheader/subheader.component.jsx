@@ -51,7 +51,7 @@ const SubHeader = () => {
                      <div className='image'></div>
 
                 <div className='shop'>
-                   <Link className='shop-links'>SHOP NOW</Link>
+                   <Link  to='/new-arrival' className='shop-links'>SHOP NOW</Link>
                 </div>
 
                 </div>

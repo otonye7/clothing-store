@@ -6,6 +6,7 @@ import SorelPage from './pages/sorel-new-arrival/sorel-new-arrival.component';
 import NewBalancePage from './pages/new-balance-arrival/new-balance-arrival.component';
 import RomanticCrownPage from './pages/romantic-crown/romantic-crown.component';
 import ColumbiaPage from './pages/columbia/columbia.component';
+import NewArrivalPage from './pages/new-arrival/new-arrival.component';
 import SignIn from './pages/sign-in/sign-in.component';
 import SignUp from './pages/sign-up-page/sign-up-page.component';
 import Header from './components/header/header.component';
@@ -59,6 +60,7 @@ class App extends React.Component {
           <Route path={'/new-balance-arrival'} component={NewBalancePage} />
           <Route path={'/romantic-crown'} component={RomanticCrownPage} />
           <Route path={'/columbia'} component={ColumbiaPage} />
+          <Route path={'/new-arrival'} component={NewArrivalPage} />
           <Route path={'/signin'} component={SignIn} />
           <Route path={'/signup'} component={SignUp} />
 			</Switch>
