@@ -3,6 +3,7 @@ import { NewArrivalContainer } from './new-arrival.styles';
 import { Route } from 'react-router-dom';
 import MenLink from '../../components/men-link-hero/men-link-hero.component';
 import NewText from '../../components/new-arrival-text/new-arrival-text.component';
+import NewCategories from '../../components/new-arrival-categories/new-arrival-categories.component';
 
 
 
@@ -13,6 +14,9 @@ const NewArrivalPage = () => {
                   <br/>
                   <MenLink />
                   <NewText />
+                  <br />
+                  <br />
+                  <NewCategories />
               </div>
         </NewArrivalContainer>
     )
