@@ -10,6 +10,7 @@ position: relative;
  background-color: #F2F2F2;
  display: flex;
  justify-content: space-around;
+ margin-top: 1em;
 
  
  @media screen and (max-width: 800px){

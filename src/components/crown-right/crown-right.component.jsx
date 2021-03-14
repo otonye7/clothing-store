@@ -8,10 +8,14 @@ const CrownRight = () => {
             
              <div className='image'></div>
                 <div className='shop-left'>
-                    <h2 className='shop-text'>
-                        COLUMBIA
-                    </h2>
-                    <Link to='/columbia' className='shop-link'>SHOP NOW</Link>
+                    <div className='container'>
+                       <h2 className='shop-text'>
+                          COLUMBIA
+                       </h2>
+                    </div>
+                    <div className='link'>
+                       <Link to='/columbia' className='shop-link'>SHOP NOW</Link>
+                    </div>
                 </div>
 
             

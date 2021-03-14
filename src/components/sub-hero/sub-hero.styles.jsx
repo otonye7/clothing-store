@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import NikeSub from  '../../assets/nike-subhero.jpg';
-import AirZoom from  '../../assets/air-zoom.jpg';
+
 
 
 
@@ -31,18 +31,7 @@ position: relative;
 }
    }
 
-   .second-image {
-    position: relative;
-    width: 48%;
-    height: 100%;
-    background-image: url(${AirZoom});
-    background-position: center;
-    background-size: cover;
-
-    @media screen and (max-width: 800px){
-      width: 100%;
-}
-   }
+  
 
    .shop-left {
        position: absolute;
@@ -50,6 +39,7 @@ position: relative;
        bottom: 0;
        z-index: 1;
        text-align: center;
+
    }
 
 
