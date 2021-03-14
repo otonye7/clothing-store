@@ -17,6 +17,10 @@ export const SubHeaderContainer = styled.div`
   .nav-links {
       text-decoration: none;
       color: black;
+
+      @media screen and (max-width: 700px) { 
+        display: none;
+    }
   }
   
   
@@ -108,7 +112,15 @@ export const SubHeaderContainer = styled.div`
   .list {
     text-decoration: none;
   }
+  
 
+  .menu-icon {
+    display: none;
+
+    @media screen and (max-width: 700px) { 
+        display: flex;
+    }
+  }
  
 
   & :hover {

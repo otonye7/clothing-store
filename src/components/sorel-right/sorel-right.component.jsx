@@ -1,5 +1,5 @@
 import React from 'react';
-import { SubHeroContainer } from './sorel.styles';
+import { SubHeroContainer } from './sorel-right.styles';
 import { Link } from 'react-router-dom';
 
 const SubHero = () => {

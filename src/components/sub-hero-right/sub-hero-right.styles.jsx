@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import SorelShoe from  '../../assets/sorel-boots-1.jpg';
+import AirZoom from  '../../assets/air-zoom.jpg';
 
 
 
@@ -8,7 +8,8 @@ position: relative;
  width: 48%;
  height: 100vh;
  background-color: #F2F2F2;
- margin-top: 1em;
+ display: flex;
+ justify-content: space-around;
 
  border: 1px solid red;
  @media screen and (max-width: 800px){
@@ -22,7 +23,20 @@ position: relative;
     position: relative;
     width: 100%;
     height: 100%;
-    background-image: url(${SorelShoe});
+    background-image: url(${AirZoom});
+    background-position: center;
+    background-size: cover;
+
+    @media screen and (max-width: 800px){
+      width: 100%;
+}
+   }
+
+   .second-image {
+    position: relative;
+    width: 48%;
+    height: 100%;
+    background-image: url(${AirZoom});
     background-position: center;
     background-size: cover;
 
@@ -33,17 +47,15 @@ position: relative;
 
    .shop-left {
        position: absolute;
-       width: 100%;
+       width: 48%;
        bottom: 0;
        z-index: 1;
        text-align: center;
    }
 
-
    .shop-text {
        width: 100%;
        color: black;
-       text-align: center;
    }
 
    .shop-link {

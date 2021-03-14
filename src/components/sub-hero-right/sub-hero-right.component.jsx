@@ -1,15 +1,15 @@
 import React from 'react';
-import { SubHeroContainer } from './sorel.styles';
+import { SubHeroContainer } from './sub-hero-right.styles';
 import { Link } from 'react-router-dom';
 
-const SubHero = () => {
+const SubHeroRight = () => {
     return(
         <SubHeroContainer>
             
              <div className='image'></div>
                 <div className='shop-left'>
                     <h2 className='shop-text'>
-                        SOREL
+                        WOMENS NEW ARRIVAL
                     </h2>
                     <Link className='shop-link'>SHOP NOW</Link>
                 </div>
@@ -19,4 +19,4 @@ const SubHero = () => {
     )
 }
 
-export default SubHero;
+export default SubHeroRight;

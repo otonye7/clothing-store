@@ -1,6 +1,5 @@
 import styled from 'styled-components';
-import SorelShoe from  '../../assets/sorel-boots-1.jpg';
-
+import NewBalance from  '../../assets/newbalance.jpg';
 
 
 export const SubHeroContainer = styled.div`
@@ -22,7 +21,7 @@ position: relative;
     position: relative;
     width: 100%;
     height: 100%;
-    background-image: url(${SorelShoe});
+    background-image: url(${NewBalance});
     background-position: center;
     background-size: cover;
 

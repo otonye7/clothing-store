@@ -3,8 +3,10 @@ import React from 'react';
 import { HomepageContainer } from './homepage.styles';
 import Hero from '../../components/hero/hero.component';
 import SubHero from '../../components/sub-hero/sub-hero.component';
+import SubHeroRight from '../../components/sub-hero-right/sub-hero-right.component';
 import Sponsors from '../../components/sponsors/sponsors.component';
 import Sorel from '../../components/sorel/sorel.component';
+import SorelRight from '../../components/sorel-right/sorel-right.component';
 import Crown from '../../components/crown/crown.component';
 import Collectibles from '../../components/collectibles/collectibles.component';
 import Featured from '../../components/featured/featured.component';
@@ -20,10 +22,16 @@ const Homepage = () => {
               {/* <Header /> */}
               <br />
               <Hero />
-              <SubHero />
+              <div className='sub-hero'>
+                <SubHero />
+                <SubHeroRight />
+              </div>
                <br />
               <Sponsors />
-              <Sorel />
+              <div className='sorel'>
+                <Sorel />
+                <SorelRight />
+              </div>
               <Crown />
               <br />
               <Collectibles />

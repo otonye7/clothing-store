@@ -1,67 +1,68 @@
 import styled from 'styled-components';
+import NikeSub from  '../../assets/nike-subhero.jpg';
+import AirZoom from  '../../assets/air-zoom.jpg';
+
 
 
 export const SubHeroContainer = styled.div`
- width: 100%;
- height: 100%;
+position: relative;
+ width: 48%;
+ height: 100vh;
  background-color: #F2F2F2;
 
- .subhero-container {
-     position: relative;
-     display: flex;
-     justify-content: space-around;
- }
+ border: 1px solid red;
+ @media screen and (max-width: 800px){
+      height: 40vh;
+      width: 100%;
+}
 
- .subhero-text {
-     width: 46%;
-     position: absolute;
-     color: white;
-     bottom: 0;
-    text-align: center;
-    margin-bottom: 2em;
- }
 
- .men-arrival {
-     font-size: 20px;
-     text-align: center;
- }
 
-  .nav-links {
-      color: white;
-      text-decoration: none;
-      font-weight: 600;
-      text-align: center;
-  }
-
- .secondsubhero-text {
-     width: 46%;
-     position: absolute;
-     bottom: 0;
-     color: black;
-     text-align: center;
-     margin-bottom: 2em;
- }
-
- .nav-link {
-      color: black;
-      text-decoration: none;
-      font-weight: 600;
-  }
-
- .first-photo {
-     margin-top: 1.5em;
-     width: 46%;
- }
-
- .second-photo {
-     margin-top: 1.5em;
-     width: 46%;
-
- }
-
- img {
+ .image {
+    position: relative;
     width: 100%;
     height: 100%;
+    background-image: url(${NikeSub});
+    background-position: center;
+    background-size: cover;
+
+    @media screen and (max-width: 800px){
+      width: 100%;
 }
+   }
+
+   .second-image {
+    position: relative;
+    width: 48%;
+    height: 100%;
+    background-image: url(${AirZoom});
+    background-position: center;
+    background-size: cover;
+
+    @media screen and (max-width: 800px){
+      width: 100%;
+}
+   }
+
+   .shop-left {
+       position: absolute;
+       width: 100%;
+       bottom: 0;
+       z-index: 1;
+       text-align: center;
+   }
+
+
+   .shop-text {
+       width: 100%;
+       color: white;
+       text-align: center;
+   }
+
+   .shop-link {
+       text-decoration: none;
+       color: white;
+       cursor: pointer;
+   }
 
 `;
