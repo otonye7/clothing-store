@@ -1,25 +1,18 @@
 import React from 'react';
 import { HeroContainer } from './hero.styles';
-import Nike from  '../../assets/Nike-Roshe.jpg';
+
 
 
 const SubHeader = () => {
     return(
         <HeroContainer>
-            <div className='hero-container'>
-                <div className='cover-photo'>
-                    <img src={Nike} alt="" />
-                </div>
-
-                <div className='hero-text'>
-                    <h4 className='jordan'>
+            <div className='image'></div>
+                <div className='shop-left'>
+                    <h2 className='shop-text'>
                         NIKE BOOTS
-                    </h4>
-                <div className='buttons'>
-                    <button>SHOP NOW</button>
+                    </h2>
+                    <button className='shop-link'>SHOP NOW</button>
                 </div>
-                </div>
-            </div>
         </HeroContainer>
     )
 }

@@ -9,7 +9,7 @@ const SubHero = () => {
              <div className='image'></div>
                 <div className='shop-left'>
                     <h2 className='shop-text'>
-                        SOREL
+                        NEW BALANCE
                     </h2>
                     <Link className='shop-link'>SHOP NOW</Link>
                 </div>

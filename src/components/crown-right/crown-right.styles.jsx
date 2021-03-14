@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import NewBalance from  '../../assets/newbalance.jpg';
+import Bugaboo from  '../../assets/bugaboo.jpg';
 
 
 export const SubHeroContainer = styled.div`
@@ -8,7 +8,6 @@ position: relative;
  height: 100vh;
  background-color: #F2F2F2;
  margin-top: 1em;
-
  
  @media screen and (max-width: 800px){
       height: 40vh;
@@ -21,7 +20,7 @@ position: relative;
     position: relative;
     width: 100%;
     height: 100%;
-    background-image: url(${NewBalance});
+    background-image: url(${Bugaboo});
     background-position: center;
     background-size: cover;
 

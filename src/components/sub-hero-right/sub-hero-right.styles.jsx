@@ -11,7 +11,7 @@ position: relative;
  display: flex;
  justify-content: space-around;
 
- border: 1px solid red;
+ 
  @media screen and (max-width: 800px){
       height: 40vh;
       width: 100%;

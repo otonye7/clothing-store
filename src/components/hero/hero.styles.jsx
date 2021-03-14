@@ -1,33 +1,55 @@
 import styled from 'styled-components';
+import Nike from  '../../assets/Nike-Roshe.jpg'
 
 
 export const HeroContainer = styled.div`
+ position: relative;
  width: 100%;
+ height: 100vh;
  background-color: #F2F2F2;
 
- .hero-container {
-     position: relative;
-     width: 100%;
-     display: flex;
-     justify-content: space-around;
- }
 
- .cover-photo {
-        width: 96%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        overflow: hidden;
-    }
+ @media screen and (max-width: 800px){
+      height: 40vh;
+      width: 100%;
+}
 
-    .hero-text {
-        position: absolute;
-        color: white;
-        top: 0;
-    }
 
-    img {
+
+ .image {
+    position: relative;
     width: 100%;
-    height: auto;
+    height: 100%;
+    background-image: url(${Nike});
+    background-position: center;
+    background-size: cover;
+
+    @media screen and (max-width: 800px){
+      width: 100%;
+}
+   }
+
+
+   .shop-left {
+       position: absolute;
+       width: 100%;
+       top: 0;
+       z-index: 1;
+       text-align: center;
+   }
+
+
+   .shop-text {
+       width: 100%;
+       color: white;
+       text-align: center;
+       font-weight: 550;
+   }
+
+   .shop-link {
+       text-decoration: none;
+       color: black;
+       cursor: pointer;
    }
    
    button {

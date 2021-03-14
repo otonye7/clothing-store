@@ -1,15 +1,15 @@
 import React from 'react';
-import { SubHeroContainer } from './crown.styles';
+import { SubHeroContainer } from './crown-right.styles';
 import { Link } from 'react-router-dom';
 
-const Crown = () => {
+const CrownRight = () => {
     return(
         <SubHeroContainer>
             
              <div className='image'></div>
                 <div className='shop-left'>
                     <h2 className='shop-text'>
-                        ROMANTIC CROWN
+                        COLUMBIA
                     </h2>
                     <Link className='shop-link'>SHOP NOW</Link>
                 </div>
@@ -19,4 +19,4 @@ const Crown = () => {
     )
 }
 
-export default Crown;
+export default CrownRight;

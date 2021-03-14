@@ -29,4 +29,28 @@ export const HomepageContainer = styled.div`
 }
  }
 
+ .crown {
+     display: flex;
+     margin: 0 auto;
+     justify-content: space-around;
+
+     @media screen and (max-width: 800px){
+      display: flex;
+      flex-direction: column;
+}
+
+ }
+
+ .collectibles {
+     display: flex;
+     margin: 0 auto;
+     justify-content: space-around;
+
+     @media screen and (max-width: 800px){
+      display: flex;
+      flex-direction: column;
+}
+
+ }
+
 `;

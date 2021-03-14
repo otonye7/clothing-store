@@ -10,7 +10,7 @@ position: relative;
  height: 100vh;
  background-color: #F2F2F2;
 
- border: 1px solid red;
+
  @media screen and (max-width: 800px){
       height: 40vh;
       width: 100%;

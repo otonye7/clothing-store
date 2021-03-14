@@ -5,7 +5,9 @@ export const AboutContainer = styled.div`
  width: 100%;
  height: 40vh;
 
- 
+ @media screen and (max-width: 800px){
+     
+}
 
  .overall {
      width: 98%;
@@ -21,6 +23,10 @@ export const AboutContainer = styled.div`
      text-align: center;
      padding-top: 2em;
      font-weight: 500;
+
+     @media screen and (max-width: 800px){
+      padding-top: 1em;
+}
  }
 
 

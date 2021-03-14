@@ -2,21 +2,19 @@ import styled from 'styled-components';
 
 
 export const CollectiblesContainer = styled.div`
- width: 100%;
+ width: 48%;
+ height: 50vh;
  background-color: #F2F2F2;
+ margin-top: 1em;
+ background-color: black;
+ text-align: center;
+ 
 
- .collectibles-container {
-     display: flex;
-     justify-content: center;
-     width: 100%;
- }
 
- .collectibles-text {
-     width: 48%;
-     height: 300px;
-     background-color: black;
-     text-align: center;
- }
+ @media screen and (max-width: 800px){
+      height: 40vh;
+      width: 100%;
+}
 
  .nav-links {
      color: white;
@@ -29,14 +27,5 @@ export const CollectiblesContainer = styled.div`
 
  }
 
-  
- .collection-photo {
-     width: 48%;
- }
-
- img {
-    width: 100%;
-    height: 300px;
-}
 
 `;
