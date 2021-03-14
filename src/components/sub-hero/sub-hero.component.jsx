@@ -11,7 +11,7 @@ const SubHero = () => {
                     <h2 className='shop-text'>
                         MENS NEW ARRIVAL
                     </h2>
-                    <Link className='shop-link'>SHOP NOW</Link>
+                    <Link to='/men-new-arrival' className='shop-link'>SHOP NOW</Link>
                 </div>
 
             
