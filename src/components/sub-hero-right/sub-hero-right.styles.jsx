@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import AirZoom from  '../../assets/air-zoom.jpg';
+import AirZoom from  '../../assets/jordan-zoom.jpg';
 
 
 
@@ -8,13 +8,10 @@ position: relative;
  width: 48%;
  height: 100vh;
  background-color: #F2F2F2;
- display: flex;
- justify-content: space-around;
  margin-top: 1em;
-
  
  @media screen and (max-width: 800px){
-      height: 40vh;
+      height: 45vh;
       width: 100%;
 }
 
@@ -30,39 +27,65 @@ position: relative;
 
     @media screen and (max-width: 800px){
       width: 100%;
-}
-   }
-
-   .second-image {
-    position: relative;
-    width: 48%;
-    height: 100%;
-    background-image: url(${AirZoom});
-    background-position: center;
-    background-size: cover;
-
-    @media screen and (max-width: 800px){
-      width: 100%;
+      height: 92%;
 }
    }
 
    .shop-left {
        position: absolute;
-       width: 48%;
+       width: 100%;
        bottom: 0;
        z-index: 1;
        text-align: center;
+       align-items: center;
+
+    @media screen and (max-width: 800px){
+      width: 100%;
+      /* background-color: #F2F2F2; */
+    }
    }
 
+   .container {
+       width: 80%;
+       margin: 0 auto;
+       display: flex;
+       justify-content: center;
+
+       @media screen and (max-width: 800px){
+       background-color: #F2F2F2; 
+    }
+   }
+
+   .link {
+       width: 80%;
+       margin: 0 auto;
+       display: flex;
+       justify-content: center;
+   }
+
+
    .shop-text {
-       width: 100%;
-       color: black;
+       width: 40%;
+       color: white;
+
+       @media screen and (max-width: 800px){
+           width: 50%;
+           color: black;
+      /* background-color: #F2F2F2; */
+    }
    }
 
    .shop-link {
        text-decoration: none;
-       color: black;
+       color: white;
        cursor: pointer;
+
+       @media screen and (max-width: 800px){
+           width: 50%;
+           color: black;
+      /* background-color: #F2F2F2; */
+    }
    }
+
 
 `;

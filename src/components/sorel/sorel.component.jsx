@@ -8,10 +8,14 @@ const SubHero = () => {
             
              <div className='image'></div>
                 <div className='shop-left'>
+                <div className='container'>
                     <h2 className='shop-text'>
                         SOREL
                     </h2>
+                </div>
+                <div className='link'>
                     <Link to='/sorel-new-arrival' className='shop-link'>SHOP NOW</Link>
+                </div>
                 </div>
 
             

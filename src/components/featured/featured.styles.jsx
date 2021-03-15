@@ -1,25 +1,25 @@
 import styled from 'styled-components';
-import Jordan from  '../../assets/jordan.jpg';
+import Jordan from  '../../assets/air-zoom.jpg';
 import Adidas from  '../../assets/adidas-ultra-boost.jpg';
 import NewBalance from '../../assets/newbalance997.jpg';
 import Gazelle from '../../assets/gazelletwo.jpg';
 
 
 export const FeaturedContainer = styled.div`
- width: 100%;
-   height: 45vh;
+ width: 20%;
+   height: 50vh;
    display: flex;
    justify-content: space-around;
 
    @media screen and (max-width: 800px){
       display: flex;
       flex-direction: column;
-      height: 100vh;
+      height: 40vh;
       width: 100%;
 }
 
    .image {
-    width: 20%;
+    width: 100%;
     height: 100%;
     background-image: url(${Jordan});
     background-position: center;
@@ -27,7 +27,7 @@ export const FeaturedContainer = styled.div`
 
     @media screen and (max-width: 800px){
       width: 100%;
-      height: 100vh;
+      height: 100%;
 }
 
    }

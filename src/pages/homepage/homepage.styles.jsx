@@ -53,4 +53,16 @@ export const HomepageContainer = styled.div`
 
  }
 
+ .feature {
+     display: flex;
+     margin: 0 auto;
+     justify-content: space-around;
+
+     @media screen and (max-width: 800px){
+      display: flex;
+      flex-direction: column;
+}
+
+ }
+
 `;

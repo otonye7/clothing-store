@@ -13,6 +13,9 @@ import Collectibles from '../../components/collectibles/collectibles.component';
 import CollectiblesRight from '../../components/collectibles-right/collectibles-right.component';
 import FeatureTitle from '../../components/featured-title/featured-title.component';
 import Featured from '../../components/featured/featured.component';
+import FeaturedSecond from '../../components/feature-second/feature-second.component';
+import FeaturedThird from '../../components/feature-third/feature-third.component';
+import FeaturedFourth from '../../components/feature-fourth/feature-fourth.component';
 import SocialMedia from '../../components/social-media-text/social-media.component';
 import Sales from '../../components/sales/sales.component';
 import About from '../../components/about/about.component';
@@ -53,6 +56,13 @@ const Homepage = () => {
                <br />
               <div className='feature'>
                  <Featured />
+                 <br/>
+                 <FeaturedSecond />
+                 <br/>
+                 <FeaturedThird />
+                 <br />
+                 <FeaturedFourth />
+                 <br />
               </div>
               <br />
               <SocialMedia />

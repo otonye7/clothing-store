@@ -8,10 +8,9 @@ position: relative;
  height: 100vh;
  background-color: #F2F2F2;
  margin-top: 1em;
-
  
  @media screen and (max-width: 800px){
-      height: 40vh;
+      height: 45vh;
       width: 100%;
 }
 
@@ -27,6 +26,7 @@ position: relative;
 
     @media screen and (max-width: 800px){
       width: 100%;
+      height: 92%;
 }
    }
 
@@ -36,18 +36,46 @@ position: relative;
        bottom: 0;
        z-index: 1;
        text-align: center;
+       align-items: center;
+
+    @media screen and (max-width: 800px){
+      width: 100%;
+      /* background-color: #F2F2F2; */
+    }
+   }
+
+   .container {
+       width: 80%;
+       margin: 0 auto;
+       display: flex;
+       justify-content: center;
+
+       @media screen and (max-width: 800px){
+       background-color: #F2F2F2; 
+    }
+   }
+
+   .link {
+       width: 80%;
+       margin: 0 auto;
+       display: flex;
+       justify-content: center;
    }
 
 
    .shop-text {
-       width: 100%;
-       color: white;
-       text-align: center;
+       width: 40%;
+       color: black;
+
+       @media screen and (max-width: 800px){
+           width: 50%;
+      /* background-color: #F2F2F2; */
+    }
    }
 
    .shop-link {
        text-decoration: none;
-       color: white;
+       color: black;
        cursor: pointer;
    }
 
