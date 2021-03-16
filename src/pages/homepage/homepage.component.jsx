@@ -68,6 +68,7 @@ const Homepage = () => {
               <SocialMedia />
               <br />
               <Sales /> 
+              <br />
               <About/>
               <br /> 
               <br />

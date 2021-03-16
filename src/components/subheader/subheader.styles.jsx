@@ -12,6 +12,14 @@ export const SubHeaderContainer = styled.div`
   justify-content: space-between;
   padding-left: 1em;
 
+  
+  @media screen and (max-width: 700px) { 
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+  }
+
 
 
   .nav-links {
@@ -19,7 +27,7 @@ export const SubHeaderContainer = styled.div`
       color: black;
 
       @media screen and (max-width: 700px) { 
-        display: none;
+        /* display: none; */
     }
   }
   

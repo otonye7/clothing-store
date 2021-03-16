@@ -5,13 +5,19 @@ export const HeaderContainer = styled.div`
   width: 100%;
 
   .logo {
-      width: 20%;
+      width: 30%;
       padding-left: 1em;
       color: #212b36;
+
+    @media screen and (max-width: 700px) { 
+        width: 40%;
+    }
   }
 
   .logo-name {
-      color: #212b36;
+      width: 100%;
+      color: brown;
+      
   }
    
 
@@ -19,6 +25,10 @@ export const HeaderContainer = styled.div`
        width: 10%;
        display: flex;
        justify-content: space-between;
+
+    @media screen and (max-width: 700px) { 
+        width: 25%;
+    }
    }
 
    .sign-out {
@@ -40,6 +50,10 @@ export const HeaderContainer = styled.div`
       cursor: pointer;
       color: black;
       margin-top: 0.5em;
+
+    @media screen and (max-width: 700px) { 
+        margin-top: 1em;
+    }
   }
 
   .shopping-icon {

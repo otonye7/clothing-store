@@ -1,14 +1,14 @@
-import React, {useState} from 'react';
+import React  from 'react';
 import { SubHeaderContainer } from './subheader.styles';
 import { Link } from 'react-router-dom';
-import MenuIcon from '@material-ui/icons/Menu';
 
-const SubHeader = () => {
-    const [showLinks, setShowLinks] = useState(false);
-   
+
+const SubHeader = ({open}) => {
+   console.log(open)
     return(
         <SubHeaderContainer>
-                 <div className ='new-arrival'>
+                 
+                 <div className ='new-arrival' >
                      <Link className='nav-links'>
                           NEW ARRIVAL
                      </Link>
@@ -59,7 +59,7 @@ const SubHeader = () => {
                 </div>
                 </div>
 
-                 <div className ='new-arrival' >
+                <div className ='new-arrival' >
                      <Link className='nav-links'>
                           MEN
                      </Link>
@@ -285,11 +285,6 @@ const SubHeader = () => {
                           IN STORE ONLY
                      </Link>
                  </div>
-
-                 <div className='menu-icon'>
-                      <MenuIcon />
-                 </div>
-
 
         </SubHeaderContainer>
     )

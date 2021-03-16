@@ -10,7 +10,7 @@ import NewArrivalPage from './pages/new-arrival/new-arrival.component';
 import SignIn from './pages/sign-in/sign-in.component';
 import SignUp from './pages/sign-up-page/sign-up-page.component';
 import Header from './components/header/header.component';
-import SubHeader from './components/subheader/subheader.component';
+import BurgerIcon from './components/menu-icon/menu-icon.component';
 import { Switch, Route } from 'react-router-dom';
 import {auth, createUserProfileDocument} from './firebase/firebase.utils.js';
 
@@ -51,7 +51,7 @@ class App extends React.Component {
     return (
     <div className="App">
       <Header currentUser={this.state.currentUser}/>
-      <SubHeader />
+      <BurgerIcon />
         <Switch>
 					<Route  path={'/'} exact={true}  component={Homepage} />
           <Route path={'/men-new-arrival'} component={MenPage} />

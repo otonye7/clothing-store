@@ -4,9 +4,11 @@ import styled from 'styled-components';
 export const AboutContainer = styled.div`
  width: 100%;
  height: 40vh;
+ padding-bottom: 3em;
 
  @media screen and (max-width: 800px){
-     
+     width: 100%;
+     height: 65vh;
 }
 
  .overall {
@@ -15,6 +17,10 @@ export const AboutContainer = styled.div`
      margin: 0 auto;
      background-color: white;
      /* padding-left: 1em; */
+
+@media screen and (max-width: 800px){
+     height: 65vh;
+}
  }
 
  
