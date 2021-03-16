@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 
 export const SubHeaderContainer = styled.div`
+width: 100%;
 
 .icon {
     display: none; 
@@ -12,6 +13,10 @@ export const SubHeaderContainer = styled.div`
         display: flex;
         
   }
+}
+
+.sub {
+    position: relative;
 }
   
 `;

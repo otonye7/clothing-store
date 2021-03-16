@@ -11,8 +11,10 @@ const BurgerIcon = () => {
 
                 <div  className='menu-icon'>
                       <MenuIcon className='icon' open={open} onClick={() => setopen(!open)}/>
-                      <SubHeader open={open}/>
+                      <SubHeader className='sub' open={open}/>
                  </div>
+
+                 
 
                  {/* {
                           open ? <SubHeader/> : null

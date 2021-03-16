@@ -7,10 +7,13 @@ import Brands from '../../assets/oc.jpg';
 
 
 export const SubHeaderContainer = styled.div`
-  width: 80%;
+  position: absolute;
+  width: 90%;
+  height: 70vh;
   display: flex;
   justify-content: space-between;
   padding-left: 1em;
+  z-index: 3;
 
   
   @media screen and (max-width: 700px) { 
@@ -37,18 +40,23 @@ export const SubHeaderContainer = styled.div`
         /* display: none; */
     }
   }
+
+  .new-arrival {
+   
+  }
   
   
   .sub-links {
-      height: 60%;
-      width:40%;
+      position: absolute;
+      height: 90%;
+      width: 30vw;
       background-color: white;
       display: none;  
       z-index: 2;
   }
 
   .links-container {
-    width: 30%;
+    width: 35%;
 
 
     @media screen and (max-width: 700px) { 
@@ -81,6 +89,11 @@ export const SubHeaderContainer = styled.div`
     height: 70%;
     margin-top: 2em;
     margin-bottom: 1.5em;
+
+    @media screen and (max-width: 700px) { 
+        display: none; 
+      
+    }
   }
 
   .image {
@@ -133,14 +146,6 @@ export const SubHeaderContainer = styled.div`
     text-decoration: none;
   }
   
-
-  .menu-icon {
-    display: none;
-
-    @media screen and (max-width: 700px) { 
-        display: flex;
-    }
-  }
  
 
   & :hover {
