@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const SubHeader = ({open}) => {
    console.log(open)
     return(
-        <SubHeaderContainer>
+        <SubHeaderContainer open={open} >
                  
                  <div className ='new-arrival' >
                      <Link className='nav-links'>
@@ -284,7 +284,7 @@ const SubHeader = ({open}) => {
                      <Link className='nav-links'>
                           IN STORE ONLY
                      </Link>
-                 </div>
+                 </div> 
 
         </SubHeaderContainer>
     )

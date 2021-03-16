@@ -13,6 +13,7 @@ import Header from './components/header/header.component';
 import BurgerIcon from './components/menu-icon/menu-icon.component';
 import { Switch, Route } from 'react-router-dom';
 import {auth, createUserProfileDocument} from './firebase/firebase.utils.js';
+import SubHeader from './components/subheader/subheader.component';
 
 
 class App extends React.Component {
@@ -52,6 +53,7 @@ class App extends React.Component {
     <div className="App">
       <Header currentUser={this.state.currentUser}/>
       <BurgerIcon />
+      
         <Switch>
 					<Route  path={'/'} exact={true}  component={Homepage} />
           <Route path={'/men-new-arrival'} component={MenPage} />

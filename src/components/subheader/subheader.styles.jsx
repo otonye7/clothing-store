@@ -14,10 +14,17 @@ export const SubHeaderContainer = styled.div`
 
   
   @media screen and (max-width: 700px) { 
+        position: fixed;
+        z-index: 3;
+        background-color: white;
         width: 100%;
-        height: 70vh;
+        left: 0;
+        height: 100vh;
         display: flex;
         flex-direction: column;
+        transform: ${({open}) => open ? 'translateX(0)' : 'translateX(100%)'};
+        transition: transform 0.3s ease-in-out;
+        overflow: scroll;
   }
 
 
@@ -36,13 +43,18 @@ export const SubHeaderContainer = styled.div`
       height: 60%;
       width:40%;
       background-color: white;
-      position: absolute;
       display: none;  
       z-index: 2;
   }
 
   .links-container {
     width: 30%;
+
+
+    @media screen and (max-width: 700px) { 
+        /* display: none; */
+      
+    }
   }
 
   .nav-link {

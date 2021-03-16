@@ -21,6 +21,7 @@ import Sales from '../../components/sales/sales.component';
 import About from '../../components/about/about.component';
 import Footer from '../../components/footer/footer.component';
 
+
 const Homepage = () => {
 
 	return ( 
