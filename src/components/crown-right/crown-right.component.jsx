@@ -12,10 +12,11 @@ const CrownRight = () => {
                        <h2 className='shop-text'>
                           COLUMBIA
                        </h2>
-                    </div>
-                    <div className='link'>
+                     <div className='link'>
                        <Link to='/columbia' className='shop-link'>SHOP NOW</Link>
                     </div>
+                    </div>
+                    
                 </div>
 
             

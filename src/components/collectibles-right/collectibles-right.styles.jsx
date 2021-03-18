@@ -5,12 +5,12 @@ import Romantic from  '../../assets/collectibles.jpg';
 export const SubHeroContainer = styled.div`
 position: relative;
  width: 48%;
- height: 50vh;
+ height: 100%;
  background-color: #F2F2F2;
  margin-top: 1em;
 
  @media screen and (max-width: 800px){
-      height: 40vh;
+      height: 100%;
       width: 100%;
 }
 
@@ -19,13 +19,14 @@ position: relative;
  .image {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 20rem;
     background-image: url(${Romantic});
     background-position: center;
     background-size: cover;
 
     @media screen and (max-width: 800px){
       width: 100%;
+      height: 20rem;
 }
    }
 

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const CollectiblesContainer = styled.div`
  width: 48%;
- height: 50vh;
+ height: 51.2vh;
  background-color: #F2F2F2;
  margin-top: 1em;
  background-color: black;

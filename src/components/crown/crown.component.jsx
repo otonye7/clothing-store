@@ -12,10 +12,11 @@ const Crown = () => {
                     <h2 className='shop-text'>
                         ROMANTIC CROWN
                     </h2>
-               </div>
                 <div className='link'>
                     <Link to='/romantic-crown' className='shop-link'>SHOP NOW</Link>
                </div>
+               </div>
+                
                 </div>
 
             

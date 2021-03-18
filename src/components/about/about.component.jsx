@@ -11,8 +11,7 @@ const About = () => {
                   <h1 className='about-text'>
                       About US
                   </h1>
-               </div>
-
+               
                <div className='span-container'>
                   <span className='about-span'>
                        S^Mo SPORTS WAS FOUNDED IN 1995 IN Nigeria,
@@ -22,7 +21,12 @@ const About = () => {
                        STORES FOR ICONIC BRANDS AND LIMITED RELEASES FOR MEN, WOMEN
                        AND KIDS.
                   </span>
-              </div>
+                </div>
+               </div>
+{/* 
+               <div className='span-container'>
+
+              </div> */}
               </div>
         </AboutContainer>
     )

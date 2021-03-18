@@ -3,23 +3,22 @@ import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
  width: 100%;
- height: 40vh;
- padding-bottom: 3em;
+ height: 100%;
 
  @media screen and (max-width: 800px){
      width: 100%;
-     height: 65vh;
+     height: 100%;
 }
 
  .overall {
      width: 98%;
-     height: 40vh;
+     height: 100%;
      margin: 0 auto;
      background-color: white;
      /* padding-left: 1em; */
 
 @media screen and (max-width: 800px){
-     height: 65vh;
+     height: 100%;
 }
  }
 

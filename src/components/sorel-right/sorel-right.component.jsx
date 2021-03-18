@@ -12,10 +12,10 @@ const SubHero = () => {
                     <h2 className='shop-text'>
                         NEW BALANCE
                     </h2>
-                    </div>
                 <div className='link'>
                     <Link to='/new-balance-arrival' className='shop-link'>SHOP NOW</Link>
                 </div>
+                    </div>
                 </div>
 
             

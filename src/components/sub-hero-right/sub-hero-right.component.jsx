@@ -12,9 +12,9 @@ const SubHeroRight = () => {
                     <h2 className='shop-text'>
                         WOMENS NEW ARRIVAL
                     </h2>
-                    </div>
                     <div className='link'>
                       <Link to='/women-new-arrival' className='shop-link'>SHOP NOW</Link>
+                    </div>
                     </div>
                 </div>
 

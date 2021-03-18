@@ -1,16 +1,19 @@
 import styled from 'styled-components';
-import Bugaboo from  '../../assets/bugaboo.jpg';
+import NikeSub from  '../../assets/bugaboo.jpg';
+
+
 
 
 export const SubHeroContainer = styled.div`
 position: relative;
  width: 48%;
- height: 100vh;
+ height: 100%;
  background-color: #F2F2F2;
  margin-top: 1em;
+
  
  @media screen and (max-width: 800px){
-      height: 45vh;
+      height: 100%;
       width: 100%;
 }
 
@@ -19,14 +22,15 @@ position: relative;
  .image {
     position: relative;
     width: 100%;
-    height: 100%;
-    background-image: url(${Bugaboo});
+    height: 33rem;
+    background-image: url(${NikeSub});
     background-position: center;
     background-size: cover;
 
     @media screen and (max-width: 800px){
       width: 100%;
-      height: 92%;
+      margin-bottom: 2em;
+      height: 27rem;
 }
    }
 
@@ -47,11 +51,11 @@ position: relative;
    .container {
        width: 80%;
        margin: 0 auto;
-       display: flex;
-       justify-content: center;
+       
 
        @media screen and (max-width: 800px){
        background-color: #F2F2F2; 
+       height: 7rem;
     }
    }
 
@@ -64,19 +68,30 @@ position: relative;
 
 
    .shop-text {
-       width: 40%;
-       color: black;
+       width: 100%;
+       color: white;
+       align-items: center;
+       display: flex;
+       justify-content: center;
+    
 
        @media screen and (max-width: 800px){
-           width: 50%;
+           width: 100%;
+           color: black;
+           text-align: center;
       /* background-color: #F2F2F2; */
     }
    }
 
    .shop-link {
        text-decoration: none;
-       color: black;
+       color: white;
        cursor: pointer;
-   }
 
+       @media screen and (max-width: 800px){
+           width: 50%;
+           color: black;
+      /* background-color: #F2F2F2; */
+    }
+   }
 `;
