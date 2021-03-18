@@ -1,12 +1,11 @@
 import styled from 'styled-components';
-import SorelShoe from  '../../assets/sorel-boots-1.jpg';
+import SorelShoe from  '../../assets/men-lacoste.jpg';
 
 
 
 export const SubHeroContainer = styled.div`
 position: relative;
  width: 48%;
- height: 100vh;
  background-color: #F2F2F2;
  margin-top: 1em;
  
@@ -66,7 +65,7 @@ position: relative;
 
    .shop-text {
        width: 40%;
-       color: black;
+       color: white;
 
        @media screen and (max-width: 800px){
            width: 50%;
@@ -76,7 +75,7 @@ position: relative;
 
    .shop-link {
        text-decoration: none;
-       color: black;
+       color: white;
        cursor: pointer;
    }
 `;

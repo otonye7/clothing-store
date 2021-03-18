@@ -5,7 +5,7 @@ import Nike from  '../../assets/Nike-Roshe.jpg'
 export const HeroContainer = styled.div`
  position: relative;
  width: 98%;
- height: 100vh;
+ height: 100%;
  background-color: #F2F2F2;
  display: flex;
  justify-content: center;
@@ -14,7 +14,7 @@ export const HeroContainer = styled.div`
 
 
  @media screen and (max-width: 800px){
-      height: 40vh;
+      height: 100%;
       width: 100%;
 }
 
@@ -23,13 +23,14 @@ export const HeroContainer = styled.div`
  .image {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 33rem;
     background-image: url(${Nike});
     background-position: center;
     background-size: cover;
 
     @media screen and (max-width: 800px){
       width: 100%;
+      height: 17em;
 }
    }
 
