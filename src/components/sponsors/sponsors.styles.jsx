@@ -1,16 +1,17 @@
 import styled from 'styled-components';
-import Nike from  '../../assets/doit.svg';
+// import Nike from  '../../assets/doit.svg';
 import Adidas from  '../../assets/adi.svg';
-import Champion from  '../../assets/champion.png';
-import Jumpman from  '../../assets/jumpman.png';
-import Nb from  '../../assets/nb.png';
+// import Champion from  '../../assets/champion.png';
+// import Jumpman from  '../../assets/jumpman.png';
+// import Nb from  '../../assets/nb.png';
 
 
 
 
 export const SponsorsContainer = styled.div`
-  width: 100%;
+  width: 98%;
   height: 8rem;
+  margin: 0 auto;
   background-color: #F2F2F2;
   display: flex;
   justify-content: space-between;

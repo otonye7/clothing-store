@@ -19,20 +19,31 @@ export const SubHeaderContainer = styled.div`
         position: fixed;
         display: flex;
         flex-direction: column;
+        top: .75;
+        right: 0;
         width: 100%;
-        height: 80%;
-        transform: ${({open}) => open ? 'translateX(0)' : 'translateX(100%)'};
+        height: 100vh;
+        max-height: ${({open}) => open ? '100vh' : '0'};
         background-color: white;
         z-index: 2;
+        overflow-y: scroll;
+        overflow-x: scroll;
   }
   }
 
   .list {
     list-style: none;
+    text-align: center;
+    align-content: center;
+    align-items: center;
   }
 
   .links {
     text-decoration: none;
     color: black;
+
+    @media screen and (max-width: 700px) {
+        text-align: center;
+  }
   }
 `;
