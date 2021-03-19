@@ -1,18 +1,23 @@
 import React, {useState} from 'react';
 import { SubHeaderContainer } from './menu-icon.styles';
 import MenuIcon from '@material-ui/icons/Menu';
+import CloseIcon from '@material-ui/icons/Close';
 import SubHeader from '../subheader/subheader.component';
 
 const BurgerIcon = () => {
     const [open, setopen] = useState(false);
+
+    const handleClick = () => setopen(!open)
    
     return(
         <SubHeaderContainer>
-
-                <div  className='menu-icon'>
-                      <MenuIcon className='icon' open={open} onClick={() => setopen(!open)}/>
+                
+                <div className='nav-icons' onClick={handleClick}>
+                     {
+                         open ? <CloseIcon open={open}/> : <MenuIcon open={open}/>
+                     }
                  </div>
-
+                  
                  <div className='sub-icon'>
                       <SubHeader className='sub' open={open}/>
                  </div>

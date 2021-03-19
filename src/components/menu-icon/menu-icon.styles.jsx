@@ -11,18 +11,22 @@ width: 100%;
     /* justify-content: center; */
 }
 
-.icon {
+.nav-icons {
     display: none; 
   
 
 @media screen and (max-width: 700px) {
-        display: flex;
+        display: block;
         z-index: 9;
   }
 }
 
-.sub {
-    position: relative;
-}
+.close {
+  display: none;
+
+  @media screen and (max-width: 700px) {
+        z-index: 100;
+  }
+  }
   
 `;

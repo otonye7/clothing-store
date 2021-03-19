@@ -8,7 +8,7 @@ export const SubHeaderContainer = styled.div`
   margin: 0 auto;
  
 
-.container {
+.nav-menu {
   width: 90%;
   margin: 0;
   padding: 0;
@@ -16,26 +16,56 @@ export const SubHeaderContainer = styled.div`
   justify-content: space-between;
 
   @media screen and (max-width: 700px) {
-        position: fixed;
-        display: flex;
-        flex-direction: column;
-        top: .75;
-        right: 0;
-        width: 100%;
-        height: 100vh;
-        max-height: ${({open}) => open ? '100vh' : '0'};
-        background-color: white;
-        z-index: 2;
-        overflow-y: scroll;
-        overflow-x: scroll;
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       height: 100%;
+       right: 0;
+       position: absolute;
+       background-color: white;
+       z-index: 2;
+       /* top: 80px; */
+       /* left: -110%; */
+       opacity: 1;
   }
   }
 
-  .list {
+.nav-menus {
+  width: 90%;
+  
+
+  @media screen and (max-width: 700px) {
+       background: white;
+       left: 0px;
+       opacity: 1;
+       transition: all 0.5s ease;
+       z-index: 4;
+  }
+  }
+
+  .nav-items {
     list-style: none;
     text-align: center;
     align-content: center;
     align-items: center;
+  }
+
+  .nav-items:after {
+    content: "";
+    width: 0;
+    display: block;
+    height: 3px;
+    background-color: transparent;
+  }
+
+  .nav-items:hover:after {
+    width: 100%;
+    background: brown;
+  }
+
+  .nav-items .active {
+    color: brown;
+    border: 1px solid brown;
   }
 
   .links {
