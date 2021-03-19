@@ -16,14 +16,15 @@ export const SubHeaderContainer = styled.div`
   justify-content: space-between;
 
   @media screen and (max-width: 700px) {
-       display: flex;
+       display: ${({ open }) => open ? "flex" : "none"};
        flex-direction: column;
        width: 100%;
-       height: 100%;
+       /* height: 100%; */
        right: 0;
        position: absolute;
        background-color: white;
        z-index: 2;
+       height: ${({ open }) => open ? "100%" : "0"};
        /* top: 80px; */
        /* left: -110%; */
        opacity: 1;

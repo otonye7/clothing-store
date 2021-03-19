@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 // import Nike from  '../../assets/doit.svg';
 import Adidas from  '../../assets/adi.svg';
-// import Champion from  '../../assets/champion.png';
-// import Jumpman from  '../../assets/jumpman.png';
+import Converse from  '../../assets/converse.svg';
+ import Birken from  '../../assets/birken.svg';
 // import Nb from  '../../assets/nb.png';
 
 
@@ -10,7 +10,7 @@ import Adidas from  '../../assets/adi.svg';
 
 export const SponsorsContainer = styled.div`
   width: 98%;
-  height: 8rem;
+  height: 5rem;
   margin: 0 auto;
   background-color: #F2F2F2;
   display: flex;
@@ -27,26 +27,67 @@ export const SponsorsContainer = styled.div`
 
 
   .adidas {
-    position: relative;
-    width: 90%;
-    height: 6.5rem;
+    width: 10%;
+    height: 5rem;
     background-image: url(${Adidas});
     background-position: center;
     background-size: cover;
   }
 
-  .converse-container {
-      width: 10%;
-  }
+ .converse {
+    width: 10%;
+    height: 5rem;
+    color: black;
+    background-image: url(${Adidas});
+    background-position: center;
+    background-size: cover;
+  } 
 
   .converse {
-    position: relative;
-    width: 100%;
-    background-color: #F2F2F2;
-    height: 6.5rem;
+    width: 10%;
+    height: 5rem;
+    color: black;
     background-image: url(${Adidas});
     background-position: center;
     background-size: cover;
+  } 
+
+  .jumpman {
+    width: 10%;
+    height: 5rem;
+    color: black;
+    background-image: url(${Adidas});
+    background-position: center;
+    background-size: cover;
+  } 
+
+  .nb {
+    width: 10%;
+    height: 5rem;
+    color: black;
+    background-image: url(${Adidas});
+    background-position: center;
+    background-size: cover;
+  } 
+
+  /* .champion {
+    font-size: 20px;
+    font-weight: 600;
+    align-content: center;
+    text-align: center;
+  } */
+
+   .champion {
+    width: 10%;
+    color: black;
+    height: 5rem;
+    background-image: url(${Adidas});
+    background-position: center;
+    background-size: cover;
+  } 
+
+  /* .converse-container {
+      width: 10%;
   }
 
   .champion-container {
@@ -90,7 +131,7 @@ export const SponsorsContainer = styled.div`
     background-image: url(${Adidas});
     background-position: center;
     background-size: cover;
-  }
+  } */
 
   
 `;

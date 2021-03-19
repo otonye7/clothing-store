@@ -4,11 +4,12 @@ import { Link } from 'react-router-dom';
 
 
 const SubHeader = ({open}) => {
+    console.log(open)
   
     return(
         <SubHeaderContainer open={open} >
             
-              <div className={open ? "nav-menus" : "nav-menu"}>
+              <div className="nav-menu" >
                 <li className='nav-items'>
                     <Link exact activeClassName='active' to='/new-arrival' className='links'>NEW ARRIVAL</Link>
                 </li>
