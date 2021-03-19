@@ -25,7 +25,7 @@ export const SponsorsContainer = styled.div`
       width: 10%;
   }
 
-
+/* 
   .adidas {
     width: 10%;
     height: 5rem;
@@ -70,13 +70,7 @@ export const SponsorsContainer = styled.div`
     background-size: cover;
   } 
 
-  /* .champion {
-    font-size: 20px;
-    font-weight: 600;
-    align-content: center;
-    text-align: center;
-  } */
-
+ 
    .champion {
     width: 10%;
     color: black;
@@ -84,7 +78,7 @@ export const SponsorsContainer = styled.div`
     background-image: url(${Adidas});
     background-position: center;
     background-size: cover;
-  } 
+  }  */
 
   /* .converse-container {
       width: 10%;

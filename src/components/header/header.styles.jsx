@@ -3,13 +3,15 @@ import styled from 'styled-components';
 
 export const HeaderContainer = styled.div`
   width: 100%;
+  padding-top: 2em;
+ 
 
   .logo {
       width: 30%;
       padding-left: 1em;
       color: #212b36;
 
-    @media screen and (max-width: 700px) { 
+    @media screen and (max-width: 767px) { 
         width: 40%;
     }
   }
@@ -22,11 +24,11 @@ export const HeaderContainer = styled.div`
    
 
    .cart-containers {
-       width: 10%;
+       width: 15%;
        display: flex;
        justify-content: space-between;
 
-    @media screen and (max-width: 700px) { 
+    @media screen and (max-width: 767px) { 
         width: 25%;
     }
    }
@@ -49,9 +51,9 @@ export const HeaderContainer = styled.div`
   .person {
       cursor: pointer;
       color: black;
-      margin-top: 0.5em;
+      margin-bottom: 1rem;
 
-    @media screen and (max-width: 700px) { 
+    @media screen and (max-width: 767px) { 
         margin-top: 1em;
     }
   }
@@ -59,5 +61,6 @@ export const HeaderContainer = styled.div`
   .shopping-icon {
       width: 24px;
       cursor: pointer;
+      margin-bottom: 1rem;
     }
 `;

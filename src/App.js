@@ -13,7 +13,7 @@ import Header from './components/header/header.component';
 import BurgerIcon from './components/menu-icon/menu-icon.component';
 import { Switch, Route } from 'react-router-dom';
 import {auth, createUserProfileDocument} from './firebase/firebase.utils.js';
-import SubHeader from './components/subheader/subheader.component';
+import './App.css';
 
 
 class App extends React.Component {

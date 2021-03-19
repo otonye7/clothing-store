@@ -3,12 +3,12 @@ import NewBalance from '../../assets/newbalance997.jpg';
 
 
 export const FeaturedContainer = styled.div`
- width: 20%;
+ width: 22%;
    height: 100%;
    display: flex;
    justify-content: space-around;
 
-   @media screen and (max-width: 800px){
+   @media screen and (max-width: 767px){
       display: flex;
       flex-direction: column;
       height: 100%;
@@ -22,7 +22,7 @@ export const FeaturedContainer = styled.div`
     background-position: center;
     background-size: cover;
 
-    @media screen and (max-width: 800px){
+    @media screen and (max-width: 767px){
       width: 100%;
       height: 20rem;
 }

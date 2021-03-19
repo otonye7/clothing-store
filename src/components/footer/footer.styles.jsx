@@ -2,10 +2,11 @@ import styled from 'styled-components';
 
 
 export const FooterContainer = styled.div`
-background-color: gray;
+background-color: #333333;
 width: 100%;
-height: auto;
+height: 40vh;
 color: white;
+align-content: center;
 
 .footer-container {
   display: flex;

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const CollectiblesContainer = styled.div`
- width: 48%;
+ width: 45%;
  height: 51.2vh;
  background-color: #F2F2F2;
  margin-top: 1em;
@@ -11,8 +11,8 @@ export const CollectiblesContainer = styled.div`
  
 
 
- @media screen and (max-width: 800px){
-      height: 40vh;
+ @media screen and (max-width: 767px){
+      height: 51.2vh;
       width: 100%;
 }
 

@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const SubHeaderContainer = styled.div`
   /* position: fixed;
   z-index: 1; */
-  width: 98%;
+  width: 95%;
   margin: 0 auto;
  
 
@@ -15,7 +15,7 @@ export const SubHeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 767px) {
        display: ${({ open }) => open ? "flex" : "none"};
        flex-direction: column;
        width: 100%;
@@ -35,7 +35,7 @@ export const SubHeaderContainer = styled.div`
   width: 90%;
   
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 767px) {
        background: white;
        display: none;
        left: 0px;
@@ -58,7 +58,7 @@ export const SubHeaderContainer = styled.div`
     text-decoration: none;
     color: black;
 
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 767px) {
         text-align: center;
   }
   }

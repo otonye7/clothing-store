@@ -1,13 +1,13 @@
 import styled from 'styled-components';
-import Jordan from  '../../assets/wc.jpg';
+import Jordan from  '../../assets/jordan-zoom.jpg';
 import Adidas from  '../../assets/oc.jpg';
-import NewBalance from '../../assets/gcol.jpg';
-import Gazelle from '../../assets/gazelle.jpg';
+import NewBalance from '../../assets/delta.jpg';
+import Gazelle from '../../assets/jordandelta.jpg';
 
 
 export const SalesContainer = styled.div`
  width: 100%;
-   height: 15rem;
+   height: 18rem;
    display: flex;
    justify-content: space-around;
 

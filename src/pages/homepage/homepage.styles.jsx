@@ -12,7 +12,7 @@ export const HomepageContainer = styled.div`
      margin: 0 auto;
      justify-content: space-around;
 
-     @media screen and (max-width: 800px){
+     @media screen and (max-width: 767px){
       display: flex;
       flex-direction: column;
 }
@@ -23,7 +23,7 @@ export const HomepageContainer = styled.div`
      margin: 0 auto;
      justify-content: space-around;
 
-     @media screen and (max-width: 800px){
+     @media screen and (max-width: 767px){
       display: flex;
       flex-direction: column;
 }
@@ -34,7 +34,7 @@ export const HomepageContainer = styled.div`
      margin: 0 auto;
      justify-content: space-around;
 
-     @media screen and (max-width: 800px){
+     @media screen and (max-width: 767px){
       display: flex;
       flex-direction: column;
 }
@@ -46,7 +46,7 @@ export const HomepageContainer = styled.div`
      margin: 0 auto;
      justify-content: space-around;
 
-     @media screen and (max-width: 800px){
+     @media screen and (max-width: 767px){
       display: flex;
       flex-direction: column;
 }
@@ -58,7 +58,7 @@ export const HomepageContainer = styled.div`
      margin: 0 auto;
      justify-content: space-around;
 
-     @media screen and (max-width: 800px){
+     @media screen and (max-width: 767px){
       display: flex;
       flex-direction: column;
 }
