@@ -8,7 +8,7 @@ const SubHeader = ({open}) => {
     return(
         <SubHeaderContainer open={open} >
             
-              <div className={open ? "nav-menu" : "nav-menus"}>
+              <div className={open ? "nav-menus" : "nav-menu"}>
                 <li className='nav-items'>
                     <Link exact activeClassName='active' to='/new-arrival' className='links'>NEW ARRIVAL</Link>
                 </li>

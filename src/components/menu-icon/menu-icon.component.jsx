@@ -14,7 +14,7 @@ const BurgerIcon = () => {
                 
                 <div className='nav-icons' onClick={handleClick}>
                      {
-                         open ? <CloseIcon open={open}/> : <MenuIcon open={open}/>
+                         open ? <MenuIcon open={open}/> : <CloseIcon open={open}/>
                      }
                  </div>
                   

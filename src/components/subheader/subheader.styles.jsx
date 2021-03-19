@@ -51,23 +51,7 @@ export const SubHeaderContainer = styled.div`
     align-items: center;
   }
 
-  .nav-items:after {
-    content: "";
-    width: 0;
-    display: block;
-    height: 3px;
-    background-color: transparent;
-  }
 
-  .nav-items:hover:after {
-    width: 100%;
-    background: brown;
-  }
-
-  .nav-items .active {
-    color: brown;
-    border: 1px solid brown;
-  }
 
   .links {
     text-decoration: none;
