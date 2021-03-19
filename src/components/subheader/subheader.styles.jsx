@@ -36,6 +36,7 @@ export const SubHeaderContainer = styled.div`
 
   @media screen and (max-width: 700px) {
        background: white;
+       display: none;
        left: 0px;
        opacity: 1;
        transition: all 0.5s ease;
