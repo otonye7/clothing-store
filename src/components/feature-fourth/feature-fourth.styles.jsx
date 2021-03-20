@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Adidas from  '../../assets/adidas-ultra-boost.jpg';
+import Adidas from  '../../assets/jordandelta.jpg';
 
 
 

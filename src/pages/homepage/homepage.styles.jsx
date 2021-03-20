@@ -55,6 +55,8 @@ export const HomepageContainer = styled.div`
 
  .feature {
      display: flex;
+     padding-top: 2em;
+     padding-bottom: 2em;
      margin: 0 auto;
      justify-content: space-around;
 

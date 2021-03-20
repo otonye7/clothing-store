@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import NewBalance from '../../assets/newbalance997.jpg';
+import NewBalance from '../../assets/delta.jpg';
 
 
 export const FeaturedContainer = styled.div`

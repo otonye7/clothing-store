@@ -53,6 +53,7 @@ const Homepage = () => {
               </div>
              
               <br />
+              <br />
               <FeatureTitle />
                <br />
               <div className='feature'>
@@ -67,6 +68,7 @@ const Homepage = () => {
               </div>
               <br />
               <SocialMedia />
+              <br />
               <br />
               <Sales /> 
               <br />
