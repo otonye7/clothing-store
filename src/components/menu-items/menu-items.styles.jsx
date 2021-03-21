@@ -4,10 +4,10 @@ import styled from 'styled-components';
 export const MenuItemContainer = styled.div`
 margin-left: 3em;
   .menu-items {
-      width: 85%;
+      width: 90%;
       display: flex;
       flex-direction: column;
-      height: 250px;
+      height: 160px;
       align-items: center;
       position: relative;
   }

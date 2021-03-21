@@ -27,17 +27,17 @@ const INITIAL_STATE = {
         color: 'GRAY',
         brands: 'ADIDAS',
         linkUrl: '/mens-adidas-Essentials-Trefoil-Hoodie-Grey-Five',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'The new balance ZX 1K Boost shoes are ultra comfortable new balance kicks with eye-catching looks. The best of both worlds with Boost and EVA cushioning will keep you going all day long. Boost hits the heels and the EVA foam in the forefoot of the shoes. new balance 3-Stripes don the sides for a distinctive look. Comes in a combination of white, grey, black with pops of Solar Yellow.',
         price: 55
     },
     {
         title: 'Mens adidas Essentials Trefoil Hoodie White',
-        imageUrl: 'https://cdna.lystit.com/photos/ssense/ce5b5f75/adidas-originals-grey-Grey-Trefoil-Essentials-Hoodie.jpeg',
+        imageUrl: 'https://www.yeezyboosts2019.com/wp-content/uploads/2020/09/adidas-originals-zx-2k-boost-white-black-grey-mens-size-fz2945-2.png',
         id: 4,
         color: 'WHITE',
         brands: 'ADIDAS',
         linkUrl: '/mens-adidas-Essentials-Trefoil-Hoodie-White',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'The new balance ZX 1K Boost shoes are ultra comfortable new balance kicks with eye-catching looks. The best of both worlds with Boost and EVA cushioning will keep you going all day long. Boost hits the heels and the EVA foam in the forefoot of the shoes. new balance 3-Stripes don the sides for a distinctive look. Comes in a combination of white, grey, black with pops of Solar Yellow.',
         price: 55
     },
     {
@@ -47,7 +47,7 @@ const INITIAL_STATE = {
         color: 'MULTICOLOR',
         brands: 'JORDAN',
         linkUrl: '/mens-jordan-delta-breathe-multicolor',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'The new balance ZX 1K Boost shoes are ultra comfortable new balance kicks with eye-catching looks. The best of both worlds with Boost and EVA cushioning will keep you going all day long. Boost hits the heels and the EVA foam in the forefoot of the shoes. new balance 3-Stripes don the sides for a distinctive look. Comes in a combination of white, grey, black with pops of Solar Yellow.',
         price: 130
     },
     {
@@ -57,7 +57,7 @@ const INITIAL_STATE = {
         color: 'GOLD',
         brands: 'THE NORTH FACE',
         linkUrl: '/mens-the-north-face-1996-retro-nuptse-jacket-summit-gold',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'The new balance ZX 1K Boost shoes are ultra comfortable new balance kicks with eye-catching looks. The best of both worlds with Boost and EVA cushioning will keep you going all day long. Boost hits the heels and the EVA foam in the forefoot of the shoes. new balance 3-Stripes don the sides for a distinctive look. Comes in a combination of white, grey, black with pops of Solar Yellow.',
         price: 279
     },
     {
@@ -67,27 +67,27 @@ const INITIAL_STATE = {
         color: 'BLACK',
         brands: 'PUMA',
         linkUrl: '/mens-puma-rs-2.0-winterized-black',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'The new balance ZX 1K Boost shoes are ultra comfortable new balance kicks with eye-catching looks. The best of both worlds with Boost and EVA cushioning will keep you going all day long. Boost hits the heels and the EVA foam in the forefoot of the shoes. new balance 3-Stripes don the sides for a distinctive look. Comes in a combination of white, grey, black with pops of Solar Yellow.',
         price: 80
     },
     {
         title: 'Mens Columbia Bugaboo 1986 Interchange Jacket Green',
-        imageUrl: 'https://cdna.lystit.com/photos/moosejaw/4867d589/columbia-Peatmoss-Bugaboo-1986-Interchange-Jacket.jpeg',
+        imageUrl: 'https://cdn3.shinzo.paris/19567-thickbox_default/columbia-mens-bugaboo-80th-anniversary-interchange-jacket.jpg',
         id: 8,
         color: 'GREEN',
         brands: 'BUGABOO',
         linkUrl: '/mens-columbia-bugaboo-1986-interchange-jacket-green',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'The new balance ZX 1K Boost shoes are ultra comfortable new balance kicks with eye-catching looks. The best of both worlds with Boost and EVA cushioning will keep you going all day long. Boost hits the heels and the EVA foam in the forefoot of the shoes. new balance 3-Stripes don the sides for a distinctive look. Comes in a combination of white, grey, black with pops of Solar Yellow.',
         price: 199
     },
     {
         title: 'Mens Timberland Tree Logo Hoodie Wheat',
-        imageUrl: 'https://images.timberland.com/is/image/timberland/A1N9B210-ALT3?wid=500&hei=500',
+        imageUrl: 'https://images.timberland.com/is/image/timberland/A1ZKY210-HERO?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0',
         id: 9,
         color: 'WHEAT',
         brands: 'TIMBERLAND',
         linkUrl: '/mens-timberland-tree-logo-hoodie-wheat',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'The new balance ZX 1K Boost shoes are ultra comfortable new balance kicks with eye-catching looks. The best of both worlds with Boost and EVA cushioning will keep you going all day long. Boost hits the heels and the EVA foam in the forefoot of the shoes. new balance 3-Stripes don the sides for a distinctive look. Comes in a combination of white, grey, black with pops of Solar Yellow.',
         price: 60
     },
     {
@@ -97,7 +97,7 @@ const INITIAL_STATE = {
         color: 'BLACK',
         brands: 'TIMBERLAND',
         linkUrl: '/mens-timberland-tree-logo-hoodie-black',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'The new balance ZX 1K Boost shoes are ultra comfortable new balance kicks with eye-catching looks. The best of both worlds with Boost and EVA cushioning will keep you going all day long. Boost hits the heels and the EVA foam in the forefoot of the shoes. new balance 3-Stripes don the sides for a distinctive look. Comes in a combination of white, grey, black with pops of Solar Yellow.',
         price: 68
     },
     {
