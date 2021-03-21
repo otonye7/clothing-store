@@ -14,8 +14,8 @@ const LacosteGeographicalPage = ({sections}) => {
            <TreyfoilContainer>
               <div className='left-side'>
                   {
-                    sections.filter((item, id) => id === 13).map(({id, imageUrl}) => (
-                      <CollectionItems key={id} imageUrl={imageUrl}/>
+                    sections.filter((item, id) => id === 13).map(({id, imageUrl, title, price}) => (
+                      <CollectionItems key={id} imageUrl={imageUrl} title={title} price={price} />
                     ))
                   }
               </div>

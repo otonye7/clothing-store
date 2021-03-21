@@ -1,11 +1,11 @@
 import React from 'react';
-import { SalesContainer } from './sales.styles';
+import { SalesContainer } from './related-images.styles';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper.scss';
 
 
 
-const Sales = () => {
+const RelatedImages = () => {
     return(
 
 
@@ -26,4 +26,4 @@ const Sales = () => {
     )
 }
 
-export default Sales;
+export default RelatedImages;

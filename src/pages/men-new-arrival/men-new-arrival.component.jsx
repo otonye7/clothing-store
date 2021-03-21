@@ -59,9 +59,9 @@ const MenPage = ({match}) => {
                   <Route path={`${match.path}/:mens-champion-life-hoodie-chenille-big-c-carefree-teal`} component={ChampionLifePage} />
               </div>
             </div>
-            <div className='footer'>
+             <div className='footer'>
               <Footer />
-            </div>
+            </div> 
             </MenContainer>
            
 	);

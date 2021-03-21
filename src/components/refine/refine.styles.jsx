@@ -7,6 +7,7 @@ export const RefineContainer = styled.div`
  margin-left: 0em;
 
 
+
  .refine-container {
      width: 100%;
      display: flex;
@@ -25,7 +26,7 @@ export const RefineContainer = styled.div`
 
  .line {
      width: 81%;
-     border-bottom: 1px solid black;
+     border-bottom: 1px solid grey;
      margin-left: 1.4em;
  }
 

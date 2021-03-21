@@ -4,6 +4,7 @@ import styled from 'styled-components';
 export const ColorContainer = styled.div`
  width: 100%;
  margin-left: 1.5em;
+ padding-top: 2em;
 
   
  .color-container {
@@ -12,7 +13,7 @@ export const ColorContainer = styled.div`
 
  .line {
      width: 78%;
-     border-bottom: 1px solid black;
+     border-bottom: 1px solid grey;
     
  }
 

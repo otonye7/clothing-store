@@ -2,12 +2,12 @@ const INITIAL_STATE = {
     sections: [{
                 
         title: 'Mens adidas Originals Gazelle Shoes Burgundy',
-        imageUrl: 'https://www.80scasualclassics.co.uk/images/adidas-gazelle-og-trainers-burgundy-white-p3667-41087_image.jpg',
+        imageUrl: 'https://static.highsnobiety.com/thumbor/ELzfmcITXw6BvYTZUposZtu9H5M=/fit-in/1200x720/smart/static.highsnobiety.com/wp-content/uploads/2019/07/23115605/new-balance-997h-cordura-release-date-price-00.jpg',
         id: 1,
         color: 'BIEGE',
         brands: 'ADIDAS',
         linkUrl: '/mens-adidas-Originals-Gazelle-Shoes-Burgundy',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'The new balance ZX 1K Boost shoes are ultra comfortable new balance kicks with eye-catching looks. The best of both worlds with Boost and EVA cushioning will keep you going all day long. Boost hits the heels and the EVA foam in the forefoot of the shoes. new balance 3-Stripes don the sides for a distinctive look. Comes in a combination of white, grey, black with pops of Solar Yellow.',
         price: 80
     },
     {
@@ -17,7 +17,7 @@ const INITIAL_STATE = {
         color: 'BLACK',
         brands: 'HATS',
         linkUrl: '/mens-adidas-Originals-Tri-Color-Strapback-Hat-Black',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'The new balance ZX 1K Boost shoes are ultra comfortable new balance kicks with eye-catching looks. The best of both worlds with Boost and EVA cushioning will keep you going all day long. Boost hits the heels and the EVA foam in the forefoot of the shoes. new balance 3-Stripes don the sides for a distinctive look. Comes in a combination of white, grey, black with pops of Solar Yellow.',
         price: 26
     },
     {

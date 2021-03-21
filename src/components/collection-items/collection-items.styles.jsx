@@ -2,14 +2,13 @@ import styled from 'styled-components';
 
 
 export const CollectionItemContainer = styled.div`
-margin-left: 3em;
+display: flex;
+justify-content: space-around;
+width: 100%;
+
   .menu-items {
-      width: 85%;
-      display: flex;
-      flex-direction: column;
+      width: 50%;
       height: 450px;
-      align-items: center;
-      position: relative;
   }
 
   .background-image {
@@ -27,13 +26,8 @@ margin-left: 3em;
     
 
     .custom-button {
-        width: 44%;
-        height: 8%;
+        width: 100%;
         opacity: 0.5;
-        position: absolute;
-        bottom: 0px;
-        display: flex;
-        justify-content: center;
 }
 
 &:hover {
@@ -48,19 +42,30 @@ margin-left: 3em;
     }
 
   .content {
-      width: 80%;
-      height: 5%;
       display: flex;
-      justify-content: space-between;
+      width: 40%;
+      flex-direction: column;
       font-size: 17px;
   }
 
 .title {
-    width: 90%;
+    
     margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.description-title {
+    font-weight: 500;
+}
+
+.margin {
+    border-bottom: 1px solid grey;
 }
 
 .price {
-    width: 10%;
+    
+    font-size: 28px;
+    font-weight: 500;
 }
 `;
