@@ -29,6 +29,8 @@ const SorelPage = ({match}) => {
                  <Route path={`${match.path}/:sorel-jackets`} component={SorelJackets} />
               </div>
             </div>
+            <br />
+            <br />
             <div className='footer'>
               <Footer />
             </div>

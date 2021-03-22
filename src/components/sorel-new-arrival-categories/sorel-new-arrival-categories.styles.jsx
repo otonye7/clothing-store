@@ -1,9 +1,11 @@
 import styled  from 'styled-components';
 
 export const SorelCategoriesContainer = styled.div `
-  width: 100%;
+   width: 98%;
   display: flex;
   justify-content: space-around;
+  margin: 0 auto;
+  padding-top: 10rem;
 
   .colors-items: {
     width: 15%;

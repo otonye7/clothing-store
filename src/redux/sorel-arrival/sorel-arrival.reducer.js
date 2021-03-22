@@ -2,7 +2,7 @@ const INITIAL_STATE = {
     sections: [{
                 
         title: 'Womens Sorel Caribou Boots Buff',
-        imageUrl: 'https://cdn.shopify.com/s/files/1/0230/0765/products/F14_NL1005_280_f_1024x1024.jpg?v=1571709644',
+        imageUrl: 'https://i.ebayimg.com/images/g/udcAAOSwsQpfMZOl/s-l300.jpg',
         id: 1,
         color: 'Brown',
         brands: 'Sorel',
@@ -12,7 +12,7 @@ const INITIAL_STATE = {
     },
     {
         title: 'Mens Sorel Caribou Boots Buff',
-        imageUrl: 'https://cdn.shopify.com/s/files/1/0230/0765/products/F14_NL1005_280_m_1024x1024.jpg?v=1571709644',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0017/5007/3404/products/Women_s_Sorel_Caribou_Boots_Buff_1003812280_6_1024x1024.jpg?v=1581093834',
         id: 2,
         color: 'BROWN',
         brands: 'SOREL',
@@ -22,7 +22,7 @@ const INITIAL_STATE = {
     },
     {
         title: 'Womens Sorel Out N About Plus Felt Boots Quarry',
-        imageUrl: 'https://images.journeys.com/images/products/1_577433_ZM_ALT1.JPG',
+        imageUrl: 'https://i.ebayimg.com/images/g/qqcAAOSw9vdfEaQ5/s-l640.jpg',
         id: 3,
         color: 'BLUE',
         brands: 'SOREL',
@@ -32,7 +32,7 @@ const INITIAL_STATE = {
     },
     {
         title: 'Sorel Jackets',
-        imageUrl: 'http://content.backcountry.com/images/items/900/SRL/SRL003H/BK.jpg',
+        imageUrl: 'https://i.pinimg.com/736x/dc/ca/f5/dccaf5a1306c4b892b9aef67d6c0bcdf.jpg',
         id: 4,
         color: 'BLACK',
         brands: 'SOREL',
