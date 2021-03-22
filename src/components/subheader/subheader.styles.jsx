@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const SubHeaderContainer = styled.div`
   /* position: fixed;
   z-index: 1; */
-  width: 95%;
+  width: 96%;
   margin: 0 auto;
  
 

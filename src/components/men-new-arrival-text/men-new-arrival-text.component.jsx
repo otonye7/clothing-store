@@ -9,7 +9,7 @@ const MenText = () => {
         <MenTextContainer>
             <div className='men-text'>
                 <h2 className ='men-new-text'>
-                    MEN NEW ARRIVAL
+                    MEN'S NEW ARRIVAL
                 </h2>
             </div>
         </MenTextContainer>

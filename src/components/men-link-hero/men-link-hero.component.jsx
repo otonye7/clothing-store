@@ -16,7 +16,7 @@ const MenLink = () => {
 
               <div className='men-container'>
                   <Link className='home'>
-                      Men Arrival 
+                      MENS NEW ARRIVAL
                   </Link>
               </div>
               </div>

@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 export const BrandsContainer = styled.div`
 width: 100%;
- margin-left: 1.5em;
  padding-top: 2em;
 
   
@@ -25,7 +24,8 @@ width: 100%;
  }
 
  .color-text {
-     
+    font-weight: 570;
+     font-size: 22px;
  }
 
 `;

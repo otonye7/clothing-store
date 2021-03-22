@@ -2,16 +2,21 @@ import styled from 'styled-components';
 
 
 export const RefineContainer = styled.div`
- width: 100%;
+ width: 98%;
  background-color: #F2F2F2;
- margin-left: 0em;
+
 
 
 
  .refine-container {
      width: 100%;
      display: flex;
-     justify-content: space-around;
+     justify-content: space-between;
+ }
+
+ .refine-text {
+    font-weight: 570;
+     font-size: 22px;
  }
 
  .refinelink {
@@ -25,9 +30,9 @@ export const RefineContainer = styled.div`
  }
 
  .line {
-     width: 81%;
+     width: 100%;
      border-bottom: 1px solid grey;
-     margin-left: 1.4em;
+     
  }
 
 `;

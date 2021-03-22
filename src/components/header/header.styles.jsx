@@ -2,14 +2,16 @@ import styled from 'styled-components';
 
 
 export const HeaderContainer = styled.div`
-  width: 100%;
+  width: 96%;
   padding-top: 2em;
- 
+  margin: 0 auto;
+  padding-bottom: 1em;
 
   .logo {
       width: 30%;
-      padding-left: 1em;
       color: #212b36;
+      
+
 
     @media screen and (max-width: 767px) { 
         width: 40%;
@@ -27,6 +29,7 @@ export const HeaderContainer = styled.div`
        width: 15%;
        display: flex;
        justify-content: space-between;
+    
 
     @media screen and (max-width: 767px) { 
         width: 25%;
@@ -34,7 +37,7 @@ export const HeaderContainer = styled.div`
    }
 
    .sign-out {
-       margin-top: 1em;
+      
        cursor: pointer;
    }
   .overall-container {
@@ -43,7 +46,7 @@ export const HeaderContainer = styled.div`
   }
   
   .cart-containers {
-      padding-top: 1.2em;
+      
       padding-right: 2em;
   }
 

@@ -3,8 +3,9 @@ import styled from 'styled-components';
 
 export const ColorContainer = styled.div`
  width: 100%;
- margin-left: 1.5em;
+ margin: 0 auto;
  padding-top: 2em;
+ 
 
   
  .color-container {
@@ -14,6 +15,7 @@ export const ColorContainer = styled.div`
  .line {
      width: 78%;
      border-bottom: 1px solid grey;
+     font-weight: 400;
     
  }
 
@@ -25,7 +27,8 @@ export const ColorContainer = styled.div`
  }
 
  .color-text {
-     
+     font-weight: 570;
+     font-size: 22px;
  }
 
 `;
