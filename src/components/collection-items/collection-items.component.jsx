@@ -4,6 +4,7 @@ import CustomButton from '../custom-button/custom-button.component';
 
 
 
+
 const CollectionItems = ({imageUrl, title, price, description}) => {
   
 
@@ -14,7 +15,8 @@ return (
         backgroundImage: `url(${imageUrl})`
     }} >
 
-    </div>  
+    </div>
+   
     </div>
 
     <div className='content'>
@@ -22,11 +24,15 @@ return (
             <br />
             <span className='price'>{price}</span>
             <br />
-            <CustomButton>Add to cart</CustomButton>
+            <br />
+            <CustomButton className='button'>Add to cart</CustomButton>
+            <br />
             <br />
              <h4 className='description-title'>Description</h4>
              <br />
+             <br />
              <div className='margin'></div>
+             <br />
              <br />
             <span className='description'>{description}</span>
     </div>

@@ -1,14 +1,16 @@
 import styled from 'styled-components';
 
 
+
+
 export const CollectionItemContainer = styled.div`
 display: flex;
 justify-content: space-around;
 width: 100%;
 
   .menu-items {
-      width: 50%;
-      height: 450px;
+      width: 40%;
+      height: 400px;
   }
 
   .background-image {
@@ -28,7 +30,10 @@ width: 100%;
     .custom-button {
         width: 100%;
         opacity: 0.5;
+        
 }
+
+
 
 &:hover {
         .image {
@@ -51,8 +56,9 @@ width: 100%;
 .title {
     
     margin-bottom: 15px;
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 500;
+
 }
 
 .description-title {
@@ -68,4 +74,5 @@ width: 100%;
     font-size: 28px;
     font-weight: 500;
 }
+
 `;

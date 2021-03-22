@@ -92,7 +92,7 @@ const INITIAL_STATE = {
     },
     {
         title: 'Mens Timberland Tree Logo Hoodie Black',
-        imageUrl: 'https://images.timberland.com/is/image/timberland/A1EUA001-HERO?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0',
+        imageUrl: 'https://images.timberland.com/is/image/timberland/A1N9B001-HERO?$PDP-FULL-IMAGE$',
         id: 10,
         color: 'BLACK',
         brands: 'TIMBERLAND',
@@ -112,7 +112,7 @@ const INITIAL_STATE = {
     },
     {
         title: 'Mens Timberland Boot Logo Hoodie Black',
-        imageUrl: 'https://resources.mandmdirect.com/Images/_default/t/m/2/tm2647_1_cloudzoom.jpg',
+        imageUrl: 'https://images.timberland.com/is/image/TimberlandEU/A28TM001-hero?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0',
         id: 12,
         color: 'BLACK',
         brands: 'TIMBERLAND',
@@ -121,10 +121,10 @@ const INITIAL_STATE = {
         price: 68
     },
     {
-        title: 'Mens New Balance Shando Shoes Black',
-        imageUrl: 'https://5.kixify.com/sites/default/files/imagecache/product_full/product/2020/08/31/p_30948261_178352216_2661011.jpg',
+        title: 'Mens New Balance Shando Shoes Orange',
+        imageUrl: 'https://www.lauriesshoes.com/wp-content/uploads/2020/10/mtshalr_nb_02_i.jpg',
         id: 13,
-        color: 'BLACK',
+        color: 'ORANGE',
         brands: 'NEW BALANCE',
         linkUrl: '/mens-newbalance-shando-shoes-black',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
@@ -132,7 +132,7 @@ const INITIAL_STATE = {
     },
     {
         title: 'Mens Lacoste x National Geographic Organic Sweatshirt Grey',
-        imageUrl: 'https://www.sportinglife.ca/dw/image/v2/BCLQ_PRD/on/demandware.static/-/Sites-spl-master/default/dw0f1a0545/images/default/25441379_NAVY_3.JPG?sw=700',
+        imageUrl: 'https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-AEECOM-Site/Sites-master/en_AE/dw82330082/PH6286_6NW_32.jpg?imwidth=915&impolicy=product',
         id: 14,
         color: 'GREY',
         brands: 'LACOSTE',
@@ -142,7 +142,7 @@ const INITIAL_STATE = {
     },
     {
         title: 'Mens Lacoste x National Geographic Organic Sweatshirt Navy',
-        imageUrl: 'https://imagena1.lacoste.com/dw/image/v2/AAUP_PRD/on/demandware.static/-/Sites-master/default/dw06520aaf/SJ6406_6U1_24.jpg?imwidth=840&impolicy=custom',
+        imageUrl: 'https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-SE-Site/Sites-master/en_SE/dw58491f67/SH1551_423_31.jpg?imwidth=915&impolicy=product',
         id: 15,
         color: 'NAVY',
         brands: 'LACOSTE',
@@ -152,7 +152,7 @@ const INITIAL_STATE = {
     },
     {
         title: 'Mens Converse Pro Leather Sneakers "White Ice"',
-        imageUrl: 'https://cdnb.lystit.com/photos/slamjamsocialism/SJGB33113-White-8362e604-.jpeg',
+        imageUrl: 'https://cdna.lystit.com/photos/sevenstore/44ce3e6b/converse-WhiteEgretBlack-X-Ibn-Jasper-Pro-Leather-Mid-Sneaker.jpeg',
         id: 16,
         color: 'WHITE',
         brands: 'CONVERSE',
@@ -179,68 +179,7 @@ const INITIAL_STATE = {
         linkUrl: '/mens-nike-air-max-270-react-shoes',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
         price: 160
-    },
-    {
-        title: 'Mens Champion Life Hoodie Chenille Big C Carefree Teal',
-        imageUrl: 'https://www-cdn.champion.com/catalog/product/H/N/HNS_S7845586019/HNS_S7845586019_CarefreeTeal_Front.jpg?optimize=high&auto=webp&quality=85,65&fit=cover&width=700',
-        id: 19,
-        color: 'BLUE',
-        brands: 'CHAMPION',
-        linkUrl: '/mens-champion-life-hoodie-chenille-big-c-carefree-teal',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
-        price: 70
-    },
-    {
-        title: 'Mens Champion Life Reverse Weave Hoodie Caviar Brown',
-        imageUrl: 'https://cdn.shopify.com/s/files/1/0017/5007/3404/products/Men_sadidasOriginalsAdicolorPolarFleeceHoodieBlackGE5212_10_1024x1024.jpg?v=1605023342',
-        id: 20,
-        color: 'BROWN',
-        brands: 'CHAMPION',
-        linkUrl: '/mens-champion-life-reverse-weave-hoodie-caviar-brown',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
-        price: 60
-    },
-    {
-        title: 'Mens adidas Originals R.Y.V. Hoodie Legacy Red',
-        imageUrl: 'https://cdna.lystit.com/photos/jdsports/6ecbc165/adidas-originals-Legacy-Red-Ryv-Hoodie.jpeg',
-        id: 21,
-        color: 'RED',
-        brands: 'ADIDAS',
-        linkUrl: '/mens-adidas-originals-r-y-v-hoodie-legacy-red',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
-        price: 70
-    },
-    {
-        title: 'Mens adidas Originals Adicolor Polar Fleece Sweatshirt Purple',
-        imageUrl: 'https://cdn.shopify.com/s/files/1/0017/5007/3404/products/Men_sadidasOriginalsAdicolorPolarFleeceSweatshirtPurpleGE0842_10_1024x1024.jpg?v=1604985220',
-        id: 22,
-        color: 'PURPLE',
-        brands: 'ADIDAS',
-        linkUrl: '/mens-adidas-originals-adicolor-polar=fleece-sweatshirt-purple',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
-        price: 75
-    },
-    {
-        title: 'Mens adidas Originals Outline Trefoil Logo Hoodie Royal Blue',
-        imageUrl: 'https://i.pinimg.com/originals/a3/0c/15/a30c15a8c410ae02826ccf22aa674d88.jpg',
-        id: 23,
-        color: 'BLUE',
-        brands: 'ADIDAS',
-        linkUrl: '/mens-adidas-originals-outline-trefoil-logo-hoodie-royal-blue',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
-        price: 65
-    },
-    {
-        title: 'Mens adidas Originals Goofy Crew Sweatshirt Black',
-        imageUrl: 'https://i.ebayimg.com/images/g/QzcAAOSwyN5fNOBL/s-l640.jpg',
-        id: 24,
-        color: 'BLUE',
-        brands: 'ADIDAS',
-        linkUrl: '/mens-adidas-originals-goofy-crew-sweatshirt-black',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
-        price: 90
     }
-
 ]
 };
 
