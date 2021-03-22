@@ -6,6 +6,8 @@ export const SubHeaderContainer = styled.div`
   z-index: 1; */
   width: 96%;
   margin: 0 auto;
+  padding-bottom: 1em;
+  
  
 
 .nav-menu {

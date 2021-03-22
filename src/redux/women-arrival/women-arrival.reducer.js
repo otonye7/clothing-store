@@ -2,7 +2,7 @@ const INITIAL_STATE = {
     sections: [{
                 
         title: 'Womens New Balance 574 Shoes White',
-        imageUrl: 'https://media.journeys.com/images/products/1_495414_ZM.JPG',
+        imageUrl: 'https://cdnc.lystit.com/photos/5660-2015/08/25/new-balance-white-574-leather-sneaker-product-0-345404013-normal.jpeg',
         id: 1,
         color: 'WHITE',
         brands: 'NEW BALANCE',
@@ -12,7 +12,7 @@ const INITIAL_STATE = {
     },
     {
         title: 'Womens Nike Sportswear Heritage Joggers',
-        imageUrl: 'https://n.nordstrommedia.com/id/sr3/25bbb3bf-277a-427c-a35d-9efcc9017ad1.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196',
+        imageUrl: 'https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ce607086-0dcc-408b-a693-4839dc6e07a8/sportswear-heritage-fleece-joggers-bbF2RK.jpg',
         id: 2,
         color: 'BLACK',
         brands: 'NIKE',
@@ -42,7 +42,7 @@ const INITIAL_STATE = {
     },
     {
         title: 'Womens adidas Essentials Loungewear 3-Stripes Leggings',
-        imageUrl: 'https://www.hyperoutlet.cz/adidas-womens-essentials-3-stripes-leggings-med-grey-515551--460.jpg',
+        imageUrl: 'https://assetmanagerpim-res.cloudinary.com/images/082f31a282c24f82b63cac3a00cc6141_9366/GL0723_42_detail.jpg',
         id: 5,
         color: 'GRAY',
         brands: 'ADIDAS',
@@ -52,7 +52,7 @@ const INITIAL_STATE = {
     },
     {
         title: 'adidas Utility Backpack Black',
-        imageUrl: 'https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw9901663f/product_images/0644505030105NEW_00_001.jpg?sw=690&sh=1070&sm=fit',
+        imageUrl: 'https://i.pinimg.com/originals/63/83/5a/63835aee14e5592e3077e81c8c902870.jpg',
         id: 6,
         color: 'BLACK',
         brands: 'ADIDAS',
@@ -72,7 +72,7 @@ const INITIAL_STATE = {
     },
     {
         title: 'Womens Columbia Bugaboo 1986 Interchange Jacket Green',
-        imageUrl: 'https://cdna.lystit.com/photos/moosejaw/4867d589/columbia-Peatmoss-Bugaboo-1986-Interchange-Jacket.jpeg',
+        imageUrl: 'https://www.shinzo.paris/2971-thickbox_default/columbia-bugaboo-1986-interchange-jacket.jpg?__cf_chl_jschl_tk__=ec7b1ac04e2ac7c02d4aa4557562009c0788adf3-1616434350-0-AW5pZ16ktnaIbFfeiX0h4yFPiCWoLkXj228QWXpNG3f1jXzFXzFEpgakEnxGaGxrRkCs1aQAX0JsV7JANVWuv4mACDJ8oDX-26PvfVTHG-OBlHRoVzZw-8KmSit-S4fXf5fpN29-A9MFSKJcc57q5svolR8WDS6nNPDovoyOVGocvmA6F1Fb-jd2wBBr3Vm4xVS9Z60fLBYmwtmbjrs0qiIwveCNMLfRopIcRSbMa5URfg3cin4L13FE3rxJ-SUm-7eta9szyMI7w-Cp62wFDtk7YhPmtHkTj8wUGimdP87nUrinG-2J9K5rkfmTrY61fWAJU9rEAaR_5k24CvTTZhgbeYrtO6JT1UXj-l3FqQXQX8-veDFORlbsCoIgfKvlK0RYDkwfpdbFpbJIaiIhHf7mmVWmNvLW_Kx_EaqbDorv',
         id: 8,
         color: 'GREEN',
         brands: 'BUGABOO',
@@ -82,7 +82,7 @@ const INITIAL_STATE = {
     },
     {
         title: 'Womens adidas Originals Superstar Shoes White Gold',
-        imageUrl: 'https://www.bigsalemax.com/wp-content/uploads/2018/03/Adidas-Originals-Superstar-White-Gold-Mens-Womens-Casual-Sneakers-Shoes-1.jpg',
+        imageUrl: 'https://www.alwayslongfor.com/media/catalog/product/cache/1/thumbnail/1000x1231/17f82f742ffe127f42dca9de82fb58b1/f/o/fouth416-1.jpg',
         id: 9,
         color: 'WHITE',
         brands: 'ADIDAS',

@@ -38,6 +38,8 @@ const WomenPage = ({match}) => {
              <Route path={`${match.path}/:womens-columbia-bugaboo-1986-interchange-jacket-green`} component={WomenBugabooPage} />
              <Route path={`${match.path}/:womens-adidas-originals-superstar-shoes-white-gold`} component={SuperstarGoldPage} />
             </div>
+            <br />
+            <br />
             <div className='footer'>
               <Footer />
             </div>
