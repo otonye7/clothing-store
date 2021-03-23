@@ -2,22 +2,22 @@ const INITIAL_STATE = {
     sections: [{
                 
         title: 'Unisex Romantic Crown RMTC Logo Pocket Sweatshirt Navy',
-        imageUrl: 'http://romanticcrown.com/web/product/big/201910/11f576398d29ac6224044c3fe734d728.jpg',
+        imageUrl: 'https://www.thebounce.co.kr/web/product/medium/201910/142ec6096e963a83437b880d9e69fb72.jpg',
         id: 1,
         color: 'NAVY',
         brands: 'ROMANTIC CROWN',
         linkUrl: '/unisex-romantic-crown-rmtc-logo-pocket-sweatshirt-navy',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'A collaboration between Crown and National Geographic has come to fruition with a 100% organic cotton fleece sweatshirt. The Lacoste sweatshirt is designed with ribbed finishes on the crew neck, cuffs and hem. A unique Lacoste croc is embroidered with an animal print. Elevate your sweatshirt collection. Comes in a heathered Grey Chine hue.',
         price: 80
     },
     {
         title: 'Unisex Romantic Crown Logo Sweatshirt Cream',
-        imageUrl: 'http://m.romanticcrown.com/web/product/medium/201902/ab552bd96975c57d5ddc94accd81643b.jpg',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0017/5007/3404/products/Romantic-Crown_RC-VIDEO-SWEATSHIRT-OATMEAL_RCHO1803OAT_01_1024x1024.jpg?v=1554734836',
         id: 2,
         color: 'CREAM',
         brands: 'ROMANTIC CROWN',
         linkUrl: '/unisex-romantic-crown-logo-sweatshirt-cream',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'A collaboration between Crown and National Geographic has come to fruition with a 100% organic cotton fleece sweatshirt. The Lacoste sweatshirt is designed with ribbed finishes on the crew neck, cuffs and hem. A unique Lacoste croc is embroidered with an animal print. Elevate your sweatshirt collection. Comes in a heathered Grey Chine hue.',
         price: 26
     },
     {
@@ -27,17 +27,17 @@ const INITIAL_STATE = {
         color: 'CREAM',
         brands: 'ROMANTIC CROWN',
         linkUrl: '/mens-romantic-crown-cream',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'A collaboration between Crown and National Geographic has come to fruition with a 100% organic cotton fleece sweatshirt. The Lacoste sweatshirt is designed with ribbed finishes on the crew neck, cuffs and hem. A unique Lacoste croc is embroidered with an animal print. Elevate your sweatshirt collection. Comes in a heathered Grey Chine hue.',
         price: 55
     },
     {
         title: 'Unisex Romantic Crown Logo Sweatshirt Grey',
-        imageUrl: 'https://i.pinimg.com/originals/f6/78/9b/f6789b6c779097780a6f7827963d7ab7.jpg',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0017/5007/3404/products/Romantic-Crown_Easy-Day-Vibe-Hoodie_Grey_3191KP400215_01.jpg?v=1554735350',
         id: 4,
         color: 'GREY',
         brands: 'ROMANTIC CROWN',
         linkUrl: '/unisex-romantic-crown-logo-sweatshirt-grey',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'A collaboration between Crown and National Geographic has come to fruition with a 100% organic cotton fleece sweatshirt. The Lacoste sweatshirt is designed with ribbed finishes on the crew neck, cuffs and hem. A unique Lacoste croc is embroidered with an animal print. Elevate your sweatshirt collection. Comes in a heathered Grey Chine hue.',
         price: 55
     },
     {
@@ -47,37 +47,37 @@ const INITIAL_STATE = {
         color: 'BLUE',
         brands: 'ROMANTIC CROWN',
         linkUrl: '/romantic-crown-blue',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'A collaboration between Crown and National Geographic has come to fruition with a 100% organic cotton fleece sweatshirt. The Lacoste sweatshirt is designed with ribbed finishes on the crew neck, cuffs and hem. A unique Lacoste croc is embroidered with an animal print. Elevate your sweatshirt collection. Comes in a heathered Grey Chine hue.',
         price: 130
     },
     {
         title: 'Unisex Romantic Crown Corduroy Trooper Hat Yellow',
-        imageUrl: 'https://image.msscdn.net/images/prd_img/20190911/1151942/detail_1151942_1_500.jpg',
+        imageUrl: 'https://image.msscdn.net/images/goods_img/20190911/1151942/1151942_1_500.jpg',
         id: 6,
         color: 'GOLD',
         brands: 'ROMANTIC CROWN',
         linkUrl: '/unisex-romantic-crown-corduroy-trooper-hat-yellow',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'A collaboration between Crown and National Geographic has come to fruition with a 100% organic cotton fleece sweatshirt. The Lacoste sweatshirt is designed with ribbed finishes on the crew neck, cuffs and hem. A unique Lacoste croc is embroidered with an animal print. Elevate your sweatshirt collection. Comes in a heathered Grey Chine hue.',
         price: 279
     },
     {
         title: 'Mens Romantic Crown Milk',
-        imageUrl: 'https://www.romanticcrown.com/web/product/medium/201909/ab63d8bd2bb4994fa3e219632240dc56.jpg',
+        imageUrl: 'https://i.pinimg.com/originals/10/94/b1/1094b1c001cee4c8e8ad90501889a10b.jpg',
         id: 7,
         color: 'MILK',
         brands: 'ROMANTIC CROWN',
         linkUrl: '/mens-romantic-crown-milk',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'A collaboration between Crown and National Geographic has come to fruition with a 100% organic cotton fleece sweatshirt. The Lacoste sweatshirt is designed with ribbed finishes on the crew neck, cuffs and hem. A unique Lacoste croc is embroidered with an animal print. Elevate your sweatshirt collection. Comes in a heathered Grey Chine hue.',
         price: 80
     },
     {
         title: 'Unisex Romantic Crown Color Logo Sweatshirt Purple',
-        imageUrl: 'https://img06.shop-pro.jp/PA01135/036/product/148718899_o11.jpg?cmsp_timestamp=20200214190545',
+        imageUrl: 'https://img06.shop-pro.jp/PA01135/036/product/148718899_o9.jpg?cmsp_timestamp=20200214190545',
         id: 8,
         color: 'PURPLE',
         brands: 'ROMANTIC CROWN',
         linkUrl: '/unisex-romantic-crown-color-logo-sweatshirt-purple',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'A collaboration between Crown and National Geographic has come to fruition with a 100% organic cotton fleece sweatshirt. The Lacoste sweatshirt is designed with ribbed finishes on the crew neck, cuffs and hem. A unique Lacoste croc is embroidered with an animal print. Elevate your sweatshirt collection. Comes in a heathered Grey Chine hue.',
         price: 199
     },
     {

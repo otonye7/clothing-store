@@ -39,6 +39,8 @@ const RomanticCrownPage = ({match}) => {
                  <Route path={`${match.path}/:romantic-crown-black`} component={RcBlackPage} />
               </div>
             </div>
+            <br />
+            <br />
             <div className='footer'>
                <Footer />
             </div>
