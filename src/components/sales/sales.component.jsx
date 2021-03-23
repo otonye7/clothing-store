@@ -11,7 +11,7 @@ const Sales = () => {
 
     <SalesContainer>
            <Swiper
-                spaceBetween={50}
+                spaceBetween={60}
                 slidesPerView= 'auto'
             >
                 <SwiperSlide className='image'></SwiperSlide>

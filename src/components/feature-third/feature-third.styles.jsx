@@ -4,7 +4,7 @@ import NewBalance from '../../assets/delta.jpg';
 
 export const FeaturedContainer = styled.div`
  width: 22%;
-   height: 100%;
+   height: 40vh;
    display: flex;
    justify-content: space-around;
 
@@ -17,7 +17,7 @@ export const FeaturedContainer = styled.div`
 
    .third-image {
     width: 100%;
-    height: 15rem;
+    height: 100%;
     background-image: url(${NewBalance});
     background-position: center;
     background-size: cover;

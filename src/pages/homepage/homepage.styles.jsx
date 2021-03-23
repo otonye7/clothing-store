@@ -30,6 +30,8 @@ export const HomepageContainer = styled.div`
  }
 
  .crown {
+     width: 100%;
+     height: 100%;
      display: flex;
      margin: 0 auto;
      justify-content: space-around;

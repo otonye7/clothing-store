@@ -5,7 +5,7 @@ import Romantic from  '../../assets/collectibles.jpg';
 export const SubHeroContainer = styled.div`
 position: relative;
  width: 45%;
- height: 100%;
+ height: 51.2vh;
  background-color: #F2F2F2;
  margin-top: 1em;
 
@@ -19,7 +19,7 @@ position: relative;
  .image {
     position: relative;
     width: 100%;
-    height: 20rem;
+    height: 51.2vh;
     background-image: url(${Romantic});
     background-position: center;
     background-size: cover;

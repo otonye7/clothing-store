@@ -4,7 +4,7 @@ import Gazelle from '../../assets/gazelletwo.jpg';
 
 export const FeaturedContainer = styled.div`
  width: 22%;
-   height: 100%;
+   height: 40vh;
    
   
 
@@ -17,7 +17,7 @@ export const FeaturedContainer = styled.div`
 
    .second-image {
     width: 100%;
-    height: 15rem;
+    height: 100%;
     background-image: url(${Gazelle});
     background-position: center;
     background-size: cover;

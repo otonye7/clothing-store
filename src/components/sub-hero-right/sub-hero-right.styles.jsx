@@ -7,9 +7,10 @@ import NikeSub from  '../../assets/women-adidas.jpg';
 export const SubHeroContainer = styled.div`
 position: relative;
  width: 45%;
- height: 100%;
+ height: 95vh;
  background-color: #F2F2F2;
  margin-top: 1em;
+ 
 
 
  
@@ -23,16 +24,20 @@ position: relative;
  .image {
     position: relative;
     width: 100%;
-    height: 37rem;
+    height: 94vh;
     background-image: url(${NikeSub});
     background-position: center;
     background-size: cover;
+    object-fit: cover;
 
     @media screen and (max-width: 767px){
       width: 100%;
       margin-bottom: 2em;
       height: 27rem;
-}
+      background-position: center;
+    background-size: cover;
+    object-fit: cover;
+} 
    }
 
    .shop-left {
@@ -51,6 +56,7 @@ position: relative;
 
    .container {
        width: 80%;
+       height: 10rem;
        margin: 0 auto;
        
 

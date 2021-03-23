@@ -8,6 +8,7 @@ import Doublemax from '../../assets/doublemax.jpg';
 
 export const SalesContainer = styled.div`
  width: 95%;
+ 
    
    display: flex;
    justify-content: space-around;
