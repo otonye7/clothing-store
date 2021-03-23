@@ -72,7 +72,7 @@ const INITIAL_STATE = {
     },
     {
         title: 'Womens Columbia Bugaboo 1986 Interchange Jacket Green',
-        imageUrl: 'https://www.shinzo.paris/2971-thickbox_default/columbia-bugaboo-1986-interchange-jacket.jpg?__cf_chl_jschl_tk__=ec7b1ac04e2ac7c02d4aa4557562009c0788adf3-1616434350-0-AW5pZ16ktnaIbFfeiX0h4yFPiCWoLkXj228QWXpNG3f1jXzFXzFEpgakEnxGaGxrRkCs1aQAX0JsV7JANVWuv4mACDJ8oDX-26PvfVTHG-OBlHRoVzZw-8KmSit-S4fXf5fpN29-A9MFSKJcc57q5svolR8WDS6nNPDovoyOVGocvmA6F1Fb-jd2wBBr3Vm4xVS9Z60fLBYmwtmbjrs0qiIwveCNMLfRopIcRSbMa5URfg3cin4L13FE3rxJ-SUm-7eta9szyMI7w-Cp62wFDtk7YhPmtHkTj8wUGimdP87nUrinG-2J9K5rkfmTrY61fWAJU9rEAaR_5k24CvTTZhgbeYrtO6JT1UXj-l3FqQXQX8-veDFORlbsCoIgfKvlK0RYDkwfpdbFpbJIaiIhHf7mmVWmNvLW_Kx_EaqbDorv',
+        imageUrl: 'https://photos.queens.cz/original/2020-10/columbia-bugaboo-1986-interchange-jacket-105005_5.jpg',
         id: 8,
         color: 'GREEN',
         brands: 'BUGABOO',

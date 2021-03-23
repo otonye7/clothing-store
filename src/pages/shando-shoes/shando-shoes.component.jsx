@@ -16,8 +16,8 @@ const ShandoShoesPage = ({sections}) => {
            <TreyfoilContainer>
               <div className='left-side'>
                   {
-                    sections.filter((item, id) => id === 0).map(({id, imageUrl}) => (
-                      <CollectionItems key={id} imageUrl={imageUrl}/>
+                    sections.filter((item, id) => id === 0).map(({id, imageUrl, title, description, price}) => (
+                      <CollectionItems key={id} imageUrl={imageUrl} title={title} description={description} price={price}/>
                     ))
                   }
               </div>
