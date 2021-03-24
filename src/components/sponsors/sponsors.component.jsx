@@ -15,6 +15,10 @@ const Sponsors = () => {
                  <div className='jumpman'></div>
             
                 <div className='nb'></div>
+
+                
+                <div className='nike'></div>
+                
                 
            
         </SponsorsContainer>

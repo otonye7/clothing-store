@@ -39,7 +39,9 @@ const Homepage = () => {
                 <SubHeroRight />
               </div>
                <br />
-              <Sponsors />
+               <div className='sponsors'>
+                 <Sponsors />
+               </div> 
               <div className='sorel'>
                 <Sorel />
                 <SorelRight />

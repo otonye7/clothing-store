@@ -24,6 +24,14 @@ export const HomepageContainer = styled.div`
       flex-direction: column;
 }
  }
+
+ .sponsors {
+    width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: space-between;
+ }
+
  .sorel {
      width: 100%;
      height: 100%;

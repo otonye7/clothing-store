@@ -1,30 +1,98 @@
 import styled from 'styled-components';
-// import Nike from  '../../assets/doit.svg';
+import  Champion from  '../../assets/champion.png';
 import Adidas from  '../../assets/adi.svg';
-import Converse from  '../../assets/converse.svg';
- import Birken from  '../../assets/birken.svg';
+import Converse from  '../../assets/converse.png';
+ import Jumpman from  '../../assets/nb.png';
+ import Nike from  '../../assets/nike.png';
 // import Nb from  '../../assets/nb.png';
 
 
 
 
 export const SponsorsContainer = styled.div`
-  width: 98%;
-  height: 5rem;
-  margin: 0 auto;
-  background-color: #F2F2F2;
-  display: flex;
-  justify-content: space-between;
+   position: relative;
+   width: 1250px;
+   height: 3.2rem;
+   margin-top: 1em;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
 
   @media screen and (max-width: 800px){
       display: none;
 }
 
 
-  .adidas-container {
-      width: 10%;
-  }
+.adidas {
+    position: relative;
+    width: 6%;
+    height: 2.7rem;
+    object-fit: cover;
+    background-image: url(${Adidas});
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    @media screen and (max-width: 767px){
+      display: none;
+}
+   }
 
+   .converse {
+    position: relative;
+    width: 6%;
+    height: 2.7rem;
+    object-fit: cover;
+    background-image: url(${Converse});
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    @media screen and (max-width: 767px){
+      display: none;
+}
+   }
+
+   .champion {
+    position: relative;
+    width: 6%;
+    height: 2.7rem;
+    object-fit: cover;
+    background-image: url(${Champion});
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    @media screen and (max-width: 767px){
+      display: none;
+}
+   }
+
+   .jumpman {
+    position: relative;
+    width: 6%;
+    height: 2.7rem;
+    object-fit: cover;
+    background-image: url(${Jumpman});
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    @media screen and (max-width: 767px){
+      display: none;
+}
+   }
+
+
+   .nike {
+    position: relative;
+    width: 6%;
+    height: 2.7rem;
+    object-fit: cover;
+    background-image: url(${Nike});
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    @media screen and (max-width: 767px){
+      display: none;
+}
+   }
 /* 
   .adidas {
     width: 10%;
