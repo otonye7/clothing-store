@@ -2,12 +2,12 @@ const INITIAL_STATE = {
     sections: [{
                 
         title: 'Mens Lacoste SPORT Hooded Fleece Sweatshirt Grey Chine',
-        imageUrl: 'https://cdnb.lystit.com/photos/lacoste/9e66645f/lacoste-Navy-Blue-Grey-Chine-Sport-Hooded-Fleece-Tennis-Sweatshirt.jpeg',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0017/5007/3404/products/SH1519_GY5_24_1024x1024.jpg?v=1604934288',
         id: 1,
         color: 'BLUE',
         brands: 'LACOSTE',
         linkUrl: '/mens-lacoste-sport-hooded-fleece-sweatshirt-grey-chine',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'The new arrival "Covellite" utilizes the naturally occurring, stunning blue mineral as its muse for this seasons release. Constructed with a Primeknit upper, the Yeezy "Covellite" comes dressed in hues of blue ranging from grey-ish tones to darker blues. Complementary ink lands on the laces and the collar. The uppers sit atop of full length Boost in a semi-translucent earthy midsole with gum outsoles. Comfort and style being synonymous with Yeezys due to adidas signature Boost technology.',
         price: 80
     },
     {
@@ -17,7 +17,7 @@ const INITIAL_STATE = {
         color: 'ORANGE',
         brands: 'JORDAN',
         linkUrl: '/mens-air-jordan-1-mid-se-turf-orange',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'The new arrival "Covellite" utilizes the naturally occurring, stunning blue mineral as its muse for this seasons release. Constructed with a Primeknit upper, the Yeezy "Covellite" comes dressed in hues of blue ranging from grey-ish tones to darker blues. Complementary ink lands on the laces and the collar. The uppers sit atop of full length Boost in a semi-translucent earthy midsole with gum outsoles. Comfort and style being synonymous with Yeezys due to adidas signature Boost technology.',
         price: 26
     },
     {
@@ -27,17 +27,17 @@ const INITIAL_STATE = {
         color: 'BLACK',
         brands: 'TIMBERLAND',
         linkUrl: '/mens-timberland-boot-logo-hoodie-black',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'The new arrival "Covellite" utilizes the naturally occurring, stunning blue mineral as its muse for this seasons release. Constructed with a Primeknit upper, the Yeezy "Covellite" comes dressed in hues of blue ranging from grey-ish tones to darker blues. Complementary ink lands on the laces and the collar. The uppers sit atop of full length Boost in a semi-translucent earthy midsole with gum outsoles. Comfort and style being synonymous with Yeezys due to adidas signature Boost technology.',
         price: 55
     },
     {
         title: 'Mens adidas Essentials Trefoil Hoodie White',
-        imageUrl: 'https://cdna.lystit.com/photos/ssense/ce5b5f75/adidas-originals-grey-Grey-Trefoil-Essentials-Hoodie.jpeg',
+        imageUrl: 'https://www.cosmossport.gr/1666752-product_large/adidas-originals-adidas-tref-hdy.jpg',
         id: 4,
         color: 'WHITE',
         brands: 'ADIDAS',
         linkUrl: '/mens-adidas-Essentials-Trefoil-Hoodie-White',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'The new arrival "Covellite" utilizes the naturally occurring, stunning blue mineral as its muse for this seasons release. Constructed with a Primeknit upper, the Yeezy "Covellite" comes dressed in hues of blue ranging from grey-ish tones to darker blues. Complementary ink lands on the laces and the collar. The uppers sit atop of full length Boost in a semi-translucent earthy midsole with gum outsoles. Comfort and style being synonymous with Yeezys due to adidas signature Boost technology.',
         price: 55
     },
     {
@@ -47,7 +47,7 @@ const INITIAL_STATE = {
         color: 'MULTICOLOR',
         brands: 'JORDAN',
         linkUrl: '/mens-jordan-delta-breathe-multicolor',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'The new arrival "Covellite" utilizes the naturally occurring, stunning blue mineral as its muse for this seasons release. Constructed with a Primeknit upper, the Yeezy "Covellite" comes dressed in hues of blue ranging from grey-ish tones to darker blues. Complementary ink lands on the laces and the collar. The uppers sit atop of full length Boost in a semi-translucent earthy midsole with gum outsoles. Comfort and style being synonymous with Yeezys due to adidas signature Boost technology.',
         price: 130
     },
     {
@@ -57,7 +57,7 @@ const INITIAL_STATE = {
         color: 'GOLD',
         brands: 'THE NORTH FACE',
         linkUrl: '/mens-the-north-face-1996-retro-nuptse-jacket-summit-gold',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'The new arrival "Covellite" utilizes the naturally occurring, stunning blue mineral as its muse for this seasons release. Constructed with a Primeknit upper, the Yeezy "Covellite" comes dressed in hues of blue ranging from grey-ish tones to darker blues. Complementary ink lands on the laces and the collar. The uppers sit atop of full length Boost in a semi-translucent earthy midsole with gum outsoles. Comfort and style being synonymous with Yeezys due to adidas signature Boost technology.',
         price: 279
     }
 ]

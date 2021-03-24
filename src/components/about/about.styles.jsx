@@ -11,7 +11,7 @@ export const AboutContainer = styled.div`
 }
 
  .overall {
-     width: 98%;
+     width: 96%;
      height: 100%;
      margin: 0 auto;
      background-color: #fafafa;

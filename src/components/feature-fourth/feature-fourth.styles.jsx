@@ -6,7 +6,7 @@ import Adidas from  '../../assets/jordandelta.jpg';
 export const FeaturedContainer = styled.div`
     width: 300px;
    height: 17rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
    @media screen and (max-width: 767px){
       display: flex;
       flex-direction: column;

@@ -6,7 +6,7 @@ import NikeSub from  '../../assets/women-adidas.jpg';
 
 export const SubHeroContainer = styled.div`
 position: relative;
- width: 610px;
+ width: 632px;
  height: 37rem;
  background-color: #F2F2F2;
  margin-top: 1em;

@@ -3,15 +3,15 @@ import  Champion from  '../../assets/champion.png';
 import Adidas from  '../../assets/adi.svg';
 import Converse from  '../../assets/converse.png';
  import Jumpman from  '../../assets/nb.png';
- import Nike from  '../../assets/nike.png';
-// import Nb from  '../../assets/nb.png';
+ import Nike from  '../../assets/doit.svg';
+import Lacoste from  '../../assets/lacoste.png';
 
 
 
 
 export const SponsorsContainer = styled.div`
    position: relative;
-   width: 1250px;
+   width: 1300px;
    height: 3.2rem;
    margin-top: 1em;
    margin: 0 auto;
@@ -93,6 +93,21 @@ export const SponsorsContainer = styled.div`
       display: none;
 }
    }
+
+   .lacoste {
+    position: relative;
+    width: 6%;
+    height: 2.7rem;
+    object-fit: cover;
+    background-image: url(${Lacoste});
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    @media screen and (max-width: 767px){
+      display: none;
+}
+   }
+
 /* 
   .adidas {
     width: 10%;
