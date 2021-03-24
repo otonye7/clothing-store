@@ -19,11 +19,11 @@ const SubHeader = ({open}) => {
                 </li>
 
                 <li className='nav-items'>
-                    <Link activeClassName='active' className='links'>WOMEN</Link>
+                    <Link activeClassName='active' to='/women' className='links'>WOMEN</Link>
                 </li>
 
                 <li className='nav-items'>
-                    <Link activeClassName='active' className='links'>KIDS</Link>
+                    <Link activeClassName='active' to='/kids' className='links'>KIDS</Link>
                 </li>
 
                 <li className='nav-items'>
@@ -31,7 +31,7 @@ const SubHeader = ({open}) => {
                 </li>
 
                 <li className='nav-items'>
-                    <Link activeClassName='active' className='links'>BRANDS</Link>
+                    <Link activeClassName='active' to='/brands' className='links'>BRANDS</Link>
                 </li>
 
                 <li className='nav-items'>

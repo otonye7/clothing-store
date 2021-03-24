@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import NikeSub from  '../../assets/women-adidas.jpg';
+import NikeSub from  '../../assets/nikecortez.jpg';
 
 
 

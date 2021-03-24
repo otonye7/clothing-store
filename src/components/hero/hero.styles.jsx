@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Nike from  '../../assets/Nike-Roshe.jpg'
+import Nike from  '../../assets/nikec.jpeg'
 
 
 export const HeroContainer = styled.div`
