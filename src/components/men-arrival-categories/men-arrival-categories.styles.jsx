@@ -1,19 +1,20 @@
 import styled  from 'styled-components';
 
 export const MenCategoriesContainer = styled.div `
-  width: 98%;
+  width: 97.5%;
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
   padding-top: 10rem;
 
   .colors-items: {
-    width: 15%;
+    width: 20%;
     color: red;
+    border: 2px solid red;
   }
 
   .categories-items {
-    width: 85%;
+    width: 78%;
       display: flex;
       flex-direction: column;
   }

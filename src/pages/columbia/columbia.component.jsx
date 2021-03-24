@@ -37,6 +37,8 @@ const ColumbiaPage = ({match}) => {
                 <Route path={`${match.path}/:mens-columbia-bugaboo-1986-interchange-jacket-green`} component={ColumbiaGreenJacketPage} />
               </div>
             </div>
+            <br />
+            <br />
             <div className='footer'>
                <Footer />
             </div>

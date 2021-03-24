@@ -31,6 +31,8 @@ const NewBalancePage = ({match}) => {
                 <Route path={`${match.path}/:mens-new-balance-574-shoes-team-forest-green`} component={ForestGreenPage} />
               </div>
             </div>
+            <br />
+            <br />
             <div className='footer'>
               <Footer />
             </div>

@@ -7,7 +7,7 @@ margin-left: 3em;
       width: 90%;
       display: flex;
       flex-direction: column;
-      height: 160px;
+      height: 140px;
       align-items: center;
       position: relative;
   }
