@@ -5,6 +5,7 @@ export const NewBalanceCategoriesContainer = styled.div `
   display: flex;
   justify-content: space-around;
   padding-top: 10rem;
+  margin: 0 auto;
 
 
   .colors-items: {
