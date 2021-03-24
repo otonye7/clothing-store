@@ -4,22 +4,16 @@ import Nike from  '../../assets/Nike-Roshe.jpg'
 
 export const HeroContainer = styled.div`
  position: relative;
- width: 95%;
- height: 95vh;
+ width: 1250px;
+ height: 37rem;
  background-color: #F2F2F2;
  display: flex;
  justify-content: center;
  margin: 0 auto;
-
-
-
  @media screen and (max-width: 767px){
       height: 100%;
       width: 100%;
 }
-
-
-
  .image {
     position: relative;
     width: 100%;
@@ -27,14 +21,11 @@ export const HeroContainer = styled.div`
     background-image: url(${Nike});
     background-position: center;
     background-size: cover;
-
     @media screen and (max-width: 767px){
       width: 100%;
       height: 17em;
 }
    }
-
-
    .shop-left {
        position: absolute;
        width: 100%;
@@ -42,15 +33,12 @@ export const HeroContainer = styled.div`
        z-index: 1;
        text-align: center;
    }
-
-
    .shop-text {
        width: 100%;
        color: white;
        text-align: center;
        font-weight: 550;
    }
-
    .shop-link {
        text-decoration: none;
        color: black;
@@ -72,5 +60,4 @@ export const HeroContainer = styled.div`
     outline: none;
     cursor: pointer;
 }
-
 `;

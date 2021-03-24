@@ -29,7 +29,10 @@ const Homepage = () => {
            <div className='others'>
               {/* <Header /> */}
               <br />
-              <Hero />
+               <div className='hero'>
+                <Hero />
+              </div> 
+              
               <br />
               <div className='sub-hero'>
                 <SubHero />
