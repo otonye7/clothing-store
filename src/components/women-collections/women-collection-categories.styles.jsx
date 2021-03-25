@@ -5,12 +5,10 @@ export const MenCategoriesContainer = styled.div `
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
-  padding-top: 10rem;
 
   .colors-items: {
     width: 20%;
     color: red;
-    border: 2px solid red;
   }
 
   .categories-items {

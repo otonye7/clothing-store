@@ -8,6 +8,7 @@ import RomanticCrownPage from './pages/romantic-crown/romantic-crown.component';
 import ColumbiaPage from './pages/columbia/columbia.component';
 import NewArrivalPage from './pages/new-arrival/new-arrival.component';
 import MenCollectionPage from './pages/men-collection-arrival/men-collection-arrival.component';
+import WomenCollectionPage from './pages/women-collection-arrival/women-collection-arrival.component';
 import SignIn from './pages/sign-in/sign-in.component';
 import SignUp from './pages/sign-up-page/sign-up-page.component';
 import Header from './components/header/header.component';
@@ -65,6 +66,7 @@ class App extends React.Component {
           <Route path={'/columbia'} component={ColumbiaPage} />
           <Route path={'/new-arrival'} component={NewArrivalPage} />
           <Route path={'/men'} component={MenCollectionPage} />
+          <Route path={'/women'} component={WomenCollectionPage} />
           <Route path={'/signin'} component={SignIn} />
           <Route path={'/signup'} component={SignUp} />
 			</Switch>

@@ -9,6 +9,7 @@ import newBalanceReducer from  './new-balance-arrival/new-balance-arrival.reduce
 import romanticCrownReducer from './romantic-crown-arrival/romantic-crown-arrival.reducer';
 import columbiaReducer from './columbia-arrival/collumbia-arrival.reducer';
 import menCollectionReducer from './men/men.reducer';
+import womenCollectionReducer from './women/women.reducer';
 import newReducer from './new-arrival/new-arrival.reducer';
 
 const persistConfig  = {
@@ -26,7 +27,8 @@ const rootReducer = combineReducers({
     romanticCrown: romanticCrownReducer,
     columbia: columbiaReducer,
     news: newReducer,
-    menCollection: menCollectionReducer
+    menCollection: menCollectionReducer,
+    womenCollection: womenCollectionReducer
 });
 
 export default persistReducer(persistConfig, rootReducer)

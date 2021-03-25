@@ -23,7 +23,7 @@ const SubHeader = ({open}) => {
                 </li>
 
                 <li className='nav-items'>
-                    <Link activeClassName='active' to='/kids' className='links'>KIDS</Link>
+                    <Link activeClassName='active' className='links'>KIDS</Link>
                 </li>
 
                 <li className='nav-items'>
