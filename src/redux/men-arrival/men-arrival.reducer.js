@@ -1,3 +1,5 @@
+// import MenActionTypes from './men-arrival.types';
+
 const INITIAL_STATE = {
     sections: [{
                 
@@ -185,6 +187,11 @@ const INITIAL_STATE = {
 
 const menReducer = (state = INITIAL_STATE, action) => {
     switch(action.type) {
+        // case MenActionTypes.FILTER_COLOR:
+        //     return {
+        //         ...state,
+        //         mens: state.mens.filter(men => men)
+        //     }
         default:
             return state;
     }

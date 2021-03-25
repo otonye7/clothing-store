@@ -1,4 +1,4 @@
-import React from 'react';
+import React  from 'react';
 import {  MenCategoriesContainer } from './men-collection-categories.styles';
 import {connect} from 'react-redux';
 import {createStructuredSelector} from 'reselect';

@@ -6,6 +6,7 @@ export const HeaderContainer = styled.div`
   padding-top: 2em;
   margin: 0 auto;
   padding-bottom: 1em;
+  position: relative;
   .logo {
       width: 30%;
       color: #212b36;
@@ -54,5 +55,14 @@ export const HeaderContainer = styled.div`
       width: 24px;
       cursor: pointer;
       margin-bottom: 1rem;
+      position: relative;
+    }
+
+    .item-count {
+      position: absolute;
+      font-size: 15px;
+      font-weight: bold;
+      margin-top: 0.5rem;
+      right: 2.5rem;
     }
 `;

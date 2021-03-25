@@ -25,6 +25,7 @@ const Header = ({currentUser}) => {
                       </Link>
                  }
                  <ShoppingIcon className='shopping-icon' />
+                 <span className='item-count'>0</span>
              </div>
 
              </div>
