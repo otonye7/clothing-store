@@ -7,7 +7,11 @@ import { CollectiblesContainer } from './cart-dropdown.styles';
 const CartDropDown = () => {
     return(
         <CollectiblesContainer>
-                FUCK THIS SHIT
+                <div className='cart-dropdown'>
+                    <div className='cart-items'>
+                        <span className='empty-message'>YOUR CART IS EMPTY</span>
+                    </div>
+                </div>
         </CollectiblesContainer>
     )
 }

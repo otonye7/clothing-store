@@ -62,7 +62,16 @@ export const HeaderContainer = styled.div`
       position: absolute;
       font-size: 15px;
       font-weight: bold;
-      margin-top: 0.5rem;
-      right: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .cart-icon {
+    /* width: 45px;
+    height: 45px; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
     }
 `;
