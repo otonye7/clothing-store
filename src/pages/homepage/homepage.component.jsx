@@ -17,6 +17,7 @@ import FeaturedSecond from '../../components/feature-second/feature-second.compo
 import FeaturedThird from '../../components/feature-third/feature-third.component';
 import FeaturedFourth from '../../components/feature-fourth/feature-fourth.component';
 import SocialMedia from '../../components/social-media-text/social-media.component';
+import Selected from '../../components/selected/selected.component';
 import Sales from '../../components/sales/sales.component';
 import About from '../../components/about/about.component';
 import Footer from '../../components/footer/footer.component';
@@ -71,6 +72,11 @@ const Homepage = () => {
                  <FeaturedFourth />
                  <br />
               </div>
+              <br />
+              <div className='selected'>
+                 <Selected />
+              </div>
+              <br />
               <br />
               <SocialMedia />
               <br />

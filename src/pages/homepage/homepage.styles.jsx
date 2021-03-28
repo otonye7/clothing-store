@@ -69,7 +69,7 @@ export const HomepageContainer = styled.div`
     width: 100%;
      height: 100%;
      display: flex;
-     justify-content: center;
+     justify-content: space-around;
      padding-top: 2em;
      padding-bottom: 2em;
      margin: 0 auto;
@@ -79,5 +79,6 @@ export const HomepageContainer = styled.div`
       display: flex;
       flex-direction: column;
 }
+
  }
 `;

@@ -3,7 +3,7 @@ import  Champion from  '../../assets/champion.png';
 import Adidas from  '../../assets/adi.svg';
 import Converse from  '../../assets/converse.png';
  import Jumpman from  '../../assets/nb.png';
- import Nike from  '../../assets/doit.svg';
+ import Nike from  '../../assets/adi.svg';
 import Lacoste from  '../../assets/lacoste.png';
 
 

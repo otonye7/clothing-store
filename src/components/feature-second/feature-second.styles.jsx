@@ -1,11 +1,10 @@
 import styled from 'styled-components';
-import Gazelle from '../../assets/gazelletwo.jpg';
+import Gazelle from '../../assets/white-nike.jpg';
 
 
 export const FeaturedContainer = styled.div`
     width: 300px;
-   height: 17rem;
-   margin-left: 2rem;
+   height: 15rem;
    
   
    @media screen and (max-width: 767px){
@@ -14,6 +13,8 @@ export const FeaturedContainer = styled.div`
       height: 100%;
       width: 100%;
 }
+
+
    .second-image {
     width: 100%;
     height: 100%;

@@ -1,25 +1,32 @@
 import styled from 'styled-components';
-import Jordan from  '../../assets/air-zoom.jpg';
+import Jordan from  '../../assets/overpriced.jpg';
 
 
 export const FeaturedContainer = styled.div`
- width: 300px;
-   height: 15rem;
-   display: flex;
-   justify-content: space-around;
+ width: 1300px;
+   height: 20rem;
+   margin: 0 auto;
+  
+   @media screen and (max-width: 768px){
+      display: none;
+      width: 700px;
+      height: 18rem;
+}
+
+@media screen and (max-width: 1024px){
+      width: 1000px;
+      height: 18rem;
+      display: none;
+} 
   
    
    @media screen and (max-width: 767px){
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-      width: 100%;
+      display: none;
 }
-
-
    .image {
     width: 100%;
     height: 100%;
+    overflow: hidden;
     background-image: url(${Jordan});
     background-position: center;
     background-size: cover;

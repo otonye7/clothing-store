@@ -1,18 +1,18 @@
 import styled from 'styled-components';
-import Adidas from  '../../assets/jordandelta.jpg';
+import Adidas from  '../../assets/Nike-Roshe.jpg';
 
 
 
 export const FeaturedContainer = styled.div`
     width: 300px;
-   height: 17rem;
-    margin-left: 2rem;
+   height: 15rem;
    @media screen and (max-width: 767px){
       display: flex;
       flex-direction: column;
       height: 100%;
       width: 100%;
 }
+
    .fourth-image {
     width: 100%;
     height: 100%;
