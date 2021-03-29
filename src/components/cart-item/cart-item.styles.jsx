@@ -7,12 +7,13 @@ export const CollectiblesContainer = styled.div`
  .cart-item {
     width: 100%;
     display: flex;
-    height: 80%;
+    height: 100%;
     margin-bottom: 15px;
 
 
     img {
         width: 30%;
+        height: 55%;
     }
 
     .item-details {

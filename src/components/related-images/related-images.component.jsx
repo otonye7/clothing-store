@@ -11,8 +11,22 @@ const RelatedImages = () => {
 
     <SalesContainer>
            <Swiper
-                spaceBetween={50}
-                slidesPerView= 'auto'
+                breakpoints={{
+                    767: {
+                    slidesPerView: 'auto'
+                  },
+
+                  768: {
+                    slidesPerView: 'auto',
+                  },
+                  1737: {
+                      slidesPerView: 4
+                  },
+                  1738: {
+                    slidesPerView: 4
+                }
+
+                  }}
             >
                 <SwiperSlide className='image'></SwiperSlide>
                 <SwiperSlide className='second-image'></SwiperSlide>

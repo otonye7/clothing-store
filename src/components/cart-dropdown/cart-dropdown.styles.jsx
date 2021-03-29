@@ -7,7 +7,7 @@ export const CollectiblesContainer = styled.div`
  .cart-dropdown {
   position: absolute;
   width: 300px;
-  height: 300px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -23,7 +23,7 @@ export const CollectiblesContainer = styled.div`
   }
 
   .cart-items {
-    height: 300px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     overflow: scroll;

@@ -33,8 +33,8 @@ const INITIAL_STATE = {
         price: 55
     },
     {
-        title: 'Mens adidas Essentials Trefoil Hoodie White',
-        imageUrl: 'https://www.yeezyboosts2019.com/wp-content/uploads/2020/09/adidas-originals-zx-2k-boost-white-black-grey-mens-size-fz2945-2.png',
+        title: 'Mens adidas Originals Adilette Slides Glow Blue',
+        imageUrl: 'https://assets.adidas.com/images/h_600,f_auto,q_auto,fl_lossy/652b7d7552de4d158d62a91f00c0c16b_9366/Adilette_Slides_Blue_AQ1068_01_standard.jpg',
         id: 4,
         color: 'WHITE',
         brands: 'ADIDAS',
@@ -83,8 +83,8 @@ const INITIAL_STATE = {
         price: 199
     },
     {
-        title: 'Mens Timberland Tree Logo Hoodie Wheat',
-        imageUrl: 'https://images.timberland.com/is/image/timberland/A1ZKY210-HERO?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0',
+        title: 'Mens adidas Originals Delpala Shoes White',
+        imageUrl: 'https://www.sneaker10.gr/1941807-product_large/adidas-originals-delpala.jpg',
         id: 9,
         color: 'WHEAT',
         brands: 'TIMBERLAND',
@@ -93,8 +93,8 @@ const INITIAL_STATE = {
         price: 60
     },
     {
-        title: 'Mens Timberland Tree Logo Hoodie Black',
-        imageUrl: 'https://images.timberland.com/is/image/timberland/A1N9B001-HERO?$PDP-FULL-IMAGE$',
+        title: 'Mens PUMA RS 2.0 Winterized Black',
+        imageUrl: 'https://photos.queens.cz/queens/2019-08/large/puma-rs-x-winterized-94741_1.jpg',
         id: 10,
         color: 'BLACK',
         brands: 'TIMBERLAND',
@@ -154,7 +154,7 @@ const INITIAL_STATE = {
     },
     {
         title: 'Mens Converse Pro Leather Sneakers "White Ice"',
-        imageUrl: 'https://cdna.lystit.com/photos/sevenstore/44ce3e6b/converse-WhiteEgretBlack-X-Ibn-Jasper-Pro-Leather-Mid-Sneaker.jpeg',
+        imageUrl: 'https://photos.queens.cz/queens/2019-08/large/puma-rs-x-winterized-94741_4.jpg',
         id: 16,
         color: 'WHITE',
         brands: 'CONVERSE',
@@ -164,7 +164,7 @@ const INITIAL_STATE = {
     },
     {
         title: 'Mens Converse Chuck Taylor All Star CX Sneakers "White Ice"',
-        imageUrl: 'https://static.footshop.com/289024/50156.jpg',
+        imageUrl: 'https://cdna.lystit.com/photos/jdsports/8d1a93ca/puma-Black-Rs-0-Toys.jpeg',
         id: 17,
         color: 'WHITE',
         brands: 'CONVERSE',

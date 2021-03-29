@@ -2,19 +2,23 @@ import styled from 'styled-components';
 import Jordan from  '../../assets/doublemax.jpg';
 import Adidas from  '../../assets/white-nike.jpg';
 import NewBalance from '../../assets/air-zoom.jpg'
-import Gazelle from '../../assets/r1.jpg';
-import Doublemax from '../../assets/doublemax.jpg';
+import Gazelle from '../../assets/adidas-boost.jpg';
+import Doublemax from '../../assets/adidas-boost.jpg';
 
 
 export const SalesContainer = styled.div`
-   width: 95%;
+   width: 100%;
     padding-top: 2rem;
    display: flex;
    justify-content: space-around;
    margin: 0 auto;
+   overflow: hidden;
+
+
+
    
    .image {
-    width: 350px;
+    width: 320px;
     height: 15rem;
     background-image: url(${Jordan});
     background-position: center;
@@ -25,7 +29,7 @@ export const SalesContainer = styled.div`
 }
    }
    .second-image {
-    width: 350px;
+    width: 320px;
     height: 15rem;
     background-image: url(${Adidas});
     background-position: center;
@@ -38,7 +42,7 @@ export const SalesContainer = styled.div`
 }
     
    .third-image {
-    width: 350px;
+    width: 320px;
     height: 15rem;
     background-image: url(${NewBalance});
     background-position: center;
@@ -49,7 +53,7 @@ export const SalesContainer = styled.div`
 }
    }
    .fourth-image {
-    width: 350px;
+    width: 320px;
     height: 15rem;
     background-image: url(${Gazelle});
     background-position: center;

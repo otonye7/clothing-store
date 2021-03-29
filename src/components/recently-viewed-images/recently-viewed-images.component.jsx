@@ -11,9 +11,26 @@ const RecentlyViewedImages = () => {
 
 
     <SalesContainer>
-           <Swiper
-                spaceBetween={50}
-                slidesPerView= 'auto'
+            <Swiper
+                // spaceBetween={50}
+                // slidesPerView= {4}
+                breakpoints={{
+                    767: {
+                    slidesPerView: 'auto'
+                  },
+
+                  768: {
+                    slidesPerView: 'auto',
+                  },
+                  1737: {
+                      slidesPerView: 4
+                  },
+                  1738: {
+                    slidesPerView: 4
+                }
+
+                  }}
+            
             >
                 <SwiperSlide className='image'></SwiperSlide>
                 <SwiperSlide className='second-image'></SwiperSlide>
