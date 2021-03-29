@@ -18,8 +18,8 @@ const NewBalanceFivePage = ({sections}) => {
            <TreyfoilContainer>
               <div className='left-side'>
                   {
-                    sections.filter((item, id) => id === 0).map(({id, imageUrl, title, description, price}) => (
-                      <CollectionItems key={id} imageUrl={imageUrl} title={title} description={description} price={price}/>
+                    sections.filter((item, id) => id === 0).map((section) => (
+                      <CollectionItems key={section.id} section={section}/>
                     ))
                   }
               </div>

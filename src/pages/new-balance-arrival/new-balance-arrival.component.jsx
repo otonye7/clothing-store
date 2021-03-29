@@ -5,7 +5,7 @@ import MenLink from '../../components/men-link-hero/men-link-hero.component';
 import NewBalanceText from '../../components/new-balance-arrival-text/new-balance-arrival-text.component';
 import NewBalanceCategories from '../../components/new-balance-arrival-categories/new-balance-arrival-categories.component';
 import ShandoShoesPage from '../shando-shoes/shando-shoes.component';
-import SeaSaltPage from '../sea-salt-shoes/sea.salt-shoes.component';
+import SeaSaltPage from '../sea-salt-shoes/sea-salt-shoes.component';
 import NewBalancePhantomPage from '../new-balance-phantom/new-balance-phantom.component';
 import NewBalanceAluminumPage from '../new-balance-aluminum/new-balance-aluminum.component';
 import ForestGreenPage from '../forest-green/forest-green.component';
