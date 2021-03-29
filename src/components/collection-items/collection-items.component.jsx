@@ -7,8 +7,9 @@ import { addItem } from '../../redux/cart/cart.actions';
 
 
 
-const CollectionItems = ({imageUrl, title, price, description, addItem}) => {
-  
+const CollectionItems = ({section, addItem}) => {
+  const { title, price, imageUrl, description } = section;
+  console.log(section)
   
 
 return ( 
@@ -28,7 +29,7 @@ return (
             <span className='price'>{price}</span>
             <br />
             <br />
-            <CustomButton onClick={() => addItem({title, imageUrl, price})}className='button'>Add to cart</CustomButton>
+            <CustomButton onClick={() => addItem(section)}className='button'>Add to cart</CustomButton>
             <br />
             <br />
              <h4 className='description-title'>Description</h4>
@@ -46,8 +47,10 @@ return (
 }; 
 
 const mapDispatchToProps = dispatch => ({
-  addItem: item => dispatch(addItem(item))
+  addItem: section => dispatch(addItem(section))
 })
+
+
 
 
 export default connect(null, mapDispatchToProps)(CollectionItems);

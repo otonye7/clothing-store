@@ -187,11 +187,6 @@ const INITIAL_STATE = {
 
 const menReducer = (state = INITIAL_STATE, action) => {
     switch(action.type) {
-        // case MenActionTypes.FILTER_COLOR:
-        //     return {
-        //         ...state,
-        //         mens: state.mens.filter(men => men)
-        //     }
         default:
             return state;
     }

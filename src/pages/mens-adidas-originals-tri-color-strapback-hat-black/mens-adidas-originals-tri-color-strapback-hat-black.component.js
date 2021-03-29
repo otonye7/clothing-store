@@ -12,7 +12,6 @@ import RecentlyViewedImages from '../../components/recently-viewed-images/recent
 
 
 const StrapbackPage = ({sections}) => {
-  console.log(sections)
 
       return ( 
            <StrapbackContainer>

@@ -1,7 +1,6 @@
 import {combineReducers} from 'redux';
 import {persistReducer} from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
-import headerReducer from './header/header.reducer';
 import menReducer from './men-arrival/men-arrival.reducer';
 import womenReducer from './women-arrival/women-arrival.reducer';
 import sorelReducer from './sorel-arrival/sorel-arrival.reducer';
@@ -20,7 +19,6 @@ const persistConfig  = {
 }
 
 const rootReducer = combineReducers({
-    header: headerReducer,
     mens: menReducer,
     womens: womenReducer,
     sorel: sorelReducer,

@@ -4,11 +4,12 @@ import { CollectiblesContainer } from './cart-item.styles';
 
 
 
-const CartItem = ({sections: { imageUrl, price, title, quantity }}) => {
+const CartItem = ({section: { imageUrl, price, title, quantity }}) => {
+    
     return(
         <CollectiblesContainer>
             <div className='cart-item'>
-                <img src={imageUrl} alt='item'/>
+                <img src={imageUrl} alt='section'/>
                 <div className='item-details'>
                 <span className='name'>{title}</span>
                  <span className='name'>{quantity} x ${price}</span>
