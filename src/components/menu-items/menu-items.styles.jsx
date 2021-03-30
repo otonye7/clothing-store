@@ -10,6 +10,33 @@ margin-left: 3em;
       height: 140px;
       align-items: center;
       position: relative;
+
+      &:hover {
+      cursor: pointer;
+
+      & .background-image {
+        transform: scale(1.1);
+        transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+      }
+
+      & .content {
+        opacity: 0.9;
+      }
+    }
+    
+
+    &.large {
+      height: 380px;
+    }
+  
+    &:first-child {
+      margin-right: 7.5px;
+    }
+  
+    &:last-child {
+      margin-left: 7.5px;
+    }
+
   }
 
   .background-image {

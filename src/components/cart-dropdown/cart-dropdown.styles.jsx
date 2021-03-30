@@ -23,13 +23,16 @@ export const CollectiblesContainer = styled.div`
   }
 
   .cart-items {
-    height: 400px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     overflow: scroll;
+    overflow-x: hidden;
   }
 
-  .button {
+  .buttons {
     margin-top: auto;
+    display: flex;
+    justify-content: center;
   }
 `;

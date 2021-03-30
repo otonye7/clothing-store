@@ -12,6 +12,7 @@ import WomenCollectionPage from './pages/women-collection-arrival/women-collecti
 import KidsPage from './pages/kids/kids.component';
 import SignIn from './pages/sign-in/sign-in.component';
 import SignUp from './pages/sign-up-page/sign-up-page.component';
+import CheckoutPage from './pages/checkout/checkout.component';
 import Header from './components/header/header.component';
 import BurgerIcon from './components/menu-icon/menu-icon.component';
 import { Switch, Route } from 'react-router-dom';
@@ -71,6 +72,7 @@ class App extends React.Component {
           <Route path={'/kids'} component={KidsPage} />
           <Route path={'/signin'} component={SignIn} />
           <Route path={'/signup'} component={SignUp} />
+          <Route exact path={'/checkout'} component={CheckoutPage} />
 			</Switch>
     </div>
   );
