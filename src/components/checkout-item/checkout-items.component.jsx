@@ -11,8 +11,9 @@ const CheckoutItem = ({cartItem}) => {
            <div className='checkout-item'>
             <div className='image-container'>
                 <img src={imageUrl} alt='item' />
-                <span className='name'>{title}</span>
             </div>
+            <div className='items'>
+            <span className='name'>{title}</span>
            <span className='price'>{price}</span>
            <span className='quantity'>
                 <div className='arrow'>&#10094;</div>
@@ -21,8 +22,9 @@ const CheckoutItem = ({cartItem}) => {
             </span>
             <div className='remove-button' >
                 &#10005;
-        </div>
-        </div>
+            </div>
+            </div>
+            </div>
         </CheckoutItemContainer>
     )
 };

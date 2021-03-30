@@ -24,7 +24,7 @@ const CheckoutPage = ({cartItems}) => {
            
            <div className='checkout-page'>
                <div className='checkout-header'>
-                   <div className='header-block'>
+                   <div className='header-blocks'>
                        <span>Products</span>
                    </div>
                    <div className='header-block'>

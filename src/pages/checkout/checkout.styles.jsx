@@ -20,6 +20,10 @@ export const CheckoutContainer = styled.div`
      display: flex;
      justify-content: space-between;
      margin: 0 auto;
+
+     @media screen and (max-width: 767px){
+      display: none;
+}
  }
 
  .margin {
@@ -27,7 +31,7 @@ export const CheckoutContainer = styled.div`
  }
 
  .header-blocks {
-     width: 23%;
+     width: 48%;
     &:last-child {
           width: 8%;
         }

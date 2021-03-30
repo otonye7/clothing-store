@@ -11,20 +11,39 @@ export const CheckoutItemContainer = styled.div`
     font-size: 20px;
     align-items: center;
 
+    @media screen and (max-width: 800px){
+    display: flex;
+    justify-content: space-between;
+}
+
+
     .image-container {
-        width: 23%;
+        width: 33%;
         padding-right: 15px;
+
+        @media screen and (max-width: 800px){
+          width: 50%;
+       }
 
         img {
             width: 100%;
             height: 100%;
         }
     }
-    .name,
-    .quantity,
+     .name {
+         width: 40%;
+       @media screen and (max-width: 800px){
+          width: 100%;
+       }
+
+     }
+    .quantity {
+        width: 30%;
+        padding-left: 7%;
+    }
     .price {
-        width: 23%;
-        padding-left: 3%;
+        width: 30%;
+        padding-left: 10%;
     }
 
     .quantity {
@@ -43,5 +62,16 @@ export const CheckoutItemContainer = styled.div`
          padding-left: 7%; 
         cursor: pointer;
       }
+}
+
+.items {
+    width: 55%;
+    display: flex;
+
+    @media screen and (max-width: 800px){
+      display: flex;
+      flex-direction: column;
+}
+
 }
 `;
