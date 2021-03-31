@@ -36,4 +36,25 @@ export const CheckoutContainer = styled.div`
           width: 8%;
         }
  }
+
+ .bottom-container {
+     width: 96%;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .shipping-text {
+     font-weight: 500;
+     font-size: 17px;
+     padding-bottom: 1rem;
+ }
+
+ .subtotal {
+     font-size: 21px;
+ }
+
+ .shipping-link {
+     color: black;
+ }
 `;
