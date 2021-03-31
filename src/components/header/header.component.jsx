@@ -15,7 +15,7 @@ const Header = ({currentUser, hidden}) => {
         <HeaderContainer>
             <div className='overall-container'>
              <div className='logo'>
-                 <h2 className='logo-name'>S^MO SPORTS</h2>
+                 <Link to='/' className='logo-name'>S^MO SPORTS</Link>
              </div>
 
              <div className='cart-containers'>

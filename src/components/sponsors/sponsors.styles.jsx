@@ -12,7 +12,7 @@ import Lacoste from  '../../assets/lacoste.png';
 export const SponsorsContainer = styled.div`
    position: relative;
    width: 1300px;
-   height: 3.2rem;
+   height: 4rem;
    margin-top: 1em;
    margin: 0 auto;
    display: flex;
@@ -40,7 +40,7 @@ export const SponsorsContainer = styled.div`
    .converse {
     position: relative;
     width: 6%;
-    height: 2.7rem;
+    height: 3.1rem;
     object-fit: cover;
     background-image: url(${Converse});
     background-position: center;

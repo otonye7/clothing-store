@@ -18,6 +18,9 @@ export const HeaderContainer = styled.div`
   .logo-name {
       width: 100%;
       color: brown;
+      text-decoration: none;
+      font-size: 24px;
+      font-weight: 600;
       
   }
    

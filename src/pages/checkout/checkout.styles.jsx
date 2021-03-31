@@ -51,10 +51,19 @@ export const CheckoutContainer = styled.div`
  }
 
  .subtotal {
-     font-size: 21px;
+     font-size: 25px;
  }
 
  .shipping-link {
      color: black;
  }
+
+ .total {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .related-products {
+    text-align: center;
+}
 `;

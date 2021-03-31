@@ -7,7 +7,10 @@ import { createStructuredSelector } from 'reselect';
 import { selectCartItems, selectCartTotal } from '../../redux/cart/cart.selector';
 import { connect } from 'react-redux';
 import CheckoutItem from '../../components/checkout-item/checkout-items.component';
-
+import StripeCheckoutButton from '../../components/stripe-button/stripe-button.component';
+import RelatedProducts from '../../components/related-products/related-products.component';
+import RelatedImages from '../../components/related-images/related-images.component';
+import Footer from '../../components/footer/footer.component';
 
 
 
@@ -53,14 +56,30 @@ const CheckoutPage = ({cartItems, total}) => {
            
            <div className='shipping'>
                <h5 className='shipping-text'>Shipping and taxes calculated at checkout</h5>
+               <br />
                <Link className='shipping-link'>ADD INSTRUCTIONS FOR SELLERS</Link>
            </div>
 
            <div className='total'>
             <span className='subtotal'>SUBTOTAL: ${total}</span>
+            <br />
+            <StripeCheckoutButton price={total}/>
         </div>
 
         </div>
+
+        <div className='related-products'>
+                <RelatedProducts />
+              </div>
+              <br />
+              <div className='related-images'>
+                <RelatedImages />
+        </div>
+        <br />
+        <br />
+        <div className='footer'>
+              <Footer />
+        </div> 
      </CheckoutContainer>   
       );
   };
