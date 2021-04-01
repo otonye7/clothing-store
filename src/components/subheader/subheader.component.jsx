@@ -1,47 +1,120 @@
-import React  from 'react';
+import React, {useState}  from 'react';
 import { SubHeaderContainer } from './subheader.styles';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import MenuIcon from '@material-ui/icons/Menu';
+import CloseIcon from '@material-ui/icons/Close';
 
 
 const SubHeader = ({open}) => {
     console.log(open)
+
+    const [click, setClick] = useState(false);
+
+    const handleClick = () => setClick(!click);
   
     return(
-        <SubHeaderContainer open={open} >
-            
-              <div className="nav-menu" >
-                <li className='nav-items'>
-                    <Link exact activeClassName='active' to='/new-arrival' className='links'>NEW ARRIVAL</Link>
-                </li>
+    <SubHeaderContainer >
 
-                 <li className='nav-items'>
-                    <Link activeClassName='active' to='/men' className='links'>MEN</Link>
-                </li>
+     <nav className="navbar">
+     
+    
+     <div className="nav-icon" onClick={handleClick}>
+          {
+             click ? <CloseIcon /> : <MenuIcon />
+          }
+          </div>
 
-                <li className='nav-items'>
-                    <Link activeClassName='active' to='/women' className='links'>WOMEN</Link>
-                </li>
-
-                <li className='nav-items'>
-                    <Link activeClassName='active' to='/kids' className='links'>KIDS</Link>
-                </li>
-
-                <li className='nav-items'>
-                    <Link activeClassName='active' className='links'>SALES</Link>
-                </li>
-
-                <li className='nav-items'>
-                    <Link activeClassName='active' to='/brands' className='links'>BRANDS</Link>
-                </li>
-
-                <li className='nav-items'>
-                    <Link activeClassName='active' className='links'>LAUNCHES</Link>
-                </li>
-
-                <li className='nav-items'>
-                    <Link activeClassName='active' className='links'>IN STORE ONLY</Link>
-                </li> 
-         </div>
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/new-arrival"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                NEW ARRIVAL
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/men"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                MEN
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/women"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                WOMEN
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/kids"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                KIDS
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/sales"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                SALES
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/brands"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                BRANDS
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/contact"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                LAUNCHES
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/contact"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                IN STORE ONLY
+              </NavLink>
+            </li>
+          </ul>
+      </nav>
             
         </SubHeaderContainer>
     )

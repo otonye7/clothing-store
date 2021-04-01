@@ -51,7 +51,7 @@ export const HeaderContainer = styled.div`
       color: black;
       margin-bottom: 1rem;
     @media screen and (max-width: 767px) { 
-        margin-top: 1em;
+     margin-top: 0.5rem;
     }
   }
   .shopping-icon {

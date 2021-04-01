@@ -11,6 +11,7 @@ import menCollectionReducer from './men/men.reducer';
 import womenCollectionReducer from './women/women.reducer';
 import cartReducer from './cart/cart.reducer';
 import newReducer from './new-arrival/new-arrival.reducer';
+import salesReducer from './sales/sales.reducer';
 
 const persistConfig  = {
     key: 'root',
@@ -28,7 +29,8 @@ const rootReducer = combineReducers({
     news: newReducer,
     menCollection: menCollectionReducer,
     womenCollection: womenCollectionReducer,
-    cart: cartReducer
+    cart: cartReducer,
+    sales: salesReducer
 });
 
 export default persistReducer(persistConfig, rootReducer)

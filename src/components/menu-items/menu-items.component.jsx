@@ -20,7 +20,7 @@ return (
 
     <div className='content'>
             <span className='title'>{title}</span>
-            <span className='price'>{price}</span>
+            <span className='price'>${price}</span>
     </div>
     
    </MenuItemContainer>

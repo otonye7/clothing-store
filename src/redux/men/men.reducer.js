@@ -2,9 +2,9 @@ const INITIAL_STATE = {
     sections: [{
                 
         title: 'G-Shock Analog Digital Watch GA700SK-1A',
-        imageUrl: 'https://cdn2.2ndstreet.jp/img/pc/goods/231942/03/23209/1.jpg',
+        imageUrl: 'https://s.yimg.com/aah/4-watches/casio-g-shock-green-digital-analog-watch-ga110lp-3a-26.gif',
         id: 1,
-        color: 'BLACK',
+        color: 'GREEN',
         brands: 'G-SHOCK',
         linkUrl: '/men-G-shock-analog-digital-watch-ga700sk-1a',
         description: 'Ever rugged, ever sporty. The G-Shock Digital Watch will fit your every adventure both in and out of the water. Built to withstand the toughest conditions, the G-Shock watch will be with you from start to finish providing superb tech specs. The G-Shock watch comes in sleek black.',
@@ -22,7 +22,7 @@ const INITIAL_STATE = {
     },
     {
         title: 'Mens adidas Originals Sportive Track Pants Collegiate Navy',
-        imageUrl: 'https://www.prodirectsoccer.com/ProductImages/Gallery_4/234263_Gallery_4_0829024.jpg',
+        imageUrl: 'https://www.prodirectselect.com/productimages/V3_1_Gallery_3/V3_1_Gallery_3_0335259.jpg',
         id: 3,
         color: 'NAVY',
         brands: 'ADIDAS',
