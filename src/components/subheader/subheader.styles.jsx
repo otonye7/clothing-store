@@ -40,7 +40,7 @@ export const SubHeaderContainer = styled.div`
 
 .nav-item {
   line-height: 40px;
-  margin-right: 1rem;
+  margin-right: 1rem; 
 }
 
 .nav-item:after {
@@ -66,7 +66,7 @@ export const SubHeaderContainer = styled.div`
   display: none;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 967px) {
   .nav-menu {
     display: flex;
     flex-direction: column;

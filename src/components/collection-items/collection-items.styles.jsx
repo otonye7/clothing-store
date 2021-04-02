@@ -8,9 +8,21 @@ display: flex;
 justify-content: space-around;
 width: 100%;
 
+@media screen and (max-width: 767px){
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
   .menu-items {
       width: 40%;
       height: 400px;
+
+@media screen and (max-width: 767px){
+    width: 100%;
+}
+
   }
 
   .background-image {
@@ -51,6 +63,11 @@ width: 100%;
       width: 40%;
       flex-direction: column;
       font-size: 17px;
+
+@media screen and (max-width: 767px){
+   width: 100%;
+}
+
   }
 
 .title {
@@ -58,6 +75,8 @@ width: 100%;
     margin-bottom: 15px;
     font-size: 27px;
     font-weight: 500;
+
+    
 
 }
 
@@ -73,6 +92,30 @@ width: 100%;
     
     font-size: 28px;
     font-weight: 500;
+}
+
+.button {
+
+    width: 80%;
+
+    @media screen and (max-width: 767px){
+    width: 98%;
+    margin: 0 auto;
+}
+
+}
+
+.by {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.border-box {
+     height: 45px;
+     width:  120px; 
+     border: 1px solid black; 
+     text-align:center; 
+     font-weight: 500;
 }
 
 `;

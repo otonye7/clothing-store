@@ -3,13 +3,14 @@ import { CollectionItemContainer } from './collection-items.styles';
 import CustomButton from '../custom-button/custom-button.component';
 import { connect } from 'react-redux';
 import { addItem } from '../../redux/cart/cart.actions';
+import { selectCartItemsCount } from '../../redux/cart/cart.selector';
 
 
 
 
-const CollectionItems = ({section, addItem}) => {
-  const { title, price, imageUrl, description } = section;
-  console.log(section)
+const CollectionItems = ({section, addItem, itemCount}) => {
+  const { title, price, imageUrl, description, brands, color } = section;
+  // console.log(section)
   
 
 return ( 
@@ -25,9 +26,18 @@ return (
 
     <div className='content'>
             <span className='title'>{title}</span>
+            <span className='price'>${price}</span>
             <br />
-            <span className='price'>{price}</span>
+            <span className='by'>by {brands}</span>
             <br />
+            <span className='by'>color - {color}</span>
+            <br />
+            <div className='box-container'>
+              <div className='border-box'>
+                Quantity: <br />
+                {itemCount}
+              </div>
+            </div>
             <br />
             <CustomButton onClick={() => addItem(section)}className='button'>Add to cart</CustomButton>
             <br />
@@ -50,7 +60,11 @@ const mapDispatchToProps = dispatch => ({
   addItem: section => dispatch(addItem(section))
 })
 
+const mapStateToProps = (state) =>  ({
+  itemCount: selectCartItemsCount(state)
+})
 
 
 
-export default connect(null, mapDispatchToProps)(CollectionItems);
+
+export default connect(mapStateToProps, mapDispatchToProps)(CollectionItems);
