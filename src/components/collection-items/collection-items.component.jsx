@@ -43,8 +43,6 @@ return (
             <br />
             <br />
              <h4 className='description-title'>Description</h4>
-             <br />
-             <br />
              <div className='margin'></div>
              <br />
              <br />

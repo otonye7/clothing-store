@@ -2,12 +2,12 @@ const INITIAL_STATE = {
     sections: [{
                 
         title: 'Womens New Balance 574 Shoes White',
-        imageUrl: 'https://cdnc.lystit.com/photos/5660-2015/08/25/new-balance-white-574-leather-sneaker-product-0-345404013-normal.jpeg',
+        imageUrl: 'https://cdnb.lystit.com/photos/size/38c8aafe/new-balance-BeigeWhite-574-Womens.jpeg',
         id: 1,
         color: 'WHITE',
         brands: 'NEW BALANCE',
         linkUrl: '/womens-new-balance-574-shoes-white',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'The New Balance 997H draws inspiration from the classic and beloved of brand loyalists 997 that was first released back in 1991. The new 997H features GCEVA construction and a modernized rubber and gum outsole for the ultimate lightweight ride. The shoes are built with a combination of suede, mesh, synthetic and leather details. The New Balance shoes are presented in a Rose Water / Stellar Blue edition.',
         price: 75
     },
     {
@@ -17,7 +17,7 @@ const INITIAL_STATE = {
         color: 'BLACK',
         brands: 'NIKE',
         linkUrl: '/womens-nike-sportswear-heritage-joggers',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'Gotta have them in every color. Theres no such thing as too many leggings. These adidas Originals Fakten leggings are made of sustainable cotton that feels soft on the legs. d high waist makes your legs look like they go on and on. adidas 3-Stripes run from waist to the upper thigh with the adidas Trefoil that sits on the hip. Comes n Crew Navy and White.',
         price: 55
     },
     {
@@ -27,7 +27,7 @@ const INITIAL_STATE = {
         color: 'MULTICOLOR',
         brands: 'NIKE',
         linkUrl: '/womens-nike-sportswear-heritage-crew',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'Keep the day sporty with a must-have in your closet. An essential piece to layer or wear on its own, the classic Nike tee is made of soft cotton jersey with the Nike Swoosh logo on front. Comes in black with a white logo.',
         price: 65
     },
     {
@@ -37,7 +37,7 @@ const INITIAL_STATE = {
         color: 'GREEN',
         brands: 'NIKE',
         linkUrl: '/womens-nike-sportswear-essential-fleece-hoodie',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'Keep the day sporty with a must-have in your closet. An essential piece to layer or wear on its own, the classic Nike tee is made of soft cotton jersey with the Nike Swoosh logo on front. Comes in black with a white logo.',
         price: 55
     },
     {
@@ -47,17 +47,17 @@ const INITIAL_STATE = {
         color: 'GRAY',
         brands: 'ADIDAS',
         linkUrl: '/womens-adidas-essential-loungewear-3-stripes-leggings',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'Theres no such thing as too many leggings. These adidas Originals leggings are made of sustainable cotton that feels soft on the legs. adidas 3-Stripes layered with an abstract floral pattern run along the sides of the pants to elevate and elongate your look. The adidas Trefoil sits on the hip. Comes in black.',
         price: 130
     },
     {
         title: 'adidas Utility Backpack Black',
-        imageUrl: 'https://i.pinimg.com/originals/63/83/5a/63835aee14e5592e3077e81c8c902870.jpg',
+        imageUrl: 'https://cdna.lystit.com/photos/urbanoutfitters/42702951-Black-9f0ebe00-.jpeg',
         id: 6,
         color: 'BLACK',
         brands: 'ADIDAS',
         linkUrl: '/adidas-utility-backpack-black',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'A roomy, spacious adidas backpack is what you need to carry all your goods from morning to evening. The adidas Modular Backpack features multiple compartments and pockets with a laptop sleeve, comfortable straps and a carry handle. The backpack attaches with  other adidas Originals modular bags. The adidas Trefoil logo sits in lower front corner and on one of the backpack straps. Comes in black.',
         price: 65
     },
     {
@@ -67,7 +67,7 @@ const INITIAL_STATE = {
         color: 'BLACK',
         brands: 'ADIDAS',
         linkUrl: '/adidas-modular-backpack-black',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'Theres no such thing as too many leggings. These adidas Originals leggings are made of sustainable cotton that feels soft on the legs. adidas 3-Stripes layered with an abstract floral pattern run along the sides of the pants to elevate and elongate your look. The adidas Trefoil sits on the hip. Comes in black.',
         price: 80
     },
     {
@@ -77,7 +77,7 @@ const INITIAL_STATE = {
         color: 'GREEN',
         brands: 'BUGABOO',
         linkUrl: '/womens-columbia-bugaboo-1986-interchange-jacket-green',
-        description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
+        description: 'Theres no such thing as too many leggings. These adidas Originals leggings are made of sustainable cotton that feels soft on the legs. adidas 3-Stripes layered with an abstract floral pattern run along the sides of the pants to elevate and elongate your look. The adidas Trefoil sits on the hip. Comes in black.',
         price: 199
     },
     {

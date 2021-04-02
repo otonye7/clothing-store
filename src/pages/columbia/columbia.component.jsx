@@ -39,6 +39,7 @@ const ColumbiaPage = ({match}) => {
             </div>
             <br />
             <br />
+            <br />
             <div className='footer'>
                <Footer />
             </div>

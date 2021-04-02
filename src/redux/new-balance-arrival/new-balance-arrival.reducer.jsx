@@ -12,7 +12,7 @@ const INITIAL_STATE = {
     },
     {
         title: 'Mens New Balance All Coasts Sea Salt',
-        imageUrl: 'https://i.ebayimg.com/images/g/AnsAAOSwLpda7hqh/s-l300.jpg',
+        imageUrl: 'https://i.ebayimg.com/images/g/NpAAAOSwYSdeN8vE/s-l300.jpg',
         id: 2,
         color: 'GRAY',
         brands: 'NEW BALANCE',
@@ -22,7 +22,7 @@ const INITIAL_STATE = {
     },
     {
         title: 'Mens New Balance XRCT Shoes Black with Phantom',
-        imageUrl: 'https://images.zentail.com/242/1323951ea7efa729da546537c9489980c3590e9451b23246320369d30eb2306f.jpg',
+        imageUrl: 'https://i.ebayimg.com/images/g/GeUAAOSwtYNf22Vu/s-l300.jpg',
         id: 3,
         color: 'BLACK',
         brands: 'NEW BALANCE',
@@ -42,9 +42,9 @@ const INITIAL_STATE = {
     },
     {
         title: 'Mens New Balance 574 Shoes Team Forest Green',
-        imageUrl: 'The New Balance 327 Sneakers in White and Black have a vintage modern silhouette and visually graphic "N" logo across the side. New Balance went back into their archives to pull out elements from their favorite styles to come up with the New Balance 327. The 327 NB sneakers feature a unique silhouette with its lightweight upper and an oversize N logo. The bold outsoles will turn heads with its trail-inspired design that extends up to the toe and heel with stand-out studs. Comes with white and black.',
+        imageUrl: 'https://images.bonanzastatic.com/afu/images/aad3/4bda/91af_7961201351/__57.jpg',
         id: 5,
-        color: 'PINK',
+        color: 'GREEN',
         brands: 'NEW BALANCE',
         linkUrl: '/mens-new-balance-574-shoes-team-forest-green',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',

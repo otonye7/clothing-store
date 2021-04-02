@@ -2,7 +2,7 @@ const INITIAL_STATE = {
     sections: [{
                 
         title: 'Mens Columbia Flash Forward Print Windbreaker Grey Tropical',
-        imageUrl: 'https://cdn.shopify.com/s/files/1/0017/5007/3404/products/Men_s_Flash_Forward_Print_Grey_Tropical_1606801042_4.jpg?v=1602257011',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0017/5007/3404/products/Men_s_Columbia_Wheeler_Lodge_Casual_Jacket_City_Grey_1820901023_4_1024x1024.jpg?v=1604934260',
         id: 1,
         color: 'GREY',
         brands: 'COLUMBIA',
@@ -22,7 +22,7 @@ const INITIAL_STATE = {
     },
     {
         title: 'Womens Columbia Poe Creek Jacket Navy',
-        imageUrl: 'https://cdn.shopify.com/s/files/1/0017/5007/3404/products/Women_s_Poe_Creek_Jacket_Navy_1887292467_3_1024x1024.jpg?v=1602262336',
+        imageUrl: 'https://cdn.etrias.nl/media/catalog/product/cache/0/image/750x750/9df78eab33525d08d6e5fb8d27136e95/3/Y/3Y4B_H2G_alt15.jpg',
         id: 3,
         color: 'NAVY',
         brands: 'COLUMBIA',

@@ -2,9 +2,9 @@ const INITIAL_STATE = {
     sections: [{
                 
         title: 'Womens Sorel Caribou Boots Buff',
-        imageUrl: 'https://i.ebayimg.com/images/g/udcAAOSwsQpfMZOl/s-l300.jpg',
+        imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/81OMbiGRcQL._AC_UL1500_.jpg',
         id: 1,
-        color: 'Brown',
+        color: 'GREY',
         brands: 'Sorel',
         linkUrl: '/womens-sorel-caribou-boots-buff',
         description: 'Some good gist about this brand is as follows..., I\'ll tell tou the entire story at a later date',
@@ -22,7 +22,7 @@ const INITIAL_STATE = {
     },
     {
         title: 'Womens Sorel Out N About Plus Felt Boots Quarry',
-        imageUrl: 'https://i.ebayimg.com/images/g/qqcAAOSw9vdfEaQ5/s-l640.jpg',
+        imageUrl: 'https://images.journeys.ca/images/products/1_614402_FS_ALT3.JPG',
         id: 3,
         color: 'BLUE',
         brands: 'SOREL',
