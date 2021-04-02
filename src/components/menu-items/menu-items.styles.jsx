@@ -92,9 +92,19 @@ export const MenuItemContainer = styled.div`
 .title {
     width: 90%;
     margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Stempel Schneidler", serif;
+    font-style: normal;
+    line-height: 1.4;
 }
 
 .price {
     width: 10%;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Stempel Schneidler", serif;
+    font-style: normal;
+    line-height: 1.4;
 }
 `;

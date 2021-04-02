@@ -73,15 +73,21 @@ width: 100%;
 .title {
     
     margin-bottom: 15px;
-    font-size: 27px;
+    font-size: 22.5px;
     font-weight: 500;
-
-    
+    font-family: "Stempel Schneidler", serif;
+    font-style: normal;
+    line-height: 1.4;
 
 }
 
 .description-title {
+    margin-bottom: 15px;
+    font-size: 22.5px;
     font-weight: 500;
+    font-family: "Stempel Schneidler", serif;
+    font-style: normal;
+    line-height: 1.4;
     text-align: center;
 }
 
@@ -91,8 +97,12 @@ width: 100%;
 
 .price {
     
-    font-size: 28px;
+    margin-bottom: 15px;
+    font-size: 22.5px;
     font-weight: 500;
+    font-family: "Stempel Schneidler", serif;
+    font-style: normal;
+    line-height: 1.4;
 }
 
 .button {
@@ -109,6 +119,9 @@ width: 100%;
 .by {
     font-size: 12px;
     font-weight: 500;
+    font-family: "Stempel Schneidler", serif;
+    font-style: normal;
+    line-height: 1.4;
 }
 
 .border-box {

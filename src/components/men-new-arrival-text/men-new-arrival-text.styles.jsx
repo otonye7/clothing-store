@@ -9,8 +9,11 @@ export const MenTextContainer = styled.div `
 
     .men-new-text {
         text-align: center;
-        font-size: 30px;
+        font-size: 2.3rem;
+        font-family: "Stempel Schneidler", serif;
         font-weight: 500;
+        font-style: normal;
+        line-height: 1.4;
     }
 }
    

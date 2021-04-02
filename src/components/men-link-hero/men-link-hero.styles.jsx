@@ -11,7 +11,7 @@ export const MenContainer = styled.div`
  
 
  .link-container {
-     width: 25%;
+     width: 19%;
      display: flex;
      justify-content: space-around;
 
