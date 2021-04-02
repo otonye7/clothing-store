@@ -14,11 +14,11 @@ const MenCategories = ({sections}) => {
     
       return (
           <MenCategoriesContainer >
-              <div className='colors-items'>
+               <div className='colors-items'>
                   <Refine />
                   <Color />
                   <Brands />
-              </div>
+              </div> 
               
               <div className='categories-items'>
                   

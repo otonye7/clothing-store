@@ -2,27 +2,43 @@ import styled  from 'styled-components';
 
 export const MenCategoriesContainer = styled.div `
   width: 97.5%;
+  max-width: 1300px;
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
-  padding-top: 10rem;
+  padding-top: 7rem;
 
-  .colors-items: {
-    width: 20%;
-    color: red;
-    border: 2px solid red;
-  }
+  @media screen and (max-width: 767px){
+    width: 100%;
+    padding-top: 5rem;
+}
+
+.colors-items {
+  
+  @media screen and (max-width: 767px){
+    display: none;
+}
+}
 
   .categories-items {
     width: 78%;
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    
+    @media screen and (max-width: 767px){
+     width: 98%;
+}
   }
 
   .preview {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-gap: 10px;
+
+ @media screen and (max-width: 767px){
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+}
   }
     
 `;

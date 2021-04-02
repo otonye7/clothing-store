@@ -15,7 +15,7 @@ export const CollectiblesContainer = styled.div`
   background-color: white;
   top: 60px;
   right: 10px; 
-  z-index: 5;
+  z-index: 25;
 
   .empty-message {
     font-size: 18px;

@@ -11,9 +11,14 @@ export const MenContainer = styled.div`
  
 
  .link-container {
-     width: 19%;
+     width: 25%;
      display: flex;
      justify-content: space-around;
+
+     @media screen and (max-width: 767px){
+     width: 50%;
+}
+
  }
 
  .home {

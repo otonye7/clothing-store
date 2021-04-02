@@ -4,7 +4,7 @@ const INITIAL_STATE = {
     sections: [{
                 
         title: 'Mens adidas Originals Gazelle Shoes Burgundy',
-        imageUrl: 'https://static.highsnobiety.com/thumbor/ELzfmcITXw6BvYTZUposZtu9H5M=/fit-in/1200x720/smart/static.highsnobiety.com/wp-content/uploads/2019/07/23115605/new-balance-997h-cordura-release-date-price-00.jpg',
+        imageUrl: 'https://i.pinimg.com/originals/4b/7e/a8/4b7ea8ccca224999202d98f0028e598b.png',
         id: 1,
         color: 'BIEGE',
         brands: 'ADIDAS',

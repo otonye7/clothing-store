@@ -2,14 +2,24 @@ import styled from 'styled-components';
 
 
 export const MenuItemContainer = styled.div`
-margin-left: 3em;
+
+ 
+@media screen and (max-width: 767px){
+    
+}
   .menu-items {
-      width: 90%;
+      width: 100%;
+      max-width: 210px;
       display: flex;
       flex-direction: column;
-      height: 140px;
+      height: 200px;
       align-items: center;
       position: relative;
+
+  @media screen and (max-width: 767px){
+    width:100%;
+    
+}
 
       &:hover {
       cursor: pointer;
@@ -41,10 +51,20 @@ margin-left: 3em;
 
   .background-image {
       width: 100%;
-      height: 95%;
+      /* max-width: 200px; */
+      overflow: hidden;
+      height: 100%;
+      max-height: 170px;
       background-size: cover;
       background-position: center;
       margin-bottom: 5px;
+
+@media screen and (max-width: 767px){
+    width: 100%;
+    height:80%;
+    margin: 0 auto;
+}
+
   }
 
   &:hover {
@@ -54,11 +74,19 @@ margin-left: 3em;
 }
 
   .content {
-      width: 80%;
+      width: 90%;
       height: 5%;
       display: flex;
       justify-content: space-between;
       font-size: 17px;
+
+  @media screen and (max-width: 767px){
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
   }
 
 .title {

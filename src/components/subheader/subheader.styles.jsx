@@ -66,14 +66,15 @@ export const SubHeaderContainer = styled.div`
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 767px) {
   .nav-menu {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
     border-top: 1pxsolid #fff;
-    position: absolute;
+    position: fixed;
     top: 0px;
+    bottom: 0px;
     left: -110%;
     position: fixed;
     opacity: 1;
@@ -81,7 +82,7 @@ export const SubHeaderContainer = styled.div`
   }
 
   .nav-menu.active {
-    background-color: brown;
+    background-color: #F2F2F2;
     left: 0px;
     opacity: 1;
     transition: all 0.5s ease;

@@ -5,7 +5,7 @@ export const AboutContainer = styled.div`
  width: 100%;
  height: 100%;
 
- @media screen and (max-width: 800px){
+ @media screen and (max-width: 767px){
      width: 100%;
      height: 100%;
 }
@@ -17,7 +17,7 @@ export const AboutContainer = styled.div`
      background-color: #fafafa;
      /* padding-left: 1em; */
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 767px){
      height: 100%;
 }
  }
@@ -29,7 +29,7 @@ export const AboutContainer = styled.div`
      padding-top: 1em;
      font-weight: 500;
 
-     @media screen and (max-width: 800px){
+     @media screen and (max-width: 767px){
       padding-top: 1em;
 }
  }
