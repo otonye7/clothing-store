@@ -34,10 +34,16 @@ export const CheckoutItemContainer = styled.div`
     .quantity {
         width: 30%;
         padding-left: 7%;
+        @media screen and (max-width: 800px){
+          width: 100%;
+       }
     }
     .price {
         width: 30%;
         padding-left: 10%;
+        @media screen and (max-width: 800px){
+          width: 100%;
+       }
     }
     .quantity {
         display: flex;

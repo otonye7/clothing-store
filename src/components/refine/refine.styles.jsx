@@ -35,4 +35,10 @@ export const RefineContainer = styled.div`
      
  }
 
+ .refine {
+    color: #222;
+    font-weight: 600;
+     font-size: 19px;
+ }
+
 `;

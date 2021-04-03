@@ -9,6 +9,7 @@ const Footer = () => {
                <div className='city'>
                    <h3 className='title'>About Us</h3>
                </div>
+               <br />
                <div className='list'>
                    <span>Press</span>
                </div>
@@ -24,6 +25,7 @@ const Footer = () => {
                <div className='cuisine'>
                    <h3 className='title'>FAQ</h3>
                </div>
+               <br />
                <div className='list'>
                    <span>Shopping Policy</span>
                </div>
@@ -36,6 +38,7 @@ const Footer = () => {
                <div className='vendors'>
                    <h3 className='title'>Return Shipping</h3>
                </div>
+               <br />
                <div className='list'>
                    <span>Contact</span>
                </div>
@@ -45,14 +48,16 @@ const Footer = () => {
                <div className='jumia'>
                    <h3 className='title'>Social Media</h3>
                </div>
+               <br />
                <div className='list'>
                    <span>Twitter</span>
                </div>
            </div>
            </div>
-
+           <br />
+           <br />
            <div className='samo-foods'>
-               <h6>© Copyright 2021 S^mo Clothes is a registered trademark</h6>
+               <h6>© Copyright 2021 S^mo Clothes is not a registered trademark</h6>
            </div>
         </FooterContainer>
     )

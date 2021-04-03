@@ -6,8 +6,11 @@ width: 100%;
  padding-top: 2em;
 
   
- .color-container {
-   
+ .color-label {
+    font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6;
  }
 
  .line {
@@ -24,8 +27,9 @@ width: 100%;
  }
 
  .color-text {
-    font-weight: 570;
-     font-size: 22px;
+    color: #222;
+    font-weight: 600;
+     font-size: 19px;
  }
 
 `;

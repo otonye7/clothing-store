@@ -42,6 +42,11 @@ export const CheckoutContainer = styled.div`
      margin: 0 auto;
      display: flex;
      justify-content: space-between;
+
+     @media screen and (max-width: 800px){
+      display: flex;
+      flex-direction: column;
+}
  }
 
  .shipping-text {
@@ -52,6 +57,11 @@ export const CheckoutContainer = styled.div`
 
  .subtotal {
      font-size: 25px;
+
+@media screen and (max-width: 800px){
+      padding-top: 1rem;
+      width: 100%;
+}
  }
 
  .shipping-link {
