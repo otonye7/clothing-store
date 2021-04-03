@@ -10,8 +10,9 @@ const Crown = () => {
                 <div className='shop-left'>
                 <div className='container'>
                     <h2 className='shop-text'>
-                        ROMANTIC CROWN
+                        Romantic Crown
                     </h2>
+                    <br />
                 <div className='link'>
                     <Link to='/romantic-crown' className='shop-link'>SHOP NOW</Link>
                </div>

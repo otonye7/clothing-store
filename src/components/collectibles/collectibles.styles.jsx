@@ -9,15 +9,29 @@ export const CollectiblesContainer = styled.div`
  background-color: black;
  text-align: center;
  margin-right: 2rem;
+
  
  
  @media screen and (max-width: 767px){
       height: 20rem;
       width: 100%;
 }
+
+.container {
+
+    padding-top: 8rem;
+}
+
+.collectibles-arrival {
+    font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+       font-weight: 400;
+       font-style: normal;
+       line-height: 1.6;
+       font-size: 15px;
+}
+
  .nav-links {
      color: white;
-     text-decoration: none;
  }
  .collectibles-arrival {
      color: white;

@@ -18,12 +18,13 @@ export const SubHeaderContainer = styled.div`
 
 
 .nav-menu {
-  width: 98.5%;
-  margin: 0 auto;
+  width: 90%;
+  /* margin: 0 auto; */
   display: flex;
   justify-content: space-between;
   list-style: none;
-  text-align: center;
+  padding-left: 0.5rem;
+  
   
 }
 
@@ -31,9 +32,11 @@ export const SubHeaderContainer = styled.div`
   color: black;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  height: 100%;
-  border-bottom: 3px solid transparent;
+  font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
+ 
 .fa-code {
   margin-left: 1rem;
 }

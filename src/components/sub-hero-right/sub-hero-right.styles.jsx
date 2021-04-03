@@ -47,7 +47,7 @@ position: relative;
    }
    .container {
        width: 80%;
-       height: 10rem;
+       height: 8rem;
        margin: 0 auto;
        
        @media screen and (max-width: 767px){
@@ -76,13 +76,24 @@ position: relative;
     }
    }
    .shop-link {
-       text-decoration: none;
        color: white;
        cursor: pointer;
+       font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+       font-weight: 400;
+       font-style: normal;
+       line-height: 1.6;
+       font-size: 15px;
        @media screen and (max-width: 767px){
            width: 50%;
            color: black;
       /* background-color: #F2F2F2; */
     }
+   }
+
+   .shop-text {
+    font-family: "Stempel Schneidler", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 33.75px;
    }
 `;

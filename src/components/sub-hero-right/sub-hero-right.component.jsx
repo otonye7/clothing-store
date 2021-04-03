@@ -10,8 +10,9 @@ const SubHeroRight = () => {
                 <div className='shop-left'>
                     <div className='container'>
                     <h2 className='shop-text'>
-                        WOMENS NEW ARRIVAL
+                        Women's New Arrival
                     </h2>
+                    <br />
                     <div className='link'>
                       <Link to='/women-new-arrival' className='shop-link'>SHOP NOW</Link>
                     </div>

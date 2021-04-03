@@ -21,6 +21,8 @@ export const HeaderContainer = styled.div`
       text-decoration: none;
       font-size: 24px;
       font-weight: 600;
+      font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+      font-style: normal;
       
   }
    
@@ -43,7 +45,7 @@ export const HeaderContainer = styled.div`
   }
   
   .cart-containers {
-      
+      width: 20%;
       padding-right: 2em;
   }
   .person {

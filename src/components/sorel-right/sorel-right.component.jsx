@@ -10,8 +10,9 @@ const SubHero = () => {
                 <div className='shop-left'>
                  <div className='container'>
                     <h2 className='shop-text'>
-                        NEW BALANCE
+                        New Balance
                     </h2>
+                    <br />
                 <div className='link'>
                     <Link to='/new-balance-arrival' className='shop-link'>SHOP NOW</Link>
                 </div>

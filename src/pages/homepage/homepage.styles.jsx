@@ -5,7 +5,7 @@ export const HomepageContainer = styled.div`
  width: 100%;
  margin: 0 auto;
  background-color: #F2F2F2;
- margin-top: 2em;
+ margin-top: 1em;
 
  .hero {
     width: 100%;

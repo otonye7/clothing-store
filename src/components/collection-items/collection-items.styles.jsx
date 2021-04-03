@@ -91,6 +91,14 @@ width: 100%;
     text-align: center;
 }
 
+.description {
+    font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
 .margin {
     border-bottom: 1px solid grey;
 }
