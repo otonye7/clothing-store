@@ -20,18 +20,18 @@ const MenCategories = ({sections}) => {
                   <Brands />
               </div> 
               
-              <div className='categories-items'>
-                  
-                  <div className='preview'>
+                <div className='categories-items'>
+                    
+                    <div className='preview'>
 
-                      {   
-                          sections.map(({id,  ...otherSectionProps}) =>  (
-                            <MenuItems key={id}  {...otherSectionProps}/>
-                          )) 
+                        {   
+                            sections.map(({id,  ...otherSectionProps}) =>  (
+                                <MenuItems key={id}  {...otherSectionProps}/>
+                            )) 
 
-                      }
-                  </div>
-              </div>
+                        }
+                    </div>
+                </div>
           </MenCategoriesContainer>
       )
   }
