@@ -9,12 +9,24 @@ export const SignUpContainer = styled.div`
 
  .sign-up {
        width: 30vw;
+
+       @media screen and (max-width: 767px) { 
+        width: 100%;
+    }
  }
 
  .buttons {
      display: flex;
      justify-content: center;
      padding-bottom: 1em;
+
+     @media screen and (max-width: 767px) { 
+        width: 100%;
+    }
+ }
+
+ .signs {
+     width: 100%;
  }
 
 

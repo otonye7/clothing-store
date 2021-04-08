@@ -16,5 +16,9 @@ export const CustomButtonContainer = styled.div`
         border: none;
         outline: none;
         cursor: pointer;
+
+        @media screen and (max-width: 767px) { 
+        width: 100%;
+    }
     }
 `;
