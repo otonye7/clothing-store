@@ -40,9 +40,12 @@ export const HeroContainer = styled.div`
        font-weight: 550;
    }
    .shop-link {
-       text-decoration: none;
-       color: black;
-       cursor: pointer;
+       color: white;
+       font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+       font-weight: 400;
+       font-style: normal;
+       line-height: 1.6;
+       font-size: 19px;
    }
    
    button {

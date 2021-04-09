@@ -11,7 +11,7 @@ const SubHeader = () => {
                     <h2 className='shop-text'>
                         NIKE BOOTS
                     </h2>
-                    <button className='shop-link'>SHOP NOW</button>
+                    <span className='shop-link'>Available 4/10 at 9:00 AM CDT</span>
                 </div>
         </HeroContainer>
     )

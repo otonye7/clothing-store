@@ -13,13 +13,14 @@ const Header = ({currentUser, hidden}) => {
 
     return(
         <HeaderContainer>
-            <div className='overall-container'>
-             <div className='logo'>
-                 <Link to='/' className='logo-name'>S^MO SPORTS</Link>
+
+<div className='container'>
+             <div className='title'>
+                 <Link className='title-link'>S^MO SPORTS</Link>
              </div>
 
-             <div className='cart-containers'>
-                 {
+             <div className='cart-container'>
+             {
                      currentUser ?
                      <div className='sign-out' onClick={() => auth.signOut()}>SIGN OUT</div>
                      :
@@ -27,16 +28,18 @@ const Header = ({currentUser, hidden}) => {
                           <PersonIcon className='person'/>
                       </Link>
                  }
-                 <div className='cart-icon' >
-                   <CartIcon className='shopping-icon' />
+
+            <div className='cart-icon'>
+                 <CartIcon />
              </div>
-                
-             {
+         <div className='cart-dropdown'>
+         {
                  hidden ? null : <CartDropDown />
-             }
-             </div>
-             
-             </div>
+             }    
+         </div>
+       </div>
+    </div>
+
         </HeaderContainer>
     )
 }

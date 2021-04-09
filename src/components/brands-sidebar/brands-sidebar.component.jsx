@@ -3,7 +3,9 @@ import { BrandsContainer } from './brands-sidebar.styles';
 
 
 
-const Brands = ({ handleInputBrands, filteredBrands}) => {
+
+const Brands = ({ filterSections}) => {
+console.log(filterSections)
 
     return(
         <BrandsContainer>
@@ -17,80 +19,80 @@ const Brands = ({ handleInputBrands, filteredBrands}) => {
 
             <div className='line'></div>
 
-            <form className='form-label' filteredBrands={filteredBrands} onChange={handleInputBrands}>
+            <form className='form-label' filterSections={filterSections} onChange={(e) => filterSections(e.target.value)}>
 
                 <label className='color-label'>
-                    <input type='radio' checked={filteredBrands === 'ADIDAS'} value='ADIDAS'/>
+                    <input type='radio' checked={filterSections === 'ADIDAS'} value='ADIDAS'/>
                      ADIDAS
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' checked={filteredBrands === 'CHAMPIONS'} value='CHAMPIONS'/>
+                    <input type='radio' checked={filterSections === 'CHAMPIONS'} value='CHAMPIONS'/>
                      CHAMPIONS
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' checked={filteredBrands === 'COLUMBIA'} value='COLUMBIA'/>
+                    <input type='radio' checked={filterSections === 'COLUMBIA'} value='COLUMBIA'/>
                      COLUMBIA
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' checked={filteredBrands === 'CONVERSE'} value='CONVERSE'/>
+                    <input type='radio' checked={filterSections === 'CONVERSE'} value='CONVERSE'/>
                      CONVERSE
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' checked={filteredBrands === 'HATS'} value='HATS'/>
+                    <input type='radio' checked={filterSections === 'HATS'} value='HATS'/>
                      HATS
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' checked={filteredBrands === 'JORDAN'} value='JORDAN'/>
+                    <input type='radio' checked={filterSections === 'JORDAN'} value='JORDAN'/>
                      JORDAN
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' checked={filteredBrands === 'LACOSTE'} value='LACOSTE'/>
+                    <input type='radio' checked={filterSections === 'LACOSTE'} value='LACOSTE'/>
                      LACOSTE
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' checked={filteredBrands === 'NEW BALANCE'} value='NEW BALANCE'/>
+                    <input type='radio' checked={filterSections === 'NEW BALANCE'} value='NEW BALANCE'/>
                      NEW BALANCE
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' checked={filteredBrands === 'NIKE'} value='NIKE'/>
+                    <input type='radio' checked={filterSections === 'NIKE'} value='NIKE'/>
                      NIKE
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' checked={filteredBrands === 'PUMA'} value='PUMA'/>
+                    <input type='radio' checked={filterSections === 'PUMA'} value='PUMA'/>
                      PUMA
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' checked={filteredBrands === 'CROWN'} value='CROWN'/>
+                    <input type='radio' checked={filterSections === 'CROWN'} value='CROWN'/>
                          CROWN
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' checked={filteredBrands === 'SOREL'} value='SOREL'/>
+                    <input type='radio' checked={filterSections === 'SOREL'} value='SOREL'/>
                      SOREL
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' checked={filteredBrands === 'ORANGE'} value='ORANGE'/>
+                    <input type='radio' checked={filterSections === 'ORANGE'} value='ORANGE'/>
                      ORANGE
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' checked={filteredBrands === 'THE NORTH FACE'} value='THE NORTH FACE'/>
+                    <input type='radio' checked={filterSections=== 'THE NORTH FACE'} value='THE NORTH FACE'/>
                      THE NORTH FACE
                 </label>
 
                 <label className='color-label'>
-                    <input type='radio' checked={filteredBrands === 'TIMBERLAND'} value='TIMBERLAND'/>
+                    <input type='radio' checked={filterSections === 'TIMBERLAND'} value='TIMBERLAND'/>
                      TIMBERLAND
                 </label>
 

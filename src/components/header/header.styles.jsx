@@ -2,81 +2,54 @@ import styled from 'styled-components';
 
 
 export const HeaderContainer = styled.div`
-  width: 96%;
-  padding-top: 2em;
-  margin: 0 auto;
-  padding-bottom: 1em;
-  position: relative;
-  .logo {
-      width: 30%;
-      color: #212b36;
-      
-    @media screen and (max-width: 767px) { 
-        width: 40%;
-    }
+  width: 100%;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+
+
+  .container {
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
   }
-  .logo-name {
-      width: 100%;
-      color: brown;
+
+  .title {
+    padding-top: 0.5rem;
+  }
+
+  .person {
+      color: black;
+      margin-right: 1rem;
+  }
+
+  .title-link {
+       color: brown;
       text-decoration: none;
       font-size: 24px;
       font-weight: 600;
       font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
       font-style: normal;
-      
   }
-   
-   .cart-containers {
-       width: 15%;
-       display: flex;
-       justify-content: space-between;
-    
-    @media screen and (max-width: 767px) { 
-        width: 25%;
-    }
-   }
-   .sign-out {
-      
-       cursor: pointer;
-   }
-  .overall-container {
-      display: flex;
-      justify-content: space-between;
+
+  .cart-container {
+    display: flex;
+    justify-content: space-around;
   }
   
-  .cart-containers {
-      width: 20%;
-      padding-right: 2em;
+  .cart-icon {
+    /* padding-top: 0.2rem; */
   }
-  .person {
-      cursor: pointer;
-      color: black;
-      margin-bottom: 1rem;
-    @media screen and (max-width: 767px) { 
-     margin-top: 0.5rem;
-    }
+
+  .help-text {
+    padding: 1rem;
+    text-decoration: none;
+    /* margin-bottom: 2rem; */
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+    font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    font-style: normal;
   }
-  .shopping-icon {
-      width: 24px;
-      cursor: pointer;
-      margin-bottom: 1rem;
-      position: relative;
-    }
-
-    .item-count {
-      position: absolute;
-      font-size: 15px;
-      font-weight: bold;
-      margin-bottom: 0.5rem;
-    }
-
-    .cart-icon {
-    /* width: 45px;
-    height: 45px; */
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    }
+  
 `;
