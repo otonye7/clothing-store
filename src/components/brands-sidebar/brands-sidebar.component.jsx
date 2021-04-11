@@ -4,7 +4,7 @@ import { BrandsContainer } from './brands-sidebar.styles';
 
 
 
-const Brands = ({ sections, filterBrands}) => {
+const Brands = ({ sections, filterBrands, handleChange}) => {
 
     console.log(filterBrands)
 
@@ -20,7 +20,7 @@ const Brands = ({ sections, filterBrands}) => {
 
             <div className='line'></div>
 
-            <form className='form-label' filterBrands={filterBrands}>
+            <form className='form-label' filterBrands={filterBrands} onClick={handleChange}>
 
                 <label className='color-label'>
                     <input type='radio' checked={filterBrands === 'ADIDAS'} value='ADIDAS'/>

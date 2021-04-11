@@ -1,4 +1,4 @@
-import React  from 'react';
+import React, {useState}  from 'react';
 import {  MenCategoriesContainer } from './men-arrival-categories.styles';
 import {connect} from 'react-redux';
 import {createStructuredSelector} from 'reselect';
@@ -11,16 +11,29 @@ import Brands from '../../components/brands-sidebar/brands-sidebar.component.jsx
 
 
 const MenCategories = ({sections}) => {
-  console.log(sections)
+  
+  
+  const [brand, setBrands] = useState('')
+   
+  const filterBrands = sections.filter(section => {
+      return section.brands.includes(brand)
+  })
 
-     const filterBrands = sections.filter(section => section.brands === 'ADIDAS')
+  console.log(filterBrands)
+       
+
+     const handleChange = event => {
+         setBrands(event.target.value)
+    }
+
+  
     
       return (
           <MenCategoriesContainer >
                <div className='colors-items'>
                   <Refine />
                   <Color/>
-                  <Brands  sections={sections} filterBrands={filterBrands}/>
+                  <Brands  sections={sections} filterBrands={filterBrands} handleChange={handleChange}/>
               </div> 
               
                 <div className='categories-items'>
