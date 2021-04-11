@@ -5,7 +5,7 @@ import {createStructuredSelector} from 'reselect';
 import {menSections} from '../../redux/men-arrival/men-arrival.selector';
 import MenuItems from '../menu-items/menu-items.component';
 import Refine from '../../components/refine/refine.component';
-import Color from '../../components/color/color.component';
+// import Color from '../../components/color/color.component';
 import Brands from '../../components/brands-sidebar/brands-sidebar.component.jsx';
 
 
@@ -19,7 +19,7 @@ const MenCategories = ({sections}) => {
       return section.brands.includes(brand)
   })
 
-  console.log(filterBrands)
+  
        
 
      const handleChange = event => {
@@ -32,7 +32,7 @@ const MenCategories = ({sections}) => {
           <MenCategoriesContainer >
                <div className='colors-items'>
                   <Refine />
-                  <Color/>
+                  {/* <Color/> */}
                   <Brands  sections={sections} filterBrands={filterBrands} handleChange={handleChange}/>
               </div> 
               
@@ -41,7 +41,7 @@ const MenCategories = ({sections}) => {
                     <div className='preview'>
 
                         {   
-                            sections.map(({id,  ...otherSectionProps}) =>  (
+                            filterBrands.map(({id,  ...otherSectionProps}) =>  (
                                 <MenuItems key={id}  {...otherSectionProps}/>
                             )) 
 
