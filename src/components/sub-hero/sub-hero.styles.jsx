@@ -51,7 +51,8 @@ position: relative;
        
        @media screen and (max-width: 767px){
        background-color: #F2F2F2; 
-       height: 7rem;
+       height: 4rem;
+       padding-top: 2rem;
     }
    }
    .link {

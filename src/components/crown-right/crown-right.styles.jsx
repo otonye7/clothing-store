@@ -16,6 +16,7 @@ position: relative;
  @media screen and (max-width: 767px){
       height: 100%;
       width: 100%;
+      padding-top: 10rem;
 }
  .image {
     position: relative;

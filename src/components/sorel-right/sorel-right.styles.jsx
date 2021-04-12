@@ -14,6 +14,7 @@ width: 632px;
  @media screen and (max-width: 767px){
       height: 100%;
       width: 100%;
+      padding-top: 10rem;
 }
  .image {
     position: relative;
@@ -48,6 +49,8 @@ width: 632px;
        @media screen and (max-width: 767px){
        background-color: #F2F2F2; 
        height: 7rem;
+       padding-top: 2rem;
+       height: 4rem;
     }
    }
    .link {

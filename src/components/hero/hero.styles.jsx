@@ -37,7 +37,10 @@ export const HeroContainer = styled.div`
        width: 100%;
        color: white;
        text-align: center;
-       font-weight: 550;
+       font-size: 25px;
+       font-family: "Stempel Schneidler",serif;
+       font-weight: 500;
+       font-style: normal
    }
    .shop-link {
        color: white;
