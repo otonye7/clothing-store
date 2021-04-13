@@ -2,9 +2,12 @@ import styled from 'styled-components';
 import  Champion from  '../../assets/champion.png';
 import Adidas from  '../../assets/adi.svg';
 import Converse from  '../../assets/converse.png';
- import Jumpman from  '../../assets/nb.png';
+ import Jumpman from  '../../assets/thenorthface.png';
  import Nike from  '../../assets/columbia.png';
 import Lacoste from  '../../assets/lacoste.png';
+import Timberland from  '../../assets/timberland.png';
+import Jumpmana from  '../../assets/nike.png';
+import happysocks from  '../../assets/hs.png';
 
 
 
@@ -107,6 +110,49 @@ export const SponsorsContainer = styled.div`
       display: none;
 }
    }
+
+   .timberland {
+    position: relative;
+    width: 6%;
+    height: 2.7rem;
+    object-fit: cover;
+    background-image: url(${Timberland});
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    @media screen and (max-width: 767px){
+      display: none;
+}
+   }
+
+   .jumpmana {
+    position: relative;
+    width: 6%;
+    height: 2.7rem;
+    object-fit: cover;
+    background-image: url(${Jumpmana});
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    @media screen and (max-width: 767px){
+      display: none;
+}
+   }
+
+   .happysocks {
+    position: relative;
+    width: 6%;
+    height: 2.7rem;
+    object-fit: cover;
+    background-image: url(${happysocks});
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    @media screen and (max-width: 767px){
+      display: none;
+}
+   }
+
 
 /* 
   .adidas {

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Nike from  '../../assets/nikec.jpeg'
+import Nike from  '../../assets/jordanhero.jpg'
 
 
 export const HeroContainer = styled.div`
@@ -10,7 +10,7 @@ export const HeroContainer = styled.div`
  display: flex;
  justify-content: center;
  margin: 0 auto;
- @media screen and (max-width: 767px){
+ @media screen and (max-width: 769px){
       height: 100%;
       width: 100%;
 }
@@ -40,7 +40,11 @@ export const HeroContainer = styled.div`
        font-size: 25px;
        font-family: "Stempel Schneidler",serif;
        font-weight: 500;
-       font-style: normal
+       font-style: normal;
+
+ @media screen and (max-width: 769px){
+     display: none;
+}
    }
    .shop-link {
        color: white;
@@ -49,6 +53,10 @@ export const HeroContainer = styled.div`
        font-style: normal;
        line-height: 1.6;
        font-size: 19px;
+
+       @media screen and (max-width: 769px){
+     display: none;
+}
    }
    
    button {

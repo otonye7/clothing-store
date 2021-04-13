@@ -8,4 +8,12 @@ export const RelatedProductContainer = styled.div`
      padding-bottom: 2rem;
  }
 
+ .related {
+    font-weight: 500;
+     visibility: hidden;
+ @media screen and (max-width: 767px){
+    visibility: visible;
+}
+ }
+
 `;

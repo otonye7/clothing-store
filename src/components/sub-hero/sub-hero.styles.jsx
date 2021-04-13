@@ -1,13 +1,13 @@
   
 import styled from 'styled-components';
-import NikeSub from  '../../assets/nike-subhero.jpg';
+import NikeSub from  '../../assets/nikewhite.jpg';
 
 
 
 
 export const SubHeroContainer = styled.div`
 position: relative;
- width: 632px;
+width: 632px;
  height: 37rem;
  background-color: #F2F2F2;
  margin-top: 1em;
@@ -29,7 +29,7 @@ position: relative;
     @media screen and (max-width: 767px){
       width: 100%;
       margin-bottom: 2em;
-      height: 27rem;
+      height: 24rem;
 }
    }
    .shop-left {

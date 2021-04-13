@@ -3,8 +3,10 @@ import Gazelle from '../../assets/white-nike.jpg';
 
 
 export const FeaturedContainer = styled.div`
-    width: 300px;
-   height: 15rem;
+   width: 24.5%;
+    max-width: 1200px;
+   height: 12rem;
+
    
   
    @media screen and (max-width: 767px){
@@ -23,7 +25,7 @@ export const FeaturedContainer = styled.div`
     background-size: cover;
     @media screen and (max-width: 767px){
       width: 100%;
-      height: 25rem;
+      height: 18rem;
 }
    }
 `;

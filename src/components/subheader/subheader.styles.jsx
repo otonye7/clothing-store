@@ -32,7 +32,9 @@ export const SubHeaderContainer = styled.div`
   color: black;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: Helvetica,"Helvetica Neue",Arial,"Lucida Grande",sans-serif;
   font-weight: 400;
   font-style: normal;
 }

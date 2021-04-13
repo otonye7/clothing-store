@@ -8,6 +8,7 @@ display: flex;
 justify-content: space-around;
 width: 100%;
 
+
 @media screen and (max-width: 767px){
     width: 96%;
     margin: 0 auto;

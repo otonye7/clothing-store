@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import Jordan from  '../../assets/997.jpg';
+import Jordan from  '../../assets/balancenew.jpg';
 import Adidas from  '../../assets/balance.jpg';
 import NewBalance from '../../assets/delta.jpg';
-import Gazelle from '../../assets/jordandelta.jpg';
+import Gazelle from '../../assets/new-balance-purple.jpeg';
 import Doublemax from '../../assets/doublemax.jpg';
 
 

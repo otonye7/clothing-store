@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import NikeSub from  '../../assets/nikecortez.jpg';
+import NikeSub from  '../../assets/nikeblazerblack.jpg';
 
 
 
@@ -10,7 +10,6 @@ position: relative;
  height: 37rem;
  background-color: #F2F2F2;
  margin-top: 1em;
-
  
  
  @media screen and (max-width: 767px){
@@ -93,7 +92,6 @@ position: relative;
       /* background-color: #F2F2F2; */
     }
    }
-
    .shop-text {
     font-family: "Stempel Schneidler", serif;
     font-weight: 500;
