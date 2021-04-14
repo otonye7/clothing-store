@@ -65,7 +65,7 @@ export const HomepageContainer = styled.div`
 }
  }
  .feature {
-    width: 100%;
+    width: 1200px;
      height: 100%;
      display: flex;
      justify-content: space-around;
