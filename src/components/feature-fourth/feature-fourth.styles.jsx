@@ -4,8 +4,7 @@ import Adidas from  '../../assets/white-nike.jpg';
 
 
 export const FeaturedContainer = styled.div`
-    width: 24.5%;
-    max-width: 1200px;
+    width: 200px;
    height: 12rem;
    @media screen and (max-width: 767px){
       display: flex;

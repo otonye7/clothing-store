@@ -3,8 +3,7 @@ import Jordan from  '../../assets/air-zoom.jpg';
 
 
 export const FeaturedContainer = styled.div`
-    width: 24.5%;
-    max-width: 1200px;
+    width: 200px;
    height: 12rem;
   
    
