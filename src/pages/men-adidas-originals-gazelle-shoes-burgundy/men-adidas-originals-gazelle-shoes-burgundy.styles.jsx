@@ -7,4 +7,10 @@ export const GazelleContainer = styled.div`
     text-align: center;
 }
 
+.left-side {
+    display: flex;
+    justify-content: center;
+}
+
+
 `;

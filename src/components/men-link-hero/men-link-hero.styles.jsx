@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 
 export const MenContainer = styled.div`
+max-width: 1335px;
  width: 98%;
  background-color: #F2F2F2;
  margin: 0 auto;

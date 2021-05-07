@@ -66,17 +66,9 @@ export const HomepageContainer = styled.div`
  }
  .feature {
     width: 100%;
-     height: 100%;
-     display: flex;
-     justify-content: space-around;
-     padding-top: 2em;
-     padding-bottom: 2em;
-     margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
      
-     
-     @media screen and (max-width: 767px){
-      display: flex;
-      flex-direction: column;
-}
  }
 `;

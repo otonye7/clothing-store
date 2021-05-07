@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 
 export const SubHeaderContainer = styled.div`
+width: 99%;
+max-width: 1350px;
 .navbar {
   background-color: white;
   height: 30px;

@@ -4,8 +4,9 @@ import styled from 'styled-components';
 
 
 export const CollectionItemContainer = styled.div`
+max-width: 1350px;
 display: flex;
-justify-content: space-around;
+justify-content: center;
 width: 100%;
 
 
@@ -14,6 +15,13 @@ width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+}
+
+.o-container {
+    width: 98%;
+    display: flex;
+     justify-content: space-around;
+     margin: 0 auto;
 }
 
   .menu-items {

@@ -13,6 +13,8 @@ export const TreyfoilContainer = styled.div`
  .right-side {
      width: 42%;
  }
+
+
  .left-side {
      width: 56%;
  }

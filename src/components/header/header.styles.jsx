@@ -2,9 +2,12 @@ import styled from 'styled-components';
 
 
 export const HeaderContainer = styled.div`
-  width: 100%;
+ max-width: 1350px; 
+  width: 99%;
   margin-top: 1.5rem;
   margin-bottom: 2rem;
+
+
 
 
   .container {
@@ -12,6 +15,8 @@ export const HeaderContainer = styled.div`
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    /* align-items: center;
+    text-align: center; */
   }
 
   .title {

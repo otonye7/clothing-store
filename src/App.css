@@ -7,4 +7,15 @@
 * {
   margin: 0;
   padding: 0;
+  
+}
+
+.headers {
+  display: flex;
+  justify-content: center;
+}
+
+.sub-headers {
+  display: flex;
+  justify-content: center;
 }

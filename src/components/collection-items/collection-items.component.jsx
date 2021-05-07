@@ -15,6 +15,7 @@ const CollectionItems = ({section, addItem, itemCount}) => {
 
 return ( 
     <CollectionItemContainer>
+  <div className='o-container'>
     <div className='menu-items'>
       <div className='background-image' style = {{
         backgroundImage: `url(${imageUrl})`
@@ -48,7 +49,7 @@ return (
              <br />
             <span className='description'>{description}</span>
     </div>
-    
+   </div> 
    </CollectionItemContainer>
            
 	)

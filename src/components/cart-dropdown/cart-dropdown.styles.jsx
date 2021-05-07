@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 export const CollectiblesContainer = styled.div`
  
+ 
 
  .cart-dropdown {
   position: absolute;
@@ -14,7 +15,7 @@ export const CollectiblesContainer = styled.div`
   border: 1px solid black;
   background-color: white;
   top: 60px;
-  right: 10px; 
+  right: 20px;  
   z-index: 25;
 
   .empty-message {

@@ -57,8 +57,14 @@ class App extends React.Component {
   render() {
     return (
     <div className="App">
-      <Header currentUser={this.state.currentUser}/>
-      <BurgerIcon />
+    <div className='headers'>
+        <Header currentUser={this.state.currentUser}/>
+    </div>
+
+     <div className='sub-headers'>
+         <BurgerIcon />
+     </div>
+     
       
         <Switch>
 					<Route  path={'/'} exact={true}  component={Homepage} />

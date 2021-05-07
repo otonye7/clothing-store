@@ -8,4 +8,9 @@ export const TreyfoilContainer = styled.div`
 }
 
 
+.left-side {
+    display: flex;
+    justify-content: center;
+}
+
 `;

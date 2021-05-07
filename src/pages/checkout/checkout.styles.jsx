@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 
 export const CheckoutContainer = styled.div`
+max-width: 1350px;
  width: 100%;
  background-color: #F2F2F2;
  margin: 0 auto;

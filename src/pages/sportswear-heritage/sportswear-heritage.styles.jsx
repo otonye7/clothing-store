@@ -7,5 +7,10 @@ export const TreyfoilContainer = styled.div`
     text-align: center;
 }
 
+.left-side {
+    display: flex;
+    justify-content: center;
+}
+
 
 `;
