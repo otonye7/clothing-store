@@ -10,6 +10,11 @@ export const TreyfoilContainer = styled.div`
 .left-side {
     display: flex;
     justify-content: center;
+
+/* @media screen and (max-width: 800px){
+      display: flex;
+      flex-direction: column;
+} */
 }
 
 `;

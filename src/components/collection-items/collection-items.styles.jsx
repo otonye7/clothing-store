@@ -22,6 +22,13 @@ width: 100%;
     display: flex;
      justify-content: space-around;
      margin: 0 auto;
+
+@media screen and (max-width: 767px){
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
 }
 
   .menu-items {
