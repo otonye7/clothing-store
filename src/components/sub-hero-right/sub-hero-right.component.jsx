@@ -19,6 +19,13 @@ const SubHeroRight = () => {
                     </div>
                 </div>
 
+                
+                <div className='up'>
+                    <div className='link'>
+                      <span className='link'>WOMEN ADIDAS ORIGINALS SUPERSTAR SHOES <br /> $90</span>
+                    </div>
+                </div>
+
             
         </SubHeroContainer>
     )

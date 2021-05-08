@@ -19,6 +19,12 @@ const SubHero = () => {
                     </div>
                 </div>
 
+                  <div className='up'>
+                    <div className='link'>
+                      <span className='link'>SOREL ORIGINALS SUPERSTAR CLOTHES <br /> $90</span>
+                    </div>
+                </div>
+
             
         </SubHeroContainer>
     )

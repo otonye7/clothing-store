@@ -98,4 +98,33 @@ position: relative;
     font-style: normal;
     font-size: 33.75px;
    }
+
+       .up {
+       position: absolute;
+       width: 75%;
+       top: 70px;
+       left: 150px;
+       z-index: 1;
+       text-align: center;
+       align-items: center;
+    @media screen and (max-width: 767px){
+      width: 60%;
+       background-color: black;
+       top: 220px;
+       opacity: 0.5;
+      /* background-color: #F2F2F2; */
+    }
+   }
+
+   .link {
+       color: white;
+       cursor: pointer;
+       font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+       font-weight: 400;
+       font-style: normal;
+       line-height: 1.6;
+       font-size: 12px;
+
+
+   }
 `;

@@ -13,6 +13,7 @@ export const HeroContainer = styled.div`
  @media screen and (max-width: 769px){
       height: 100%;
       width: 100%;
+       display: none;
 }
  .image {
     position: relative;

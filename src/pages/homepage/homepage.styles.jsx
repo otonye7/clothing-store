@@ -11,6 +11,12 @@ export const HomepageContainer = styled.div`
  .hero {
     width: auto;
  }
+
+ .about {
+     display: flex;
+     justify-content: center;
+ }
+
  .sub-hero {
      width: 98%;
      height: 100%;
@@ -71,4 +77,9 @@ export const HomepageContainer = styled.div`
     justify-content: center;
      
  }
+
+ /* .footer {
+     display: flex;
+     justify-content: center;
+ } */
 `;

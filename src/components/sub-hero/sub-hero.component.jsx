@@ -20,6 +20,12 @@ const SubHero = () => {
                     </div>
                 </div>
 
+                <div className='up'>
+                    <div className='link'>
+                      <span className='link'>MEN ADIDAS ORIGINALS SUPERSTAR SHOES <br /> $90</span>
+                    </div>
+                </div>
+
             
         </SubHeroContainer>
     )

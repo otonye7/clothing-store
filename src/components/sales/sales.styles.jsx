@@ -7,6 +7,7 @@ import Doublemax from '../../assets/doublemax.jpg';
 
 
 export const SalesContainer = styled.div`
+max-width: 1300px;
  width: 95%;
  
    

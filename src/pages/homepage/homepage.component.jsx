@@ -73,7 +73,10 @@ const Homepage = () => {
               <br />
               <Sales /> 
               <br />
-              <About/>
+            <div className='about'>
+                <About/>
+            </div>
+              
               <br /> 
               <br />
             </div>
